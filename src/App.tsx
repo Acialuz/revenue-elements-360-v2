@@ -325,6 +325,7 @@ export default function App() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedElement, setSelectedElement] = useState<ElementData | null>(null);
   const [showAuditDetails, setShowAuditDetails] = useState<boolean>(false);
+  const [isLegendExpanded, setIsLegendExpanded] = useState<boolean>(false);
 
   // Sync preference locks to standard localStorage
   useEffect(() => {
@@ -562,12 +563,12 @@ export default function App() {
 
     const symbolLen = element.symbol.length;
     const symbolSizeStyle = symbolLen > 6 
-      ? { fontSize: "clamp(8px, 0.8vw, 10px)" } 
+      ? { fontSize: "clamp(10px, 0.8vw, 10px)" } 
       : symbolLen > 4 
-        ? { fontSize: "clamp(9px, 0.9vw, 11px)" } 
+        ? { fontSize: "clamp(11px, 0.9vw, 11px)" } 
         : symbolLen > 2 
-          ? { fontSize: "clamp(10px, 1vw, 12px)" } 
-          : { fontSize: "clamp(12px, 1.25vw, 18px)" };
+          ? { fontSize: "clamp(12px, 1vw, 12px)" } 
+          : { fontSize: "clamp(15px, 1.25vw, 18px)" };
 
     return (
       <button
@@ -591,7 +592,7 @@ export default function App() {
         </div>
 
         {/* Mini localized name with dynamic wrapping and no forced truncates: font-medium (500 max) */}
-        <div className="w-full h-[28px] flex items-center justify-center pt-0.5 select-none text-center">
+        <div className="hidden md:flex w-full h-[28px] items-center justify-center pt-0.5 select-none text-center">
           <span className="text-[clamp(6.5px,0.6vw,7.5px)] font-medium tracking-tight leading-[1.05] whitespace-pre-line break-words line-clamp-3 text-center block w-full px-0.5">
             {displayName}
           </span>
@@ -887,12 +888,22 @@ export default function App() {
 
             {/* Official Interactive Legend filter blocks grid */}
             <div>
-              <h3 className="text-xs uppercase font-extrabold tracking-widest text-[#0455B7] mb-3.5 flex items-center gap-2">
-                <Filter className="w-3.5 h-3.5" />
-                <span>{DICTIONARY[language].leyenda_titulo}</span>
+              <h3 className="text-xs uppercase font-extrabold tracking-widest text-[#0455B7] mb-3.5">
+                <button 
+                  onClick={() => setIsLegendExpanded(!isLegendExpanded)}
+                  className="flex items-center justify-between md:justify-start gap-2 cursor-pointer md:cursor-default md:pointer-events-none w-full text-left"
+                >
+                  <span className="flex items-center gap-2">
+                    <Filter className="w-3.5 h-3.5 shrink-0" />
+                    <span>{DICTIONARY[language].leyenda_titulo}</span>
+                  </span>
+                  <span className="text-[10px] md:hidden shrink-0 font-sans font-extrabold select-none">
+                    {isLegendExpanded ? "▲" : "▼"}
+                  </span>
+                </button>
               </h3>
               
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
+              <div className={`${isLegendExpanded ? "grid" : "hidden"} md:grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2`}>
                 {Object.keys(CATEGORIES).map((catName) => {
                   const cat = CATEGORIES[catName];
                   const isSelected = selectedCategory === catName;
@@ -1031,12 +1042,12 @@ export default function App() {
 
                             const symbolLen = element.symbol.length;
                             const symbolSizeStyle = symbolLen > 6 
-                              ? { fontSize: "clamp(8px, 0.8vw, 10px)" } 
+                              ? { fontSize: "clamp(10px, 0.8vw, 10px)" } 
                               : symbolLen > 4 
-                                ? { fontSize: "clamp(9px, 0.9vw, 11px)" } 
+                                ? { fontSize: "clamp(11px, 0.9vw, 11px)" } 
                                 : symbolLen > 2 
-                                  ? { fontSize: "clamp(10px, 1vw, 12px)" } 
-                                  : { fontSize: "clamp(12px, 1.25vw, 18px)" };
+                                  ? { fontSize: "clamp(12px, 1vw, 12px)" } 
+                                  : { fontSize: "clamp(15px, 1.25vw, 18px)" };
 
                             const borderStyle = "border-[#222222]";
 
@@ -1062,7 +1073,7 @@ export default function App() {
                                 </div>
 
                                 {/* Mini localized name with dynamic wrapping and no forced truncates: font-medium (500 max) */}
-                                <div className="w-full h-[28px] flex items-center justify-center pt-0.5 select-none text-center">
+                                <div className="hidden md:flex w-full h-[28px] flex items-center justify-center pt-0.5 select-none text-center">
                                   <span className="text-[clamp(6.5px,0.6vw,7.5px)] font-medium tracking-tight leading-[1.05] whitespace-pre-line break-words line-clamp-3 text-center block w-full px-0.5">
                                     {displayName}
                                   </span>
