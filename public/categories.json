@@ -1,0 +1,182 @@
+{
+  "Básicos de Revenue": {
+    "id": "basicos",
+    "name": "Básicos de Revenue",
+    "colorClass": "bg-slate-200/80 border-slate-400 text-slate-800",
+    "textColorClass": "text-slate-800",
+    "borderClass": "border-slate-400",
+    "darkColorClass": "dark:bg-zinc-800/80 dark:border-zinc-700/85 dark:text-zinc-200",
+    "darkTextColorClass": "dark:text-zinc-200",
+    "description": "Componentes fundamentales de optimización de ingresos para vender al cliente adecuado."
+  },
+  "Características": {
+    "id": "caracteristicas",
+    "name": "Características",
+    "colorClass": "bg-blue-105 border-blue-300 text-blue-800",
+    "textColorClass": "text-blue-850",
+    "borderClass": "border-blue-400",
+    "darkColorClass": "dark:bg-blue-950/70 dark:border-blue-850 dark:text-blue-200",
+    "darkTextColorClass": "dark:text-blue-200",
+    "description": "Condicionantes operativas de la industria hotelera como capacidad e inventario perezosos."
+  },
+  "Tecnología": {
+    "id": "tecnologia",
+    "name": "Tecnología",
+    "colorClass": "bg-amber-100/50 border-amber-300 text-amber-850",
+    "textColorClass": "text-amber-850",
+    "borderClass": "border-amber-400",
+    "darkColorClass": "dark:bg-amber-950/60 dark:border-amber-900/60 dark:text-amber-200",
+    "darkTextColorClass": "dark:text-amber-200",
+    "description": "Sistemas básicos, infraestructuras y automatización digital corporativa."
+  },
+  "Horizontes": {
+    "id": "horizontes",
+    "name": "Horizontes",
+    "colorClass": "bg-green-105 border-green-300 text-green-805",
+    "textColorClass": "text-green-850",
+    "borderClass": "border-green-400",
+    "darkColorClass": "dark:bg-green-950/70 dark:border-green-900/60 dark:text-green-200",
+    "darkTextColorClass": "dark:text-green-200",
+    "description": "Perspectivas avanzadas, curvas del mercado y planificación de horizontes de negocio."
+  },
+  "Indicadores KPI": {
+    "id": "indicadores",
+    "name": "Indicadores KPI",
+    "colorClass": "bg-rose-105 border-rose-300 text-rose-805",
+    "textColorClass": "text-rose-850",
+    "borderClass": "border-rose-450",
+    "darkColorClass": "dark:bg-rose-950/70 dark:border-rose-900/60 dark:text-rose-205",
+    "darkTextColorClass": "dark:text-rose-205",
+    "description": "Métricas estructuradas para auditar la rentabilidad y optimización del inventario."
+  },
+  "Tarifas": {
+    "id": "tarifas",
+    "name": "Tarifas",
+    "colorClass": "bg-sky-101 border-sky-300 text-sky-805",
+    "textColorClass": "text-sky-850",
+    "borderClass": "border-sky-400",
+    "darkColorClass": "dark:bg-sky-950/70 dark:border-sky-900/60 dark:text-sky-200",
+    "darkTextColorClass": "dark:text-sky-200",
+    "description": "Estructuras comerciales y políticas de precios asignadas a la demanda."
+  },
+  "Marketing": {
+    "id": "marketing",
+    "name": "Marketing",
+    "colorClass": "bg-neutral-105 border-neutral-300 text-neutral-805",
+    "textColorClass": "text-neutral-850",
+    "borderClass": "border-neutral-400",
+    "darkColorClass": "dark:bg-zinc-900/80 dark:border-zinc-800 dark:text-zinc-200",
+    "darkTextColorClass": "dark:text-zinc-200",
+    "description": "Sistemas tácticos de relación, tráfico directo y conversión del huésped."
+  },
+  "Competidores": {
+    "id": "competidores",
+    "name": "Competidores",
+    "colorClass": "bg-pink-101 border-pink-300 text-pink-805",
+    "textColorClass": "text-pink-850",
+    "borderClass": "border-pink-400",
+    "darkColorClass": "dark:bg-pink-950/70 dark:border-pink-900/60 dark:text-pink-205",
+    "darkTextColorClass": "dark:text-pink-205",
+    "description": "Análisis competitivo y mapeo estructurado del set de competidores."
+  },
+  "Restricciones": {
+    "id": "restricciones",
+    "name": "Restricciones",
+    "colorClass": "bg-yellow-105 border-yellow-350 text-yellow-805",
+    "textColorClass": "text-yellow-850",
+    "borderClass": "border-yellow-405",
+    "darkColorClass": "dark:bg-yellow-950/50 dark:border-yellow-900/60 dark:text-yellow-250",
+    "darkTextColorClass": "dark:text-yellow-250",
+    "description": "Filtros comerciales y límites de reserva activados ante picos de demanda."
+  },
+  "Canales": {
+    "id": "canales",
+    "name": "Canales",
+    "colorClass": "bg-cyan-105 border-cyan-305 text-cyan-805",
+    "textColorClass": "text-cyan-850",
+    "borderClass": "border-cyan-405",
+    "darkColorClass": "dark:bg-cyan-950/70 dark:border-cyan-900/60 dark:text-cyan-205",
+    "darkTextColorClass": "dark:text-cyan-205",
+    "description": "Vías logísticas e intermediadores de venta para exponer habitaciones al mercado."
+  },
+  "Cadenas Hoteleras": {
+    "id": "cadenas",
+    "name": "Cadenas Hoteleras",
+    "colorClass": "bg-teal-105 border-teal-300 text-teal-805",
+    "textColorClass": "text-teal-850",
+    "borderClass": "border-teal-400",
+    "darkColorClass": "dark:bg-teal-950/70 dark:border-teal-900/60 dark:text-teal-205",
+    "darkTextColorClass": "dark:text-teal-205",
+    "description": "Sinergias corporativas globales, centrales e internacionales de distribución."
+  },
+  "Segmentos": {
+    "id": "segmentos",
+    "name": "Segmentos",
+    "colorClass": "bg-amber-105 border-amber-305 text-amber-900",
+    "textColorClass": "text-amber-900",
+    "borderClass": "border-amber-500",
+    "darkColorClass": "dark:bg-amber-900/50 dark:border-amber-800/60 dark:text-amber-100",
+    "darkTextColorClass": "dark:text-amber-100",
+    "description": "Subgrupos diferenciados de huéspedes con hábitos y sensibilidades de cobros."
+  },
+  "Posicionamiento": {
+    "id": "posicionamiento",
+    "name": "Posicionamiento",
+    "colorClass": "bg-emerald-105 border-emerald-300 text-emerald-805",
+    "textColorClass": "text-emerald-850",
+    "borderClass": "border-emerald-400",
+    "darkColorClass": "dark:bg-emerald-950/70 dark:border-emerald-900/60 dark:text-emerald-205",
+    "darkTextColorClass": "dark:text-emerald-255",
+    "description": "Nivelación comercial de precios basada en el estatus competitivo."
+  },
+  "Elementos": {
+    "id": "elementos",
+    "name": "Elementos",
+    "colorClass": "bg-orange-105 border-orange-300 text-orange-805",
+    "textColorClass": "text-orange-850",
+    "borderClass": "border-orange-400",
+    "darkColorClass": "dark:bg-orange-950/70 dark:border-orange-900/60 dark:text-orange-205",
+    "darkTextColorClass": "dark:text-orange-205",
+    "description": "Componentes operativos nucleares del flujo cotidiano (Tiempo, Personas, Procesos, Datos)."
+  },
+  "Herramientas": {
+    "id": "herramientas",
+    "name": "Herramientas",
+    "colorClass": "bg-yellow-50/70 border-yellow-250 text-yellow-805",
+    "textColorClass": "text-yellow-805",
+    "borderClass": "border-yellow-300",
+    "darkColorClass": "dark:bg-amber-950/40 dark:border-amber-900/40 dark:text-amber-250",
+    "darkTextColorClass": "dark:text-amber-250",
+    "description": "Sistemas de software para la recolección, comparación y subida automatizada."
+  },
+  "Sostenibilidad": {
+    "id": "sostenibilidad",
+    "name": "Sostenibilidad",
+    "colorClass": "bg-teal-100 border-teal-300 text-teal-800",
+    "textColorClass": "text-teal-850",
+    "borderClass": "border-teal-400",
+    "darkColorClass": "dark:bg-teal-950/70 dark:border-teal-900/60 dark:text-teal-200",
+    "darkTextColorClass": "dark:text-teal-200",
+    "description": "Mitigación ecológica y ahorro inmediato de gastos que impulsa la rentabilidad del hotel."
+  },
+  "Personas": {
+    "id": "personas",
+    "name": "Personas",
+    "colorClass": "bg-lime-105 border-lime-300 text-lime-805",
+    "textColorClass": "text-lime-850",
+    "borderClass": "border-lime-400",
+    "darkColorClass": "dark:bg-lime-950/70 dark:border-lime-900/60 dark:text-lime-205",
+    "darkTextColorClass": "dark:text-lime-205",
+    "description": "Perfiles indispensables responsables de la audacia y la cultura de optimización."
+  },
+  "Operaciones": {
+    "id": "operaciones",
+    "name": "Operaciones",
+    "colorClass": "bg-violet-105 border-violet-305 text-violet-805",
+    "textColorClass": "text-violet-850",
+    "borderClass": "border-violet-405",
+    "darkColorClass": "dark:bg-violet-950/70 dark:border-violet-900/60 dark:text-violet-205",
+    "darkTextColorClass": "dark:text-violet-205",
+    "description": "Dinámicas operativas internas que interactúan con la capacidad del hotel."
+  }
+}

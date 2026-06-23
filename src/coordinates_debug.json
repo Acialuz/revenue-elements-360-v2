@@ -1,0 +1,1235 @@
+[
+  {
+    "symbol": "Cat_Basicos",
+    "name": "Basicos de Revenue",
+    "type": "category",
+    "x": 182,
+    "y": 40,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Elementos",
+    "name": "Elementos",
+    "type": "category",
+    "x": 356,
+    "y": 40,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_KPIs",
+    "name": "Indicadores Kpi's",
+    "type": "category",
+    "x": 530,
+    "y": 40,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Competidores",
+    "name": "Competidores",
+    "type": "category",
+    "x": 704,
+    "y": 40,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Restricciones",
+    "name": "Restricciones",
+    "type": "category",
+    "x": 878,
+    "y": 40,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Cadenas",
+    "name": "Cadenas Hoteleras",
+    "type": "category",
+    "x": 1052,
+    "y": 40,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Caracteristicas",
+    "name": "Características",
+    "type": "category",
+    "x": 182,
+    "y": 96,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Horizontes",
+    "name": "Horizontes",
+    "type": "category",
+    "x": 356,
+    "y": 96,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Tarifas",
+    "name": "Tarifas",
+    "type": "category",
+    "x": 530,
+    "y": 96,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Herramientas",
+    "name": "Herramientas",
+    "type": "category",
+    "x": 704,
+    "y": 96,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Operaciones",
+    "name": "Operaciones",
+    "type": "category",
+    "x": 878,
+    "y": 96,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Segmentos",
+    "name": "Segmentos",
+    "type": "category",
+    "x": 1052,
+    "y": 96,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Tecnologia",
+    "name": "Tecnología",
+    "type": "category",
+    "x": 182,
+    "y": 152,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Sostenibilidad",
+    "name": "Sostenibilidad",
+    "type": "category",
+    "x": 356,
+    "y": 152,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Marketing",
+    "name": "Marketing",
+    "type": "category",
+    "x": 530,
+    "y": 152,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Personas",
+    "name": "Personas",
+    "type": "category",
+    "x": 704,
+    "y": 152,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Canales",
+    "name": "Canales",
+    "type": "category",
+    "x": 878,
+    "y": 152,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Cat_Posicionamiento",
+    "name": "Posicionamiento",
+    "type": "category",
+    "x": 1052,
+    "y": 152,
+    "width": 168,
+    "height": 50
+  },
+  {
+    "symbol": "Z1",
+    "name": "Metacognitive RMS",
+    "type": "future_discovery",
+    "x": 182,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Z2",
+    "name": "Neurosegmentation",
+    "type": "future_discovery",
+    "x": 257,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Z3",
+    "name": "Carbon Parity",
+    "type": "future_discovery",
+    "x": 332,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Z4",
+    "name": "Predictive Upgrades",
+    "type": "future_discovery",
+    "x": 407,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Rm",
+    "name": "Revenue Management",
+    "type": "element",
+    "x": 32,
+    "y": 260,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Pr",
+    "name": "Producto",
+    "type": "element",
+    "x": 32,
+    "y": 327,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Cu",
+    "name": "Cliente",
+    "type": "element",
+    "x": 32,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Mo",
+    "name": "Momento",
+    "type": "element",
+    "x": 32,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "P",
+    "name": "Precio",
+    "type": "element",
+    "x": 32,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "C",
+    "name": "Canal",
+    "type": "element",
+    "x": 32,
+    "y": 595,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ym",
+    "name": "Yield Management",
+    "type": "element",
+    "x": 32,
+    "y": 662,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Fx",
+    "name": "Capacidad Fija",
+    "type": "element",
+    "x": 107,
+    "y": 327,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Vd",
+    "name": "Demanda Variable",
+    "type": "element",
+    "x": 107,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Pi",
+    "name": "Inventario Perecedero",
+    "type": "element",
+    "x": 107,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "As",
+    "name": "Venta Anticipada",
+    "type": "element",
+    "x": 107,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Sg",
+    "name": "Segmentación",
+    "type": "element",
+    "x": 107,
+    "y": 595,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Vp",
+    "name": "Valor Percibido",
+    "type": "element",
+    "x": 107,
+    "y": 662,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Fc",
+    "name": "Forecast Activo",
+    "type": "element",
+    "x": 107,
+    "y": 729,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ai",
+    "name": "Inteligencia Artificial",
+    "type": "element",
+    "x": 182,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "A",
+    "name": "Algo Trading",
+    "type": "element",
+    "x": 182,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Cy",
+    "name": "Ciberseguridad",
+    "type": "element",
+    "x": 257,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Di",
+    "name": "Digitalización",
+    "type": "element",
+    "x": 257,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ob",
+    "name": "Overbooking",
+    "type": "element",
+    "x": 332,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ly",
+    "name": "Loyalty Management",
+    "type": "element",
+    "x": 332,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Sd",
+    "name": "Supply & Demand",
+    "type": "element",
+    "x": 332,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "F",
+    "name": "Forecasting",
+    "type": "element",
+    "x": 407,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "B",
+    "name": "Budgeting",
+    "type": "element",
+    "x": 407,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Yd",
+    "name": "Yield Dist.",
+    "type": "element",
+    "x": 407,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ar",
+    "name": "ADR Average Daily Rate",
+    "type": "element",
+    "x": 482,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Oc",
+    "name": "Ocupación %",
+    "type": "element",
+    "x": 482,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Al",
+    "name": "ALOS Length of Stay",
+    "type": "element",
+    "x": 482,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Rp",
+    "name": "RevPAR",
+    "type": "element",
+    "x": 482,
+    "y": 595,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Tp",
+    "name": "Total RevPAR",
+    "type": "element",
+    "x": 557,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "N",
+    "name": "Net RevPAR",
+    "type": "element",
+    "x": 557,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Gp",
+    "name": "GOPPAR",
+    "type": "element",
+    "x": 557,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Fr",
+    "name": "Flexible Rate",
+    "type": "element",
+    "x": 632,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Nr",
+    "name": "No-Reembolsable",
+    "type": "element",
+    "x": 632,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Y",
+    "name": "Yielding",
+    "type": "element",
+    "x": 632,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ls",
+    "name": "Long Stay",
+    "type": "element",
+    "x": 632,
+    "y": 595,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Eb",
+    "name": "Early Bird",
+    "type": "element",
+    "x": 707,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Cr",
+    "name": "Corporate Rate",
+    "type": "element",
+    "x": 707,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Nt",
+    "name": "Net Rate",
+    "type": "element",
+    "x": 707,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Py",
+    "name": "Paridad Precios",
+    "type": "element",
+    "x": 707,
+    "y": 595,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Se",
+    "name": "SEO Hotelero",
+    "type": "element",
+    "x": 782,
+    "y": 260,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "L",
+    "name": "Loyalty System",
+    "type": "element",
+    "x": 782,
+    "y": 327,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Wd",
+    "name": "Web Directa",
+    "type": "element",
+    "x": 782,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Sm",
+    "name": "Social Media",
+    "type": "element",
+    "x": 782,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Cn",
+    "name": "Contenidos",
+    "type": "element",
+    "x": 782,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Em",
+    "name": "Email Marketing",
+    "type": "element",
+    "x": 782,
+    "y": 595,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ad",
+    "name": "AdWords",
+    "type": "element",
+    "x": 782,
+    "y": 662,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Mt",
+    "name": "Metabuscadores",
+    "type": "element",
+    "x": 782,
+    "y": 729,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Dm",
+    "name": "Direct Marketing",
+    "type": "element",
+    "x": 782,
+    "y": 796,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ri",
+    "name": "Rate Intelligence",
+    "type": "element",
+    "x": 857,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Mp",
+    "name": "Market Penetration",
+    "type": "element",
+    "x": 857,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Rg",
+    "name": "Rate Grid",
+    "type": "element",
+    "x": 857,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ms",
+    "name": "Market Share",
+    "type": "element",
+    "x": 857,
+    "y": 595,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Cs",
+    "name": "Compset",
+    "type": "element",
+    "x": 857,
+    "y": 662,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Gd",
+    "name": "GDS",
+    "type": "element",
+    "x": 932,
+    "y": 327,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ot",
+    "name": "OTAs",
+    "type": "element",
+    "x": 932,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Xp",
+    "name": "Expedia",
+    "type": "element",
+    "x": 932,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "To",
+    "name": "Tour Operator",
+    "type": "element",
+    "x": 932,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Bo",
+    "name": "Booking.com",
+    "type": "element",
+    "x": 932,
+    "y": 595,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ab",
+    "name": "Airbnb",
+    "type": "element",
+    "x": 932,
+    "y": 662,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "D",
+    "name": "Directo",
+    "type": "element",
+    "x": 932,
+    "y": 729,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ct",
+    "name": "Closed to Arrival",
+    "type": "element",
+    "x": 1082,
+    "y": 260,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Dp",
+    "name": "Deposit Policy",
+    "type": "element",
+    "x": 1082,
+    "y": 327,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "At",
+    "name": "Allotment",
+    "type": "element",
+    "x": 1082,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Av",
+    "name": "Availability Restrictions",
+    "type": "element",
+    "x": 1082,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ss",
+    "name": "Stay Restrictions",
+    "type": "element",
+    "x": 1082,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Cp",
+    "name": "Cancellation Policy",
+    "type": "element",
+    "x": 1082,
+    "y": 595,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Pc",
+    "name": "Prepayment",
+    "type": "element",
+    "x": 1082,
+    "y": 662,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "RI",
+    "name": "Rate Lock",
+    "type": "element",
+    "x": 1082,
+    "y": 729,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Lx",
+    "name": "Luxury Positioning",
+    "type": "element",
+    "x": 1157,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Up",
+    "name": "Upscale",
+    "type": "element",
+    "x": 1157,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Lf",
+    "name": "Leisure Focus",
+    "type": "element",
+    "x": 1157,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Md",
+    "name": "Midscale",
+    "type": "element",
+    "x": 1157,
+    "y": 595,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ec",
+    "name": "Economy",
+    "type": "element",
+    "x": 1157,
+    "y": 662,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ex",
+    "name": "Express",
+    "type": "element",
+    "x": 1157,
+    "y": 729,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Lu",
+    "name": "Luxury",
+    "type": "element",
+    "x": 1232,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Bu",
+    "name": "Business",
+    "type": "element",
+    "x": 1232,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Co",
+    "name": "Corporate",
+    "type": "element",
+    "x": 1232,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Mi",
+    "name": "MICE",
+    "type": "element",
+    "x": 1232,
+    "y": 595,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Le",
+    "name": "Leisure",
+    "type": "element",
+    "x": 1232,
+    "y": 662,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Fa",
+    "name": "Family",
+    "type": "element",
+    "x": 1232,
+    "y": 729,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ih",
+    "name": "IHG",
+    "type": "element",
+    "x": 1307,
+    "y": 327,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ac",
+    "name": "Accor",
+    "type": "element",
+    "x": 1307,
+    "y": 394,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "M",
+    "name": "Marriott",
+    "type": "element",
+    "x": 1307,
+    "y": 461,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Hi",
+    "name": "Hilton",
+    "type": "element",
+    "x": 1307,
+    "y": 528,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Hy",
+    "name": "Hyatt",
+    "type": "element",
+    "x": 1307,
+    "y": 595,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Wy",
+    "name": "Wyndham",
+    "type": "element",
+    "x": 1307,
+    "y": 662,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ci",
+    "name": "Choice Hotels",
+    "type": "element",
+    "x": 1307,
+    "y": 729,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "T",
+    "name": "Tiempo",
+    "type": "element",
+    "x": 182,
+    "y": 863,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Pe",
+    "name": "Personas",
+    "type": "element",
+    "x": 257,
+    "y": 863,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ps",
+    "name": "Procesos",
+    "type": "element",
+    "x": 332,
+    "y": 863,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Da",
+    "name": "Datos",
+    "type": "element",
+    "x": 407,
+    "y": 863,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ch",
+    "name": "Channel Manager",
+    "type": "element",
+    "x": 482,
+    "y": 863,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Rs",
+    "name": "Rate Shopper",
+    "type": "element",
+    "x": 557,
+    "y": 863,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Sh",
+    "name": "Sales Engine",
+    "type": "element",
+    "x": 632,
+    "y": 863,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Pm",
+    "name": "PMS System",
+    "type": "element",
+    "x": 707,
+    "y": 863,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Bi",
+    "name": "Business Intelligence",
+    "type": "element",
+    "x": 782,
+    "y": 863,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Or",
+    "name": "Online Reputation",
+    "type": "element",
+    "x": 857,
+    "y": 863,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Be",
+    "name": "Booking Engine",
+    "type": "element",
+    "x": 932,
+    "y": 863,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Bh",
+    "name": "Brand Health",
+    "type": "element",
+    "x": 1007,
+    "y": 863,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ti",
+    "name": "Travel Intelligence",
+    "type": "element",
+    "x": 1082,
+    "y": 863,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ee",
+    "name": "Eco-Eficiencia",
+    "type": "element",
+    "x": 182,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "W",
+    "name": "Waste Management",
+    "type": "element",
+    "x": 257,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ws",
+    "name": "Water Saving",
+    "type": "element",
+    "x": 332,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Sr",
+    "name": "Solar Power",
+    "type": "element",
+    "x": 407,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Eq",
+    "name": "Eco-Label",
+    "type": "element",
+    "x": 482,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Cf",
+    "name": "Carbon Footprint",
+    "type": "element",
+    "x": 557,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Lc",
+    "name": "Local Commerce",
+    "type": "element",
+    "x": 632,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Rc",
+    "name": "Receptionist",
+    "type": "element",
+    "x": 707,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Tr",
+    "name": "Trainer",
+    "type": "element",
+    "x": 782,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Rt",
+    "name": "Revenue Analyst",
+    "type": "element",
+    "x": 857,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ld",
+    "name": "Lead",
+    "type": "element",
+    "x": 932,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Fb",
+    "name": "Food & Beverage",
+    "type": "element",
+    "x": 1007,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Fd",
+    "name": "Front Desk",
+    "type": "element",
+    "x": 1082,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Hk",
+    "name": "Housekeeping",
+    "type": "element",
+    "x": 1157,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  },
+  {
+    "symbol": "Ce",
+    "name": "Guest Experience",
+    "type": "element",
+    "x": 1232,
+    "y": 930,
+    "width": 73,
+    "height": 64
+  }
+]

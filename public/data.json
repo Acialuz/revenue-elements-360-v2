@@ -1,0 +1,2374 @@
+{
+  "categories": {
+    "Básicos de Revenue": {
+      "id": "basicos",
+      "name": "Básicos de Revenue",
+      "colorClass": "bg-slate-200/80 border-slate-400 text-slate-800",
+      "textColorClass": "text-slate-800",
+      "borderClass": "border-slate-400",
+      "darkColorClass": "dark:bg-zinc-800/80 dark:border-zinc-700/85 dark:text-zinc-200",
+      "darkTextColorClass": "dark:text-zinc-200",
+      "description": "Componentes fundamentales de optimización de ingresos para vender al cliente adecuado."
+    },
+    "Características": {
+      "id": "caracteristicas",
+      "name": "Características",
+      "colorClass": "bg-blue-105 border-blue-300 text-blue-800",
+      "textColorClass": "text-blue-850",
+      "borderClass": "border-blue-400",
+      "darkColorClass": "dark:bg-blue-950/70 dark:border-blue-850 dark:text-blue-200",
+      "darkTextColorClass": "dark:text-blue-200",
+      "description": "Condicionantes operativas de la industria hotelera como capacidad e inventario perezosos."
+    },
+    "Tecnología": {
+      "id": "tecnologia",
+      "name": "Tecnología",
+      "colorClass": "bg-amber-100/50 border-amber-300 text-amber-850",
+      "textColorClass": "text-amber-850",
+      "borderClass": "border-amber-400",
+      "darkColorClass": "dark:bg-amber-950/60 dark:border-amber-900/60 dark:text-amber-200",
+      "darkTextColorClass": "dark:text-amber-200",
+      "description": "Sistemas básicos, infraestructuras y automatización digital corporativa."
+    },
+    "Horizontes": {
+      "id": "horizontes",
+      "name": "Horizontes",
+      "colorClass": "bg-green-105 border-green-300 text-green-805",
+      "textColorClass": "text-green-850",
+      "borderClass": "border-green-400",
+      "darkColorClass": "dark:bg-green-950/70 dark:border-green-900/60 dark:text-green-200",
+      "darkTextColorClass": "dark:text-green-200",
+      "description": "Perspectivas avanzadas, curvas del mercado y planificación de horizontes de negocio."
+    },
+    "Indicadores KPI": {
+      "id": "indicadores",
+      "name": "Indicadores KPI",
+      "colorClass": "bg-rose-105 border-rose-300 text-rose-805",
+      "textColorClass": "text-rose-850",
+      "borderClass": "border-rose-450",
+      "darkColorClass": "dark:bg-rose-950/70 dark:border-rose-900/60 dark:text-rose-205",
+      "darkTextColorClass": "dark:text-rose-205",
+      "description": "Métricas estructuradas para auditar la rentabilidad y optimización del inventario."
+    },
+    "Tarifas": {
+      "id": "tarifas",
+      "name": "Tarifas",
+      "colorClass": "bg-sky-101 border-sky-300 text-sky-805",
+      "textColorClass": "text-sky-850",
+      "borderClass": "border-sky-400",
+      "darkColorClass": "dark:bg-sky-950/70 dark:border-sky-900/60 dark:text-sky-200",
+      "darkTextColorClass": "dark:text-sky-200",
+      "description": "Estructuras comerciales y políticas de precios asignadas a la demanda."
+    },
+    "Marketing": {
+      "id": "marketing",
+      "name": "Marketing",
+      "colorClass": "bg-neutral-105 border-neutral-300 text-neutral-805",
+      "textColorClass": "text-neutral-850",
+      "borderClass": "border-neutral-400",
+      "darkColorClass": "dark:bg-zinc-900/80 dark:border-zinc-800 dark:text-zinc-200",
+      "darkTextColorClass": "dark:text-zinc-200",
+      "description": "Sistemas tácticos de relación, tráfico directo y conversión del huésped."
+    },
+    "Competidores": {
+      "id": "competidores",
+      "name": "Competidores",
+      "colorClass": "bg-pink-101 border-pink-300 text-pink-805",
+      "textColorClass": "text-pink-850",
+      "borderClass": "border-pink-400",
+      "darkColorClass": "dark:bg-pink-950/70 dark:border-pink-900/60 dark:text-pink-205",
+      "darkTextColorClass": "dark:text-pink-205",
+      "description": "Análisis competitivo y mapeo estructurado del set de competidores."
+    },
+    "Restricciones": {
+      "id": "restricciones",
+      "name": "Restricciones",
+      "colorClass": "bg-yellow-105 border-yellow-350 text-yellow-805",
+      "textColorClass": "text-yellow-850",
+      "borderClass": "border-yellow-405",
+      "darkColorClass": "dark:bg-yellow-950/50 dark:border-yellow-900/60 dark:text-yellow-250",
+      "darkTextColorClass": "dark:text-yellow-250",
+      "description": "Filtros comerciales y límites de reserva activados ante picos de demanda."
+    },
+    "Canales": {
+      "id": "canales",
+      "name": "Canales",
+      "colorClass": "bg-cyan-105 border-cyan-305 text-cyan-805",
+      "textColorClass": "text-cyan-850",
+      "borderClass": "border-cyan-405",
+      "darkColorClass": "dark:bg-cyan-950/70 dark:border-cyan-900/60 dark:text-cyan-205",
+      "darkTextColorClass": "dark:text-cyan-205",
+      "description": "Vías logísticas e intermediadores de venta para exponer habitaciones al mercado."
+    },
+    "Cadenas Hoteleras": {
+      "id": "cadenas",
+      "name": "Cadenas Hoteleras",
+      "colorClass": "bg-teal-105 border-teal-300 text-teal-805",
+      "textColorClass": "text-teal-850",
+      "borderClass": "border-teal-400",
+      "darkColorClass": "dark:bg-teal-950/70 dark:border-teal-900/60 dark:text-teal-205",
+      "darkTextColorClass": "dark:text-teal-205",
+      "description": "Sinergias corporativas globales, centrales e internacionales de distribución."
+    },
+    "Segmentos": {
+      "id": "segmentos",
+      "name": "Segmentos",
+      "colorClass": "bg-amber-105 border-amber-305 text-amber-900",
+      "textColorClass": "text-amber-900",
+      "borderClass": "border-amber-500",
+      "darkColorClass": "dark:bg-amber-900/50 dark:border-amber-800/60 dark:text-amber-100",
+      "darkTextColorClass": "dark:text-amber-100",
+      "description": "Subgrupos diferenciados de huéspedes con hábitos y sensibilidades de cobros."
+    },
+    "Posicionamiento": {
+      "id": "posicionamiento",
+      "name": "Posicionamiento",
+      "colorClass": "bg-emerald-105 border-emerald-300 text-emerald-805",
+      "textColorClass": "text-emerald-850",
+      "borderClass": "border-emerald-400",
+      "darkColorClass": "dark:bg-emerald-950/70 dark:border-emerald-900/60 dark:text-emerald-205",
+      "darkTextColorClass": "dark:text-emerald-255",
+      "description": "Nivelación comercial de precios basada en el estatus competitivo."
+    },
+    "Elementos": {
+      "id": "elementos",
+      "name": "Elementos",
+      "colorClass": "bg-orange-105 border-orange-300 text-orange-805",
+      "textColorClass": "text-orange-850",
+      "borderClass": "border-orange-400",
+      "darkColorClass": "dark:bg-orange-950/70 dark:border-orange-900/60 dark:text-orange-205",
+      "darkTextColorClass": "dark:text-orange-205",
+      "description": "Componentes operativos nucleares del flujo cotidiano (Tiempo, Personas, Procesos, Datos)."
+    },
+    "Herramientas": {
+      "id": "herramientas",
+      "name": "Herramientas",
+      "colorClass": "bg-yellow-50/70 border-yellow-250 text-yellow-805",
+      "textColorClass": "text-yellow-805",
+      "borderClass": "border-yellow-300",
+      "darkColorClass": "dark:bg-amber-950/40 dark:border-amber-900/40 dark:text-amber-250",
+      "darkTextColorClass": "dark:text-amber-250",
+      "description": "Sistemas de software para la recolección, comparación y subida automatizada."
+    },
+    "Sostenibilidad": {
+      "id": "sostenibilidad",
+      "name": "Sostenibilidad",
+      "colorClass": "bg-teal-100 border-teal-300 text-teal-800",
+      "textColorClass": "text-teal-850",
+      "borderClass": "border-teal-400",
+      "darkColorClass": "dark:bg-teal-950/70 dark:border-teal-900/60 dark:text-teal-200",
+      "darkTextColorClass": "dark:text-teal-200",
+      "description": "Mitigación ecológica y ahorro inmediato de gastos que impulsa la rentabilidad del hotel."
+    },
+    "Personas": {
+      "id": "personas",
+      "name": "Personas",
+      "colorClass": "bg-lime-105 border-lime-300 text-lime-805",
+      "textColorClass": "text-lime-850",
+      "borderClass": "border-lime-400",
+      "darkColorClass": "dark:bg-lime-950/70 dark:border-lime-900/60 dark:text-lime-205",
+      "darkTextColorClass": "dark:text-lime-205",
+      "description": "Perfiles indispensables responsables de la audacia y la cultura de optimización."
+    },
+    "Operaciones": {
+      "id": "operaciones",
+      "name": "Operaciones",
+      "colorClass": "bg-violet-105 border-violet-305 text-violet-805",
+      "textColorClass": "text-violet-850",
+      "borderClass": "border-violet-405",
+      "darkColorClass": "dark:bg-violet-950/70 dark:border-violet-900/60 dark:text-violet-205",
+      "darkTextColorClass": "dark:text-violet-205",
+      "description": "Dinámicas operativas internas que interactúan con la capacidad del hotel."
+    }
+  },
+  "elements": [
+    {
+      "symbol": "Rm",
+      "name": "Revenue Management",
+      "category": "Básicos de Revenue",
+      "shortDescription": "Optimización científica de ingresos para vender al cliente adecuado.",
+      "longDescription": "Conjunto de metodologías comerciales que consisten en vender el producto correcto, al cliente idóneo, en el momento apropiado, al precio justo, y por medio del canal más eficiente.",
+      "wpExample": "Un hotel metropolitano escala proactivamente un 15% sus tarifas base al predecir picos masivos de reservas para un puente festivo.",
+      "row": 1,
+      "col": 1,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Pr",
+        "Cu",
+        "Mo",
+        "P",
+        "C"
+      ]
+    },
+    {
+      "symbol": "Ob",
+      "name": "Overbooking",
+      "category": "Horizontes",
+      "shortDescription": "Venta deliberada por encima del 100% de la capacidad real.",
+      "longDescription": "Acción estratégica orientada a compensar el no-show y las cancelaciones anticipadas vendiendo más habitaciones del inventario nominal disponible.",
+      "wpExample": "Reservar un 103% del total de las plazas un fin de semana esperando un factor histórico de incomparecencia del 3.5%.",
+      "row": 1,
+      "col": 3,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Ly",
+      "name": "Loyalty Management",
+      "category": "Horizontes",
+      "shortDescription": "Estrategias dinámicas para la retención y la venta directa continuada.",
+      "longDescription": "Mecanismo sistemático de fidelización del cliente para fomentar compras repetitivas de elevado margen neto.",
+      "wpExample": "Recompensar al cliente habitual con cancelación gratuita garantizada exclusivamente al efectuar su reserva web.",
+      "row": 1,
+      "col": 4,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Sd",
+      "name": "Supply & Demand",
+      "category": "Horizontes",
+      "shortDescription": "Comportamiento del mercado, la oferta local y picos estacionales de demanda.",
+      "longDescription": "Estudio dinámico del equilibrio entre el total de habitaciones que ofrece el destino y el número de clientes dispuestos a pernoctar.",
+      "wpExample": "Aumentar las tarifas base tras percatarse de que el 80% de los hoteles locales del compset ya han agotado su inventario básico.",
+      "row": 1,
+      "col": 15,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "F",
+      "name": "Forecasting",
+      "category": "Horizontes",
+      "shortDescription": "Proyecciones matemáticas exactas sobre volúmenes y ocupación futura.",
+      "longDescription": "Algoritmos y tablas estructuradas para proyectar con antelación el ritmo y contingentes de reservas esperadas sobre calendarios específicos.",
+      "wpExample": "Modelar series temporales en base a festivos móviles para prever si la ocupación del trimestre crecerá un 5%.",
+      "row": 1,
+      "col": 16,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "B",
+      "name": "Budgeting",
+      "category": "Horizontes",
+      "shortDescription": "Establecimiento anual de objetivos de ingresos y techos de costes.",
+      "longDescription": "Plan financiero de referencia que guía la política de precios y metas de rentabilidad del establecimiento comercial.",
+      "wpExample": "Trazar un plan de facturación mensual que el equipo comercial debe superar con estrategias activas de tarifas.",
+      "row": 1,
+      "col": 17,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Yd",
+      "name": "Yield Dist.",
+      "category": "Horizontes",
+      "shortDescription": "Estrategias de distribución basadas en el balance óptimo de rendimiento y comisiones.",
+      "longDescription": "Distribución táctica del inventario hotelero de manera variable a través de agencias terceras para defender siempre el mayor ADR neto posible.",
+      "wpExample": "Retirar habitaciones de oferta en Booking a favor de la web propia al registrarse una avalancha de búsquedas orgánicas directas.",
+      "row": 1,
+      "col": 18,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Pr",
+      "name": "Producto",
+      "category": "Básicos de Revenue",
+      "shortDescription": "La habitación, comodidades y facilidades del hotel.",
+      "longDescription": "Estructura del inventario físico y de servicios complementarios puestos a disposición del mercado como generador de disposición de pago.",
+      "wpExample": "Reconfigurar habitaciones estándar agregando servicios ejecutivos para crear tipologías de alta rentabilidad.",
+      "row": 2,
+      "col": 1,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Cu",
+        "Mo",
+        "P",
+        "C"
+      ]
+    },
+    {
+      "symbol": "Fx",
+      "name": "Capacidad Fija",
+      "category": "Características",
+      "shortDescription": "Restricción física: imposibilidad de añadir habitaciones en temporada alta.",
+      "longDescription": "Limitante inmobiliaria estructural de los alojamientos. Al no poder fabricar inventario extra de hoy para mañana, la asignación eficiente de precios es imperativa.",
+      "wpExample": "Racionar la asignación de plazas aplicando barreras y exigiendo estancias mínimas durante una final deportiva.",
+      "row": 2,
+      "col": 2,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Vd",
+        "Pi",
+        "As",
+        "Sg",
+        "Vp"
+      ]
+    },
+    {
+      "symbol": "Ih",
+      "name": "IHG",
+      "category": "Cadenas Hoteleras",
+      "shortDescription": "Intercontinental Hotels Group y su aportación al revenue corporativo.",
+      "longDescription": "Modelo de cadena global que ejerce venta indirecta masiva apoyándose en marcas diversificadas y un club de fidelidad billonario.",
+      "wpExample": "Un establecimiento hotelero local se afilia a la marca Holiday Inn para nutrir su canal de huéspedes familiares de volumen.",
+      "row": 2,
+      "col": 16,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Ac",
+      "name": "Accor",
+      "category": "Cadenas Hoteleras",
+      "shortDescription": "Arquitectura comercial híbrida propia del líder europeo de hospitalidad.",
+      "longDescription": "Modelo multinacional operando bajo un paraguas de decenas de marcas que consolidan potentes infraestructuras hoteleras combinando el segmento de ocio y corporativo.",
+      "wpExample": "Incorporar el motor central de reservas de Accor para elevar la exposición directa a tarifas corporativas transnacionales.",
+      "row": 2,
+      "col": 17,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Co",
+      "name": "Corporate",
+      "category": "Segmentos",
+      "shortDescription": "Segmento de viajes de negocios: alta tarifa, reembolsable y bajo Booking Window.",
+      "longDescription": "Colectivo corporativo de huéspedes que realizan viajes de trabajo. Son poco sensibles al precio pero exigen máxima flexibilidad y ubicaciones estratégicas.",
+      "wpExample": "Fijar acuerdos exclusivos LRA (Last Room Availability) para que firmas tecnológicas pernocten de lunes a jueves a precio plano.",
+      "row": 2,
+      "col": 18,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Lu",
+        "Bu",
+        "Mi",
+        "Le"
+      ]
+    },
+    {
+      "symbol": "Cu",
+      "name": "Cliente",
+      "category": "Básicos de Revenue",
+      "shortDescription": "El receptor final y su disposición y sensibilidad de pago.",
+      "longDescription": "Estudio predictivo del perfil emocional y financiero del adquirente. Conocer los motivos fundamentales del viaje ayuda a refinar la propuesta comercial.",
+      "wpExample": "Un hotel de costa adecua sus paquetes de verano al Booking Window temprano de familias británicas.",
+      "row": 3,
+      "col": 1,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Pr",
+        "Mo",
+        "P",
+        "C"
+      ]
+    },
+    {
+      "symbol": "Vd",
+      "name": "Demanda Variable",
+      "category": "Características",
+      "shortDescription": "Fluctuaciones continuas en el interés de compra de los huéspedes.",
+      "longDescription": "Oscilaciones diarias impulsadas por la estacionalidad, clima u otros elementos exógenos que exigen un dinamismo total de tarifas.",
+      "wpExample": "Un hotel corporativo reduce tarifas los fines de semana al colapsar el tráfico de ejecutivos y de esta forma atrae turismo de ocio local.",
+      "row": 3,
+      "col": 2,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Fx",
+        "Pi",
+        "As",
+        "Sg",
+        "Vp"
+      ]
+    },
+    {
+      "symbol": "Ar",
+      "name": "ADR Average Daily Rate",
+      "category": "Indicadores KPI",
+      "shortDescription": "Tarifa Media Diaria generada por habitación ocupada.",
+      "longDescription": "Métrica financiera primordial que mide los ingresos brutos generados de media por habitación alquilada de forma diaria.",
+      "wpExample": "Facturar 12.000€ totales por habitaciones ocupando 100 dormitorios destila un ADR exacto de 120€.",
+      "row": 3,
+      "col": 5,
+      "importance": 5,
+      "formula": "Ingresos por Habitación / Habitaciones Vendidas (ADR = Room Revenue / Occupied Rooms)",
+      "relatedElements": [
+        "Rp",
+        "Oc",
+        "Y",
+        "N",
+        "Tp"
+      ]
+    },
+    {
+      "symbol": "Fr",
+      "name": "Flexible Rate",
+      "category": "Tarifas",
+      "shortDescription": "Tarifas con políticas de cancelación gratuita hasta las últimas 24-48h.",
+      "longDescription": "Opción de reserva premium que concede libertad flexible al huésped a cambio de un suplemento de ADR para compensar el riesgo de cancelación.",
+      "wpExample": "Publicar una tarifa base de 150€ con libre cancelación como alternativa a la tarifa restrictiva no-reembolsable de 125€.",
+      "row": 3,
+      "col": 7,
+      "importance": 4,
+      "formula": "Tarifa base libre sin restricciones aplicadas (Rack Rate / Flexible)",
+      "relatedElements": [
+        "Nr",
+        "Y",
+        "Eb",
+        "Py"
+      ]
+    },
+    {
+      "symbol": "Wd",
+      "name": "Web Directa",
+      "category": "Marketing",
+      "shortDescription": "Página oficial del hotel optimizada para la conversión y baja comisión.",
+      "longDescription": "Ecosistema digital controlado directamente por el hotel para la atracción comercial exenta de intermediación abusiva de agencias.",
+      "wpExample": "Implementar widgets persuasivos de urgencia o códigos de checkout con obsequios de bienvenida exclusivos en la web corporativa.",
+      "row": 3,
+      "col": 11,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Se",
+        "Bo",
+        "Sm",
+        "L"
+      ]
+    },
+    {
+      "symbol": "Ri",
+      "name": "Rate Intelligence",
+      "category": "Competidores",
+      "shortDescription": "Monitorización profunda de las tarifas que lanza el compset.",
+      "longDescription": "Extracción y análisis estratégico continuo de los precios publicados por competidores en múltiples canales de distribución.",
+      "wpExample": "Modelar una matriz reactiva que iguale las tarifas al instante si el Competidor Primario baja sus precios imprevistamente.",
+      "row": 3,
+      "col": 12,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Mp",
+        "Rg",
+        "Ms"
+      ]
+    },
+    {
+      "symbol": "Lx",
+      "name": "Luxury Positioning",
+      "category": "Posicionamiento",
+      "shortDescription": "Foco exclusivo en servicios premium y nula sensibilidad a tarifas bajas.",
+      "longDescription": "Fijación deliberada de precios altos respaldados por un estatus emblemático, servicios altamente sofisticados y una personalización total de experiencias.",
+      "wpExample": "Mantener una tarifa base mínima de 400€ durante caídas extremas de ocupación local para proteger la exclusividad de marca.",
+      "row": 3,
+      "col": 13,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Up",
+      "name": "Upscale",
+      "category": "Posicionamiento",
+      "shortDescription": "Instalaciones sofisticadas de gama alta que persiguen un ADR elevado.",
+      "longDescription": "Posicionamiento intermedio-alto que busca equilibrar niveles óptimos de ocupación masiva con tarifas medias superiores de forma sólida.",
+      "wpExample": "Diseñar pases al spa privado VIP que justifiquen un pickup constante de pernoctaciones de perfil intermedio-alto.",
+      "row": 3,
+      "col": 14,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Ot",
+      "name": "OTAs",
+      "category": "Canales",
+      "shortDescription": "Agencias de viajes online asociadas a comisiones (Booking, Expedia).",
+      "longDescription": "Plataformas globales agregadoras que exponen inventarios al mundo a cambio de comisiones variables de intermediación de entre 15% y 22%.",
+      "wpExample": "Colocar un contingente equilibrado de habitaciones buscando el 'efecto escaparate' para capturar después reservas de forma directa.",
+      "row": 3,
+      "col": 15,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Ch",
+        "Xp",
+        "Bo",
+        "To"
+      ]
+    },
+    {
+      "symbol": "Xp",
+      "name": "Expedia",
+      "category": "Canales",
+      "shortDescription": "Agencia online de enorme peso en el segmento de ocio internacional y paquetes de vuelo+hotel.",
+      "longDescription": "Distribuidor global preferente para capturar a huéspedes de larga estancia que buscan tarifas integradas con turoperación.",
+      "wpExample": "Publicar ofertas opacas empaquetadas únicamente visibles para clientes que compren un vuelo de larga distancia.",
+      "row": 3,
+      "col": 16,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Ot",
+        "Ch",
+        "To"
+      ]
+    },
+    {
+      "symbol": "M",
+      "name": "Marriott",
+      "category": "Cadenas Hoteleras",
+      "shortDescription": "Marriott International y el poder de Bonvoy como tractor global de captación.",
+      "longDescription": "La cadena hotelera líder del planeta que ejerce tarifas premium apoyada en una retención global inigualable de huéspedes de negocios.",
+      "wpExample": "Sincronizar reservas corporativas internacionales de forma instantánea a través del portal central multimarca de Marriott.",
+      "row": 3,
+      "col": 17,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Lu",
+      "name": "Luxury",
+      "category": "Segmentos",
+      "shortDescription": "Huéspedes de alto standing que buscan de forma exclusiva servicios de cinco estrellas.",
+      "longDescription": "Segmento de máximo nivel de gasto. Prácticamente insensibles a cambios económicos que exigen máxima discreción y acabados suntuosos.",
+      "wpExample": "Ofrecer un transfer privado en helicóptero o vehículo de lujo incluido en la tarifa presidencial del hotel.",
+      "row": 3,
+      "col": 18,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Bu",
+        "Co",
+        "Mi",
+        "Le"
+      ]
+    },
+    {
+      "symbol": "Mo",
+      "name": "Momento",
+      "category": "Básicos de Revenue",
+      "shortDescription": "La anticipación temporal y la curva de reservas (Booking Curve).",
+      "longDescription": "Variable de tiempo crítica. Mapea la diferencia en días entre la confirmación física de la reserva y la llegada hotelera del huésped.",
+      "wpExample": "Un hotel vacacional de verano consolida el 60% de su ocupación durante las transacciones de los meses de primavera.",
+      "row": 4,
+      "col": 1,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Pr",
+        "Cu",
+        "P",
+        "C"
+      ]
+    },
+    {
+      "symbol": "Pi",
+      "name": "Inventario Perecedero",
+      "category": "Características",
+      "shortDescription": "La habitación que no se vende hoy se desvanece para siempre.",
+      "longDescription": "Económicamente, cada noche que un dormitorio se queda desocupado representa una pérdida neta irreversible y con nula capacidad de stock posterior.",
+      "wpExample": "Aplicar ofertas flash de última hora a las 19:00 h para cubrir los gastos variables mínimos de lavandería e iluminación.",
+      "row": 4,
+      "col": 2,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Fx",
+        "Vd",
+        "As",
+        "Sg",
+        "Vp"
+      ]
+    },
+    {
+      "symbol": "Ai",
+      "name": "Inteligencia Artificial",
+      "category": "Tecnología",
+      "shortDescription": "Motores algoritmos predictivos automáticos y dinámicos.",
+      "longDescription": "Modelos neuronales aplicados para procesar infinidad de datos variables e implementar la autogestión de tarifas en base a tendencias.",
+      "wpExample": "Un RMS moderno eleva proactivamente un 3% una tarifa tras evaluar la velocidad de pickup del compset local.",
+      "row": 4,
+      "col": 3,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Cy",
+      "name": "Ciberseguridad",
+      "category": "Tecnología",
+      "shortDescription": "Protección rigurosa de pasaportes y datos de tarjetas (PCI-DSS).",
+      "longDescription": "Infraestructuras de blindaje tecnológico destinadas a enmascarar transacciones bancarias, evitando ataques o pérdidas de datos de huéspedes.",
+      "wpExample": "Encriptación de las pasarelas de pago digitales para anular el visionado directo de datos bancarios de clientes por recepcionistas.",
+      "row": 4,
+      "col": 4,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Oc",
+      "name": "Ocupación %",
+      "category": "Indicadores KPI",
+      "shortDescription": "Porcentaje de habitaciones vendidas sobre las disponibles.",
+      "longDescription": "Ratio que audita la tasa de utilización comercial de la infraestructura física del hotel en un periodo determinado.",
+      "wpExample": "Alquilar de forma efectiva 80 habitaciones en un hotel que cuenta con un inventario disponible de 100 plazas resulta en un 80% de ocupación.",
+      "row": 4,
+      "col": 5,
+      "importance": 5,
+      "formula": "Habitaciones Vendidas / Habitaciones Disponibles × 100 (% Ocupación)",
+      "relatedElements": [
+        "Ar",
+        "Rp",
+        "Al",
+        "Ls",
+        "Ct"
+      ]
+    },
+    {
+      "symbol": "Nr",
+      "name": "No-Reembolsable",
+      "category": "Tarifas",
+      "shortDescription": "Tarifas con pago asegurado instantáneo y sin derecho a anulación.",
+      "longDescription": "Filtro tarifario de descuento agresivo (10-15%) orientado a consolidar flujo de caja líquido y mitigar la volatilidad de cancelaciones.",
+      "wpExample": "Ofrecer habitaciones no reembolsables de bajo coste a cambio de cobrar inmediatamente la estancia y blindar el inventario.",
+      "row": 4,
+      "col": 7,
+      "importance": 4,
+      "formula": "Tarifa neta libre de comisiones del intermediario (Net Rate)",
+      "relatedElements": [
+        "Fr",
+        "Ar",
+        "Ch",
+        "Ot"
+      ]
+    },
+    {
+      "symbol": "Y",
+      "name": "Yielding",
+      "category": "Tarifas",
+      "shortDescription": "Modificación reactiva de tarifas base acorde al ritmo de ventas diario.",
+      "longDescription": "Práctica de aplicar rangos e incrementales tarifarios en base al pickup acumulado sin esperar a cambios manuales semanales.",
+      "wpExample": "Escalar la tarifa base 10€ de forma secuencial al superarse tramos definidos de ocupación relativa.",
+      "row": 4,
+      "col": 8,
+      "importance": 5,
+      "formula": "Fijación dinámica inteligente de tarifas según demanda, inventariado e históricos de estancia (Yield)",
+      "relatedElements": [
+        "Fr",
+        "Ar",
+        "Oc",
+        "Ls"
+      ]
+    },
+    {
+      "symbol": "Sm",
+      "name": "Social Media",
+      "category": "Marketing",
+      "shortDescription": "Redes sociales dedicadas a cautivar al huésped aspiracional.",
+      "longDescription": "Plataformas de comunicación destinadas a proyectar el carácter visual del hotel para derivar tráfico orgánico de calidad.",
+      "wpExample": "Lanzar campañas dirigidas a parejas en Instagram promocionando escapadas relámpago con códigos de venta web preferentes.",
+      "row": 4,
+      "col": 11,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Se",
+        "Wd",
+        "Cn",
+        "Ad"
+      ]
+    },
+    {
+      "symbol": "Mp",
+      "name": "Market Penetration",
+      "category": "Competidores",
+      "shortDescription": "MPI: Índice de Ocupación para evaluar la cuota de mercado.",
+      "longDescription": "KPI de benchmarking que refleja si tu hotel completa un porcentaje superior de plazas comparado con el promedio directo del compset.",
+      "wpExample": "Tener un MPI de 105% audita que lograste un 5% más de ocupación relativa que tus rivales directos de la vía.",
+      "row": 4,
+      "col": 12,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Ri",
+        "Rg",
+        "Ms",
+        "Cs"
+      ]
+    },
+    {
+      "symbol": "Lf",
+      "name": "Leisure Focus",
+      "category": "Posicionamiento",
+      "shortDescription": "Adecuación integral orientada a cautivar al turista vacacional.",
+      "longDescription": "Focalización comercial en experiencias veraniegas, escapadas, menús de spa y paquetes combinados destinados al segmento recreacional.",
+      "wpExample": "Reconvertir las salas de reuniones sin uso en zonas de juegos infantiles o áreas de relax temáticas.",
+      "row": 4,
+      "col": 13,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Md",
+      "name": "Midscale",
+      "category": "Posicionamiento",
+      "shortDescription": "Hoteles confortables con tarifas competitivas equilibradas.",
+      "longDescription": "Servicios de tres o cuatro estrellas dirigidos al gran público, ofreciendo equipamientos limpios y cómodos a precio razonable.",
+      "wpExample": "Publicar ofertas familiares de habitación familiar con desayuno incluido con un coste accesible de entrada.",
+      "row": 4,
+      "col": 14,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Bo",
+      "name": "Booking.com",
+      "category": "Canales",
+      "shortDescription": "Agencia online de mayor influencia mundial y gran poder de distribución local.",
+      "longDescription": "Gigante internacional que copa el mercado de reservas de ocio. Facilita pickup rápido a cambio de comisiones estándar o unirse al club Genius.",
+      "wpExample": "Activar el canal Genius Nivel 2 opcionalmente para capturar audiencias europeas de alta asiduidad y volumen.",
+      "row": 4,
+      "col": 15,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Wd",
+        "Ch",
+        "Se",
+        "Em"
+      ]
+    },
+    {
+      "symbol": "To",
+      "name": "Tour Operator",
+      "category": "Canales",
+      "shortDescription": "Turoperación clásica de vuelos chárter y contingentes garantizados.",
+      "longDescription": "Comercialización mayorista a largo plazo con tarifas opacas garantizadas e integradas con vuelos en el mercado de origen.",
+      "wpExample": "Cerrar un contrato estival de 20 habitaciones fijas mensuales con un turoperador alemán de corte clásico.",
+      "row": 4,
+      "col": 16,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Gd",
+        "Ot",
+        "Xp"
+      ]
+    },
+    {
+      "symbol": "Hi",
+      "name": "Hilton",
+      "category": "Cadenas Hoteleras",
+      "shortDescription": "Hilton Worldwide y la tracción corporativa de su marca.",
+      "longDescription": "Red internacional que canaliza millones de pernoctaciones mediante marcas de renombre como Hilton, DoubleTree o Hampton.",
+      "wpExample": "Captar un enorme volumen de delegados de congresos adscritos al selecto programa corporativo de la cadena.",
+      "row": 4,
+      "col": 17,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Bu",
+      "name": "Business",
+      "category": "Segmentos",
+      "shortDescription": "Viajeros de negocios corporativos con consumo continuado de lunes a viernes.",
+      "longDescription": "Segmento que viaja de forma regular por motivos de trabajo. Requiere rapidez de check-in, wifi de alta velocidad y escritorio.",
+      "wpExample": "Diseñar tarifas corporativas cerradas que incluyan desayuno completo express y planchado diario de trajes.",
+      "row": 4,
+      "col": 18,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Lu",
+        "Co",
+        "Mi",
+        "Le"
+      ]
+    },
+    {
+      "symbol": "P",
+      "name": "Precio",
+      "category": "Básicos de Revenue",
+      "shortDescription": "El valor numérico monetario y la percepción de valía del huésped.",
+      "longDescription": "Pilar absoluto del revenue. Representa la cuantía monetaria asignada dinámicamente sobre el inventario para regular el pickup y capturar rentabilidad.",
+      "wpExample": "Migrar de tarifas fijas del folleto de papel tradicional a una matriz con docenas de niveles variables.",
+      "row": 5,
+      "col": 1,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Pr",
+        "Cu",
+        "Mo",
+        "C"
+      ]
+    },
+    {
+      "symbol": "As",
+      "name": "Venta Anticipada",
+      "category": "Características",
+      "shortDescription": "Base garantizada construida meses antes de la fecha de alojamiento.",
+      "longDescription": "Atracción de reservas a largo plazo (Booking Window amplio) para cimentar una ocupación mínima y rebajar la presión competitiva diaria.",
+      "wpExample": "Lanzar promociones estivales con un 20% de descuento cerrando con éxito el 40% del inventario antes de marzo.",
+      "row": 5,
+      "col": 2,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Fx",
+        "Vd",
+        "Pi",
+        "Sg",
+        "Vp"
+      ]
+    },
+    {
+      "symbol": "A",
+      "name": "Algo Trading",
+      "category": "Tecnología",
+      "shortDescription": "Mecanismo comercial automatizado de emparejamiento de tarifas base.",
+      "longDescription": "Uso de sistemas de computación cerrados para transaccionar y sincronizar tarifas de forma instantánea de acuerdo a reglas lógicas.",
+      "wpExample": "Programar algoritmos automáticos que igualen tarifas en directo si el Competidor Primario modifica su web de venta.",
+      "row": 5,
+      "col": 3,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Al",
+      "name": "ALOS Length of Stay",
+      "category": "Indicadores KPI",
+      "shortDescription": "Estancia Media: dividiendo noches vendidas entre total de reservas.",
+      "longDescription": "KPI que analiza la cantidad promedio de noches de estancia que consume un huésped, clave para reducir costes operativos de limpieza de checkouts.",
+      "wpExample": "Lograr un ALOS de 4 noches en verano obligando a estancias mínimas los fines de semana de alta demanda.",
+      "row": 5,
+      "col": 5,
+      "importance": 5,
+      "formula": "Total de Noches de Estancia / Número Total de Reservas (ALS / ALOS = Average Length of Stay)",
+      "relatedElements": [
+        "Oc",
+        "Ls",
+        "Ct",
+        "Dp"
+      ]
+    },
+    {
+      "symbol": "Ls",
+      "name": "Long Stay",
+      "category": "Tarifas",
+      "shortDescription": "Promociones con descuento que exigen estancias prolongadas.",
+      "longDescription": "Estructuras comerciales orientadas a propiciar mayor volumen de noches consecutivas suavizando los costes operativos y optimizando ALOS.",
+      "wpExample": "Ofrecer rebajas automáticas del 25% si el usuario formaliza una reserva por una estancia de 7 o más noches consecutivas.",
+      "row": 5,
+      "col": 7,
+      "importance": 4,
+      "formula": "Tarifas optimizadas según la duración calculada de la estadía (Length of Stay Pricing)",
+      "relatedElements": [
+        "Al",
+        "Oc",
+        "Ct",
+        "Dp"
+      ]
+    },
+    {
+      "symbol": "Eb",
+      "name": "Early Bird",
+      "category": "Tarifas",
+      "shortDescription": "Descuento preferencial a huéspedes que compran con amplios márgenes de antelación.",
+      "longDescription": "Precios de precompra diseñados para premiar al cliente planificador que asegura ocupación con meses de adelanto.",
+      "wpExample": "Vender un lote anticipado de entradas y habitaciones de semana de esquí en septiembre con rebajas del 30%.",
+      "row": 5,
+      "col": 8,
+      "importance": 4,
+      "formula": "Descuento estratégico condicionado a reservas hechas con antelación preestablecida (Early Booking)",
+      "relatedElements": [
+        "Py",
+        "Fr",
+        "Nr",
+        "Bo"
+      ]
+    },
+    {
+      "symbol": "Em",
+      "name": "Email Marketing",
+      "category": "Marketing",
+      "shortDescription": "Propuestas enfocadas directas al correo del cliente fidelizado.",
+      "longDescription": "Relación digital proactiva con la base de datos histórica propia para generar pernoctaciones directas con nulo cargo en comisiones.",
+      "wpExample": "Automatizar boletines periódicos obsequiando con códigos de fin de semana exclusivos a huéspedes del último año.",
+      "row": 5,
+      "col": 10,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Bo",
+        "Cn",
+        "L"
+      ]
+    },
+    {
+      "symbol": "Cn",
+      "name": "Contenidos",
+      "category": "Marketing",
+      "shortDescription": "Artículos y descripciones de las vivencias del hotel para SEO.",
+      "longDescription": "Creación de patrimonio audiovisual y escrito para guiar en los buscadores al cliente transaccional que planea explorar la localidad.",
+      "wpExample": "Escribir la guía definitiva sobre gastronomía tradicional local en el blog del hotel para posicionar el motor de reservas.",
+      "row": 5,
+      "col": 11,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Se",
+        "Wd",
+        "Sm",
+        "Em"
+      ]
+    },
+    {
+      "symbol": "Rg",
+      "name": "Rate Grid",
+      "category": "Competidores",
+      "shortDescription": "Matriz comparativa de precios abiertos de los principales rivales.",
+      "longDescription": "Cuadrícula visual organizada diariamente para contrastar de un vistazo la alineación de tus tarifas frente al promedio del sector.",
+      "wpExample": "Un software interno resume que tu hotel está posicionado como el tercer establecimiento más económico de la zona.",
+      "row": 5,
+      "col": 12,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Ri",
+        "Mp",
+        "Ms",
+        "Cs"
+      ]
+    },
+    {
+      "symbol": "Ec",
+      "name": "Economy",
+      "category": "Posicionamiento",
+      "shortDescription": "Foco en precios bajos facilitando equipamiento sobrio de calidad.",
+      "longDescription": "Modelo de alojamiento de costes optimizados y servicios limpios y lógicos, buscando la máxima ocupación y rotación de plazas.",
+      "wpExample": "Ofrecer estancias económicas prescindiendo de piscina o minibar a cambio de un coste muy bajo que atraiga turistas de paso.",
+      "row": 5,
+      "col": 13,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Dp",
+      "name": "Deposit Policy",
+      "category": "Restricciones",
+      "shortDescription": "Exigencia de prepago parcial o total de la estancia reservada.",
+      "longDescription": "Condición comercial que requiere el desembolso de un depósito para garantizar la habitación en temporadas de altísimo pico de ocupación.",
+      "wpExample": "Exigir el 50% de fianza en tarjetas al reservar durante el evento cumbre anual de la provincia.",
+      "row": 5,
+      "col": 14,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Ct",
+        "Ls",
+        "Al"
+      ]
+    },
+    {
+      "symbol": "Gd",
+      "name": "GDS",
+      "category": "Canales",
+      "shortDescription": "Global Distribution Systems orientados a firmas corporativas (Amadeus).",
+      "longDescription": "Sistemas internacionales consolidados que conectan la disponibilidad del hotel a miles de terminales de agencias corporativas del planeta.",
+      "wpExample": "Configurar tarifas negociadas en Amadeus para que multinacionales concertadas reserven vuelos y estancias integradamente.",
+      "row": 5,
+      "col": 15,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Ch",
+        "To",
+        "Ab"
+      ]
+    },
+    {
+      "symbol": "Ab",
+      "name": "Airbnb",
+      "category": "Canales",
+      "shortDescription": "Comercialización alternativa de suites y apartoteles al turista joven.",
+      "longDescription": "Canal que inicialmente ofrecía estancias de particulares pero que hoy capta importantes ingresos vendiendo suites y hoteles boutique.",
+      "wpExample": "Conectar los bungalows familiares del hotel a Airbnb para llegar a un segmento alternativo en busca de independencia.",
+      "row": 5,
+      "col": 16,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Ot",
+        "Bo",
+        "Gd"
+      ]
+    },
+    {
+      "symbol": "Hy",
+      "name": "Hyatt",
+      "category": "Cadenas Hoteleras",
+      "shortDescription": "Hyatt Hotels Corporation y su enfoque de prestigio excepcional.",
+      "longDescription": "Cadena premium americana célebre por su alto ADR, con marcas insignes como Park Hyatt orientadas al lujo y al huésped corporativo selecto.",
+      "wpExample": "Acceder a la base de clientes de alto rendimiento económico y perfiles con asiduidad a suites de lujo de Hyatt World.",
+      "row": 5,
+      "col": 17,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Mi",
+      "name": "MICE",
+      "category": "Segmentos",
+      "shortDescription": "Meetings, Incentives, Conferences & Exhibitions: volumen corporativo y banquetes.",
+      "longDescription": "Segmento vacacional y corporativo grupal agrupador de delegados de congresos, incentivos de empresa y eventos corporativos de gran escala.",
+      "wpExample": "Cerrar la venta de 50 habitaciones con un menú de gala integrado para una convención anual de medicina.",
+      "row": 5,
+      "col": 18,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Lu",
+        "Bu",
+        "Co",
+        "Le"
+      ]
+    },
+    {
+      "symbol": "C",
+      "name": "Canal",
+      "category": "Básicos de Revenue",
+      "shortDescription": "Vías de comercialización directas e indirectas de tu inventario.",
+      "longDescription": "Es la ruta logística y comercial que vincula el inventario de habitaciones del hotel con el cliente, administrando siempre los cargos e intermediación.",
+      "wpExample": "Analizar los costes netos asociados a las reservas de Booking vs. web propia para regular de forma óptima comisiones.",
+      "row": 6,
+      "col": 1,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Pr",
+        "Cu",
+        "Mo",
+        "P"
+      ]
+    },
+    {
+      "symbol": "Sg",
+      "name": "Segmentación",
+      "category": "Características",
+      "shortDescription": "División estructurada de la clientela en grupos homogéneos de compra.",
+      "longDescription": "Clasificación de los perfiles que contratan para fijar tarifas diferenciadoras de acuerdo a su sensibilidad al precio y motivos de viaje.",
+      "wpExample": "Separar de forma rigurosa la base de clientes corporativos concertados de las compras impulsivas hoteleras ocasionales.",
+      "row": 6,
+      "col": 2,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Fx",
+        "Vd",
+        "Pi",
+        "As",
+        "Vp"
+      ]
+    },
+    {
+      "symbol": "Di",
+      "name": "Digitalización",
+      "category": "Tecnología",
+      "shortDescription": "Check-in digital, quioscos inteligentes y automatización comercial.",
+      "longDescription": "Incorporación de herramientas tecnológicas para agilizar gestiones de front desk y recopilar datos veraces útiles para modular precios.",
+      "wpExample": "Desplegar el check-in online facilitando llave por móvil, recortando colas físicas y recopilando correos válidos.",
+      "row": 6,
+      "col": 4,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Rp",
+      "name": "RevPAR",
+      "category": "Indicadores KPI",
+      "shortDescription": "Ingreso por Habitación Disponible: el indicador cumbre del revenue.",
+      "longDescription": "Métrica reina de la rentabilidad hotelera que resulta de multiplicar el ADR por la tasa de ocupación lograda en un espacio temporal.",
+      "wpExample": "Si cuentas con 100 plazas de inventario y vendes 60 a 100€ de ADR, tu RevPAR definitivo asciende a 60€.",
+      "row": 6,
+      "col": 5,
+      "importance": 5,
+      "formula": "Ingresos por Habitación / Habitaciones Disponibles (RevPAR = ADR × % Ocupación)",
+      "relatedElements": [
+        "Ar",
+        "Oc",
+        "Gp",
+        "N",
+        "Tp"
+      ]
+    },
+    {
+      "symbol": "Tp",
+      "name": "Total RevPAR",
+      "category": "Indicadores KPI",
+      "shortDescription": "Mide el total de cobros capturados incluyendo comidas, spa y extras.",
+      "longDescription": "Indicador financiero que audita la facturación de todos los departamentos operativos ponderados por el inventario total disponible del hotel.",
+      "wpExample": "Un resort complementa sus 80€ de RevPAR por noche con consumiciones en comedores y servicios extras logrando 140€ de TRevPAR.",
+      "row": 6,
+      "col": 6,
+      "importance": 5,
+      "formula": "Ingresos Totales (Alojamiento + Alimentos & Bebidas + Otros) / Habitaciones Disponibles (TrevPAR = Total Revenue / Available Rooms)",
+      "relatedElements": [
+        "Rp",
+        "Gp",
+        "Fb",
+        "Fd"
+      ]
+    },
+    {
+      "symbol": "Cr",
+      "name": "Corporate Rate",
+      "category": "Tarifas",
+      "shortDescription": "Tarifas planas preferentes acordadas con empresas locales.",
+      "longDescription": "Precios confidenciales estables en base a acuerdos con empresas de perfil comercial que contratan un volumen fáctico anual de noches.",
+      "wpExample": "Fijar una tarifa corporativa anual de 120€ a una firma auditora asegurando al menos 150 noches de alojamiento de ejecutivos.",
+      "row": 6,
+      "col": 7,
+      "importance": 4,
+      "formula": "Tarifa privada pactada con compañías comerciales según volumen de noches anuales (Corporate Rate)",
+      "relatedElements": [
+        "Nt",
+        "Pm",
+        "Bu"
+      ]
+    },
+    {
+      "symbol": "Nt",
+      "name": "Net Rate",
+      "category": "Tarifas",
+      "shortDescription": "La tarifa neta real que ingresas tras deducir costes del canal.",
+      "longDescription": "Importe limpio remanente en la tesorería del establecimiento una vez que se han restado deducciones bancarias y comerciales.",
+      "wpExample": "Una tarifa que se anuncia a 100€ en una OTA cobra de neto real únicamente 82€ tras el descuento del 18% acordado.",
+      "row": 6,
+      "col": 8,
+      "importance": 4,
+      "formula": "Tarifas netas empaquetadas opacas creadas para mayoristas y touroperadores (Tour Operator Rate)",
+      "relatedElements": [
+        "Cr",
+        "Ot",
+        "To"
+      ]
+    },
+    {
+      "symbol": "L",
+      "name": "Loyalty System",
+      "category": "Marketing",
+      "shortDescription": "Club del hotel y beneficios cerrados por suscripción.",
+      "longDescription": "Herramienta por software para premiar la recurrencia del cliente obsequiando con obsequios, mejoras y reducciones que evitan comisiones.",
+      "wpExample": "Desplegar un programa con un 5% de descuento directo inmediato a los visitantes que se apunten al club antes del checkout.",
+      "row": 6,
+      "col": 10,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Ad",
+      "name": "AdWords",
+      "category": "Marketing",
+      "shortDescription": "Campañas de pago en Google para defender el nombre de tu hotel.",
+      "longDescription": "Presupuestos de marketing dedicados a pujar por keywords transaccionales del propio hotel en motores de búsqueda, evitando que las OTAs se apropien del cliente directo.",
+      "wpExample": "Pujar de forma directa por tu propio nombre en buscadores para desviar la reserva al motor de la web oficial.",
+      "row": 6,
+      "col": 11,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Sm",
+        "Bo",
+        "L",
+        "Mt"
+      ]
+    },
+    {
+      "symbol": "Ms",
+      "name": "Market Share",
+      "category": "Competidores",
+      "shortDescription": "Porcentaje real del mercado turístico que captura tu hotel.",
+      "longDescription": "Evaluación cuantitativa del RGI (Generación de Ingresos) contrastando tu facturación media frente a la cuota justa esperada en tu destino.",
+      "wpExample": "Alcanzar un RGI de 104% confirmando que has obtenido un 4% más de ingresos de lo que en justicia te correspondía por inventario.",
+      "row": 6,
+      "col": 12,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Ri",
+        "Mp",
+        "Rg",
+        "Cs"
+      ]
+    },
+    {
+      "symbol": "Ex",
+      "name": "Express",
+      "category": "Posicionamiento",
+      "shortDescription": "Alojamiento ágil e hiperconectado de tarifas baratas y gran servicio.",
+      "longDescription": "Estrategias de hospitalidad dirigida al viajero autosuficiente o nómada digital, enfocada en la velocidad de gestiones automáticas.",
+      "wpExample": "Ofrecer habitaciones funcionales inteligentes con automatismos de entrada, capturando altos picos de pickup ocasional.",
+      "row": 6,
+      "col": 13,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "At",
+      "name": "Allotment",
+      "category": "Restricciones",
+      "shortDescription": "Cupos de habitaciones concedidos contractualmente a intermediarios.",
+      "longDescription": "Porción de inventario bloqueada para que un distribuidor de volumen (OTA o Touroperador) la venda con fechas de preavisos pactadas.",
+      "wpExample": "Conceder un cupo de 5 habitaciones de lunes a jueves a un touroperador con una cláusula de liberación rápida de 48 horas.",
+      "row": 6,
+      "col": 14,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Ct",
+        "Dp",
+        "Ls"
+      ]
+    },
+    {
+      "symbol": "D",
+      "name": "Directo",
+      "category": "Canales",
+      "shortDescription": "Reservas procedentes de teléfono, mail o central propia, sin comisiones de OTAs.",
+      "longDescription": "Ventas puras cerradas directamente con el hotel. Es el canal predilecto de elevado valor neto que cimenta la relación permanente con el cliente.",
+      "wpExample": "Atraer a huéspedes de negocios incitándoles a firmar acuerdos con tarifas competitivas cerradas directamente con recepción.",
+      "row": 6,
+      "col": 15,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Bo",
+        "Ch",
+        "Ot"
+      ]
+    },
+    {
+      "symbol": "Av",
+      "name": "Availability Restrictions",
+      "category": "Restricciones",
+      "shortDescription": "Cierre discrecional de ventas web en canales de elevado coste.",
+      "longDescription": "Cortes de acceso programados sobre canales indirectos costosos durante fines de semana de ocupación desbordante para inducir venta neta directa.",
+      "wpExample": "Cerrar reservas en OTAs durante un partido estelar para concentrar exclusivamente la venta remanente en la web oficial.",
+      "row": 6,
+      "col": 16,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Ct",
+        "Dp",
+        "Ls"
+      ]
+    },
+    {
+      "symbol": "Wy",
+      "name": "Wyndham",
+      "category": "Cadenas Hoteleras",
+      "shortDescription": "Wyndham Hotels & Resorts y la dominación del segmento medio-económico.",
+      "longDescription": "Consorcio masivo internacional de miles de establecimientos con un tremendo impacto comercial a nivel de ocio urbano y familiar regular.",
+      "wpExample": "Integrar el programa de recompensas Wyndham Rewards para nutrir el pickup con huéspedes americanos vacacionales.",
+      "row": 6,
+      "col": 17,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Le",
+      "name": "Leisure",
+      "category": "Segmentos",
+      "shortDescription": "Huéspedes de ocio regular: estancias largas de fin de semana, familias y parejas.",
+      "longDescription": "Turistas tradicionales en viaje recreacional. Son sensibles a las tarifas pero efectúan un elevado gasto agregado en ocio, comidas y spa.",
+      "wpExample": "Ofrecer estancias de relax acopladas con masajes y cenas de alta cocina para potenciar los consumos secundarios del hotel.",
+      "row": 6,
+      "col": 18,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Lu",
+        "Bu",
+        "Co",
+        "Mi"
+      ]
+    },
+    {
+      "symbol": "Ym",
+      "name": "Yield Management",
+      "category": "Básicos de Revenue",
+      "shortDescription": "Tácticas originas del control de capacidades aéreas aplicadas a hoteles.",
+      "longDescription": "Precursor histórico del revenue, centrado firmemente en alterar precios de forma inteligente basándose en la ocupación física y la perecibilidad del inventario.",
+      "wpExample": "Subir secuencialmente precios a medida que la fecha del evento se avecina y se agotan plazas del hotel.",
+      "row": 7,
+      "col": 1,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Pr",
+        "Cu",
+        "Mo",
+        "P"
+      ]
+    },
+    {
+      "symbol": "Vp",
+      "name": "Valor Percibido",
+      "category": "Características",
+      "shortDescription": "La estimación intangible del huésped sobre la experiencia que ofreces.",
+      "longDescription": "Percepción subjetiva de valía que pondera el cliente frente al precio de la habitación. Elevar el valor subjetivo es el mejor salvavidas contra guerras de tarifas.",
+      "wpExample": "Ofrecer un trago premium a la llegada y amenidades de cortesía para incentivar comentarios excelentes de cinco estrellas.",
+      "row": 7,
+      "col": 2,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Fx",
+        "Vd",
+        "Pi",
+        "As",
+        "Sg"
+      ]
+    },
+    {
+      "symbol": "Fc",
+      "name": "Forecast Activo",
+      "category": "Características",
+      "shortDescription": "Monitoreo constante e incremental de la evolución de curvas semanales.",
+      "longDescription": "Herramienta analítica de ajuste continuo de previsiones de ventas basada en el comportamiento diario de las reservas.",
+      "wpExample": "Detectar un pickup débil en navidades y rectificar planes reduciendo un 5% las tarifas restrictivas anticipadamente.",
+      "row": 7,
+      "col": 3,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Fx",
+        "Vd",
+        "Pi",
+        "As",
+        "Sg"
+      ]
+    },
+    {
+      "symbol": "N",
+      "name": "Net RevPAR",
+      "category": "Indicadores KPI",
+      "shortDescription": "RevPAR limpio tras sustraer en directo comisiones de canales de venta.",
+      "longDescription": "Indicador financiero superlativo que evalúa la rentabilidad limpia deduciendo de forma estricta comisiones bancarias y de OTAs.",
+      "wpExample": "Obtener un RevPAR nominal de 100€ que destila un Net RevPAR de 84€ por soportar comisiones de captación del 16%.",
+      "row": 7,
+      "col": 5,
+      "importance": 5,
+      "formula": "Ingresos de Habitaciones Netos (menos comisiones y tasas) / Habitaciones Disponibles (Net RevPAR)",
+      "relatedElements": [
+        "Rp",
+        "Ar",
+        "Ch",
+        "Ot",
+        "Bo"
+      ]
+    },
+    {
+      "symbol": "Gp",
+      "name": "GOPPAR",
+      "category": "Indicadores KPI",
+      "shortDescription": "Margen Bruto de explotación por Habitación Disponible física.",
+      "longDescription": "Métrica definitiva para gestores e inversores, que analiza las ganancias operativas netas deduciendo gastos operacionales globales del hotel.",
+      "wpExample": "Conseguir un margen trimestral brillante recortando gastos de lavandería y personal mientras se sostiene una ocupación del 80%.",
+      "row": 7,
+      "col": 6,
+      "importance": 5,
+      "formula": "Beneficio Operativo Bruto / Habitaciones Disponibles (GOPPAR = Gross Operating Profit / Available Rooms)",
+      "relatedElements": [
+        "Rp",
+        "Tp",
+        "N",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Py",
+      "name": "Paridad Precios",
+      "category": "Tarifas",
+      "shortDescription": "Mantener el mismo precio base en todos los canales online.",
+      "longDescription": "Compromiso distributivo encaminado a unificar tarifas base evitando que agencias abaraten ilegalmente tus suites dañando el canal directo.",
+      "wpExample": "Sancionar y suspender el inventario a un distribuidor B2B tras pillarle rompiendo la paridad de precios en portales abiertos.",
+      "row": 7,
+      "col": 7,
+      "importance": 4,
+      "formula": "Políticas tarifarias flexibles o restrictivas respecto a tasas de cancelación (Refundable vs Non-Refundable)",
+      "relatedElements": [
+        "Fr",
+        "Eb",
+        "Bo"
+      ]
+    },
+    {
+      "symbol": "Dm",
+      "name": "Direct Marketing",
+      "category": "Marketing",
+      "shortDescription": "Promoción singular enfocada de forma personalizada en carteras de clientes.",
+      "longDescription": "Estrategia de segmentación fina enviando ofertas a nichos validados para capturar conversiones instantáneas sin costes extras.",
+      "wpExample": "Llamar u ofrecer propuestas a empresas locales concertadas aportando pases gratuitos al spa.",
+      "row": 7,
+      "col": 10,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Mt",
+        "Ri",
+        "Mp"
+      ]
+    },
+    {
+      "symbol": "Mt",
+      "name": "Metabuscadores",
+      "category": "Marketing",
+      "shortDescription": "Anuncios patrocinados en TripAdvisor, Google Hotel Ads y Trivago.",
+      "longDescription": "Portales de comparación de precios donde el hotel puede licitar con su canal web directo frente a agencias intermediarias.",
+      "wpExample": "Pujar con AdWords de Hotels en Trivago desviando al cliente de Booking hacia tu pasarela web oficial.",
+      "row": 7,
+      "col": 11,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Ad",
+        "Dm",
+        "Ri"
+      ]
+    },
+    {
+      "symbol": "Cs",
+      "name": "Compset",
+      "category": "Competidores",
+      "shortDescription": "Grupo de 4-6 competidores directos con los que mides tu hotel.",
+      "longDescription": "Grupo selecto analítico de hoteles locales con análoga ubicación, estrella y capacidad, contra los cuales comparas pickup e índices de tarifas.",
+      "wpExample": "Ver en directo que tu Compset sube precios ante un gran congreso, reaccionando rápidamente elevando un 10% tu tarifa base.",
+      "row": 7,
+      "col": 12,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Ri",
+        "Mp",
+        "Rg",
+        "Ms"
+      ]
+    },
+    {
+      "symbol": "Ss",
+      "name": "Stay Restrictions",
+      "category": "Restricciones",
+      "shortDescription": "Limitar compras a rangos específicos (Stay-Through, Min-Stay).",
+      "longDescription": "Filtros de control para rechazar estancias fugaces de una noche en periodos picos de demanda y favorecer reservas de elevado ALOS.",
+      "wpExample": "Bloquear estancias cortas de viernes o sábado obligando a una estancia mínima de 3 noches continuadas en puentes.",
+      "row": 7,
+      "col": 13,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Cp",
+      "name": "Cancellation Policy",
+      "category": "Restricciones",
+      "shortDescription": "Políticas reguladoras limitantes ante cancelaciones imprevistas.",
+      "longDescription": "Matriz de fechas límite que sanciona los checkouts cancelados tardíamente, mitigando así el volumen latente de reservas volátiles.",
+      "wpExample": "Establecer cargos del 100% de la pernoctación al cancelarse con menos de 72 horas de anticipación.",
+      "row": 7,
+      "col": 14,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Pc",
+      "name": "Prepayment",
+      "category": "Restricciones",
+      "shortDescription": "Exigencia de abono monetario instantáneo al formalizarse la reserva.",
+      "longDescription": "Barrera estricta impuesta para garantizar cobros veloces de escapadas garantizando que no existan cancelaciones de última hora sin coste.",
+      "wpExample": "Garantizar el 100% del pago por adelantado de paquetes especiales para parejas en el puente de San Valentín.",
+      "row": 7,
+      "col": 15,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "RI",
+      "name": "Rate Lock",
+      "category": "Restricciones",
+      "shortDescription": "Bloqueo comercial de ofertas de bajo margen en periodos de alto pico.",
+      "longDescription": "Clausuras técnicas que anulan la exhibición de tarifas de bajo ADR o promocionales cuando el ritmo de ocupación vuela velozmente.",
+      "wpExample": "Cerrar tarifas promocionales y de intermediarios al superarse con solidez el 85% de la ocupación del establecimiento.",
+      "row": 7,
+      "col": 16,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Ci",
+      "name": "Choice Hotels",
+      "category": "Cadenas Hoteleras",
+      "shortDescription": "Franquicia hotelera masiva orientada al turismo familiar e interurbano.",
+      "longDescription": "Modelo de distribución de corte ágil que unifica miles de moteles y hoteles medios dotándolos de un potente motor transaccional de compras.",
+      "wpExample": "Adherir el motel de carretera a la cadena para beneficiarse del pickup constante de automovilistas concertados.",
+      "row": 7,
+      "col": 17,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Fa",
+      "name": "Family",
+      "category": "Segmentos",
+      "shortDescription": "Turistas de ocio familiar en busca de habitaciones múltiples y diversión.",
+      "longDescription": "Segmento de gran volumen que viaja con niños. Son propensos a acoger planes todo incluido y contratar servicios agregados de ocio.",
+      "wpExample": "Configurar tarifas opacas que incluyan paseos infantiles y cenas gratis para los menores de 12 años.",
+      "row": 7,
+      "col": 18,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Lu",
+        "Bu",
+        "Co",
+        "Mi",
+        "Le"
+      ]
+    },
+    {
+      "symbol": "T",
+      "name": "Tiempo",
+      "category": "Elementos",
+      "shortDescription": "Dimensión estacional reguladora de la elasticidad de tarifas.",
+      "longDescription": "Factor temporal primordial que rige la estacionalidad hotelera y determina el Booking Window real que condiciona la toma de decisiones.",
+      "wpExample": "Escalar tarifas con meses de anticipación estimando picos lógicos de calor estival.",
+      "row": 10,
+      "col": 3,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Pe",
+      "name": "Personas",
+      "category": "Elementos",
+      "shortDescription": "El talento analítico humano detrás de los flujos automáticos.",
+      "longDescription": "El factor humano capacitado esencial para auditar sugerencias de RMS y aplicar criterio sensato e intuitivo en directo.",
+      "wpExample": "Formar a recepcionistas en técnicas eficaces de upselling directo durante el registro del check-in.",
+      "row": 10,
+      "col": 4,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Ps",
+      "name": "Procesos",
+      "category": "Elementos",
+      "shortDescription": "Flujos de operaciones sincronizados para evitar choques en el inventario.",
+      "longDescription": "Procedimientos organizativos claros que unifican ventas y gobernanza de pisos de cara a optimizar ocupaciones fugaces.",
+      "wpExample": "Garantizar una limpieza express de camas para que huéspedes de estancias cortas accedan a suites sin demoras.",
+      "row": 10,
+      "col": 5,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Da",
+      "name": "Datos",
+      "category": "Elementos",
+      "shortDescription": "Patrimonio de datos histórico limpio imprescindible para predecir pickup.",
+      "longDescription": "Colección ordenada e integral de registros de estancias útiles para alimentar modelos predictivos de comportamiento de demanda.",
+      "wpExample": "Purgar duplicados de clientes corporativos del PMS para lograr estimaciones de ventas certeras.",
+      "row": 10,
+      "col": 6,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Ch",
+      "name": "Channel Manager",
+      "category": "Herramientas",
+      "shortDescription": "Software integrador de tarifas y cupos en directo en OTAs.",
+      "longDescription": "Canalizador digital que despacha instantáneamente tarifas e inventario a Booking o Expedia reduciendo el overbooking a cero.",
+      "wpExample": "Sintonizar de un click las celdas de precios en 20 canales de distribución concurrentes sin retardo físico.",
+      "row": 10,
+      "col": 7,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Pm",
+        "Rs",
+        "Ot",
+        "Bo",
+        "Gd"
+      ]
+    },
+    {
+      "symbol": "Rs",
+      "name": "Rate Shopper",
+      "category": "Herramientas",
+      "shortDescription": "Escaneo constante de tarifas locales publicadas por la competencia.",
+      "longDescription": "Herramientas robots de raspado que extraen en tiempo real de qué precios se está sirviendo tu compset local.",
+      "wpExample": "Auditar por la mañana si tus tarifas siguen alineadas al promedio competitivo de la acera de enfrente.",
+      "row": 10,
+      "col": 8,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Ch",
+        "Pm",
+        "Bi",
+        "Ar",
+        "Y"
+      ]
+    },
+    {
+      "symbol": "Sh",
+      "name": "Sales Engine",
+      "category": "Herramientas",
+      "shortDescription": "Sistemas integrados aceleradores de conversiones transaccionales.",
+      "longDescription": "Herramientas añadidas a la web destinadas a empujar la conversión obsequiando con obsequios de valor percibido alto a los visitantes.",
+      "wpExample": "Desplegar mensajes persuasivos de 'Solo queda 1 habitación libre' incitando transacciones directas inmediatas.",
+      "row": 10,
+      "col": 9,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Pm",
+      "name": "PMS System",
+      "category": "Herramientas",
+      "shortDescription": "Sistemas centrales hoteleros (Property Management System).",
+      "longDescription": "El software central medular operativo donde residen registros de habitaciones, checkouts, perfiles de clientes y facturaciones.",
+      "wpExample": "Comprobar el balance diario de check-ins y cargos acumulados de restauración de forma unificada.",
+      "row": 10,
+      "col": 10,
+      "importance": 5,
+      "formula": "",
+      "relatedElements": [
+        "Ch",
+        "Rs",
+        "Bi",
+        "Da"
+      ]
+    },
+    {
+      "symbol": "Bi",
+      "name": "Business Intelligence",
+      "category": "Herramientas",
+      "shortDescription": "Cuadros de mando gráficos de analítica estructurada avanzada.",
+      "longDescription": "Interfaces interactivas para agrupar datos complejos en tableros limpios con tendencias, ALOS y ADR de forma simple de leer.",
+      "wpExample": "Identificar de un vistazo que la rentabilidad de huéspedes de origen francés ha crecido un 12% este mes.",
+      "row": 10,
+      "col": 11,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Pm",
+        "Rs",
+        "Da",
+        "Or"
+      ]
+    },
+    {
+      "symbol": "Or",
+      "name": "Online Reputation",
+      "category": "Herramientas",
+      "shortDescription": "Monitor de opiniones en TripAdvisor, Google Reviews y Booking.",
+      "longDescription": "Plataformas agregadoras de sentiment que auditan calificaciones subjetivas, las cuales actúan como disparadores del ADR base.",
+      "wpExample": "Responder de forma unificada y analítica a las últimas 50 opiniones publicadas por huéspedes.",
+      "row": 10,
+      "col": 12,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Be",
+      "name": "Booking Engine",
+      "category": "Herramientas",
+      "shortDescription": "Pasarela transaccional de cobros insertada en tu página oficial.",
+      "longDescription": "Motor de reservas que permite al visitante chequear tarifas en directo y cerrar compras exentas de comisiones a terceros.",
+      "wpExample": "Ofrecer una pasarela rápida que permita reservar una habitación triple en menos de 30 segundos de navegación móvil.",
+      "row": 10,
+      "col": 13,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Bh",
+      "name": "Brand Health",
+      "category": "Herramientas",
+      "shortDescription": "Salud y reputación del nombre del hotel en portales.",
+      "longDescription": "Mapeadores de identidad corporativa encaminados a medir la solidez del hotel como marca memorable que atrae reservas directas.",
+      "wpExample": "Lanzar sondeos de conformidad que detecten si los huéspedes recuerdan con agrado el nombre del hotel boutique.",
+      "row": 10,
+      "col": 14,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Ti",
+      "name": "Travel Intelligence",
+      "category": "Herramientas",
+      "shortDescription": "Grandes volúmenes de Big Data turísticos predictivos (STR, vuelos).",
+      "longDescription": "Sistemas Big Data que escanean intenciones reales de compra analizando flujos aéreos globales de aerolíneas destino a nuestro aeropuerto.",
+      "wpExample": "Registrar un incremento de vuelos directos de origen nórdico y adecuar tarifas exclusivas anticipadas en consonancia.",
+      "row": 10,
+      "col": 15,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Ee",
+      "name": "Eco-Eficiencia",
+      "category": "Sostenibilidad",
+      "shortDescription": "Ahorro energético e hídrico estratégico reductor de costes directos.",
+      "longDescription": "Adecuación ecológica de instalaciones para moderar consumos fijos que inciden directamente en elevar el margen neto del hotel (GOPPAR).",
+      "wpExample": "Instalar placas térmicas reduciendo un 18% los gastos recurrentes mensuales de gas de calderas.",
+      "row": 11,
+      "col": 3,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "W",
+        "Ws",
+        "Sr"
+      ]
+    },
+    {
+      "symbol": "W",
+      "name": "Waste Management",
+      "category": "Sostenibilidad",
+      "shortDescription": "Clasificación y reducción del desperdicio alimentario de buffet.",
+      "longDescription": "Procedimientos rigurosos de tratamiento de residuos que aminoran mermas de comidas y costes variables de materias primas.",
+      "wpExample": "Instalar pesaje inteligente de desperdicios en cocinas reduciendo un 10% el sobrecoste alimentario.",
+      "row": 11,
+      "col": 4,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Ee",
+        "Ws",
+        "Sr"
+      ]
+    },
+    {
+      "symbol": "Ws",
+      "name": "Water Saving",
+      "category": "Sostenibilidad",
+      "shortDescription": "Sistemas reductores en grifos y recuperación de aguas grises.",
+      "longDescription": "Tácticas de plomería inteligente destinadas a moderar el gasto continuado en facturas de agua en resorts de alto metraje.",
+      "wpExample": "Introducir difusores en habitaciones propiciando un ahorro real de agua del 24% sin merma de confort.",
+      "row": 11,
+      "col": 5,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Ee",
+        "W",
+        "Sr"
+      ]
+    },
+    {
+      "symbol": "Sr",
+      "name": "Solar Power",
+      "category": "Sostenibilidad",
+      "shortDescription": "Autogeneración energética solar amortizable que mitiga costes de luz.",
+      "longDescription": "Uso de energía fotovoltaica en terrazas libres disminuyendo de forma directa la factura eléctrica de climas intensos.",
+      "wpExample": "Cubrir el techo de placas solares mitigando a la mitad el coste de acondicionar el aire del resort en verano.",
+      "row": 11,
+      "col": 6,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Ee",
+        "W",
+        "Ws"
+      ]
+    },
+    {
+      "symbol": "Eq",
+      "name": "Eco-Label",
+      "category": "Sostenibilidad",
+      "shortDescription": "Distintivos y certificaciones acreditativas de responsabilidad ecológica.",
+      "longDescription": "Galardones y sellos verdes que atraen a agencias corporativas internacionales de estricta preferencia sostenible.",
+      "wpExample": "Conseguir la prestigiosa llave Green Key, cerrando licitaciones preferenciales con corporaciones concienciadas.",
+      "row": 11,
+      "col": 7,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Ee",
+        "W",
+        "Ws",
+        "Sr"
+      ]
+    },
+    {
+      "symbol": "Cf",
+      "name": "Carbon Footprint",
+      "category": "Sostenibilidad",
+      "shortDescription": "Mapeo exhaustivo y compensación de emisiones nocivas hoteleras.",
+      "longDescription": "Cálculo certificado de la emisión de gases del establecimiento y aportaciones a la ecología local para proyectar responsabilidad.",
+      "wpExample": "Ofrecer a clientes corporativos un reporte detallado con la huella que compensó el hotel en sus convenciones.",
+      "row": 11,
+      "col": 8,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Ee",
+        "W",
+        "Ws",
+        "Sr"
+      ]
+    },
+    {
+      "symbol": "Lc",
+      "name": "Local Commerce",
+      "category": "Sostenibilidad",
+      "shortDescription": "Comercio kilómetro cero promotor del tejido económico regional.",
+      "longDescription": "Comprar ingredientes y mobiliarios a artesanos y agricultores del pueblo, proyectando exclusividad y veracidad ecológica y reduciendo transportes.",
+      "wpExample": "Gozar de buffet con mieles y quesos adquiridos en cooperativas de montaña próximas al establecimiento.",
+      "row": 11,
+      "col": 9,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Ee",
+        "W",
+        "Ws",
+        "Sr"
+      ]
+    },
+    {
+      "symbol": "Rc",
+      "name": "Receptionist",
+      "category": "Personas",
+      "shortDescription": "Contacto inicial vital para sugerir upselling de suites.",
+      "longDescription": "El perfil de Front Desk que recibe al huésped, esencial para propiciar incrementales de habitación agregando upselling espontáneo.",
+      "wpExample": "Capacitar a recepcionistas para ofrecer mejoras de suites por solo 20€ extra logrando pickup diario limpio.",
+      "row": 11,
+      "col": 10,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Eq",
+        "Cf",
+        "Lc"
+      ]
+    },
+    {
+      "symbol": "Tr",
+      "name": "Trainer",
+      "category": "Personas",
+      "shortDescription": "Formadores responsables de la asimilación del espíritu de revenue.",
+      "longDescription": "Profesionales dedicados a enraizar de forma sólida destrezas de optimización comercial y uso de RMS en la plantilla.",
+      "wpExample": "Impartir formaciones presenciales que eleven la habilidad de venta sugerida directa en un 30% en recepción.",
+      "row": 11,
+      "col": 11,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Eq",
+        "Cf",
+        "Lc",
+        "Rc"
+      ]
+    },
+    {
+      "symbol": "Rt",
+      "name": "Revenue Analyst",
+      "category": "Personas",
+      "shortDescription": "El estratega analista encargado del modelado y subida diaria.",
+      "longDescription": "Analista responsable de escudriñar pickup, parametrizar restrictivas en PMS y despachar tarifas óptimas al Channel Manager.",
+      "wpExample": "Auditar la paridad en portales y desplegar cotizaciones especiales para grupos del mes entrante.",
+      "row": 11,
+      "col": 12,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Eq",
+        "Cf",
+        "Lc",
+        "Rc"
+      ]
+    },
+    {
+      "symbol": "Ld",
+      "name": "Lead",
+      "category": "Personas",
+      "shortDescription": "Director de optimización corporativo encargado de unificar equipos.",
+      "longDescription": "Gerente comercial de alto estatus asignador de objetivos anuales que encabeza las juntas semanales de alineación de tarifas.",
+      "wpExample": "Unificar criterios comerciales entre el equipo de ventas directas de bodas y el plan de habitaciones.",
+      "row": 11,
+      "col": 13,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Eq",
+        "Cf",
+        "Lc",
+        "Rc"
+      ]
+    },
+    {
+      "symbol": "Fb",
+      "name": "Food & Beverage",
+      "category": "Operaciones",
+      "shortDescription": "Operación de comedores potenciadora de ingresos cruzados.",
+      "longDescription": "Departamento que gestiona desayunos, banquetes y bares, indispensable para incrementar el TRevPAR de la estancia habitual.",
+      "wpExample": "Modelar paquetes con regímenes opacos que completen cenas gourmet asegurando un pickup de ADR alto.",
+      "row": 11,
+      "col": 14,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Tr",
+        "Rt",
+        "Ld",
+        "Fd",
+        "Hk"
+      ]
+    },
+    {
+      "symbol": "Fd",
+      "name": "Front Desk",
+      "category": "Operaciones",
+      "shortDescription": "Atención directa en recepción reguladora del overbooking.",
+      "longDescription": "Punto operativo medular que lidia con desvíos por overbooking y garantiza registros ágiles con obsequio web directo.",
+      "wpExample": "Gobernar con mano diestra desvíos negociados previamente con hoteles asociados cercanos en picos del 100%.",
+      "row": 11,
+      "col": 15,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Tr",
+        "Rt",
+        "Ld",
+        "Fb",
+        "Hk"
+      ]
+    },
+    {
+      "symbol": "Hk",
+      "name": "Housekeeping",
+      "category": "Operaciones",
+      "shortDescription": "La gobernanta de pisos determinante de la disponibilidad ágil.",
+      "longDescription": "Gobernanza encargada de limpiar habitaciones agilizando las celdas de ocupación inmediata de llegadas tempranas.",
+      "wpExample": "Sintonizar el ritmo de limpieza de suites para que huéspedes tempranos corporativos ingresen sin demoras.",
+      "row": 11,
+      "col": 16,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Tr",
+        "Rt",
+        "Ld",
+        "Fb",
+        "Fd"
+      ]
+    },
+    {
+      "symbol": "Ce",
+      "name": "Guest Experience",
+      "category": "Operaciones",
+      "shortDescription": "Experiencia personalizada que desata excelentes valoraciones web.",
+      "longDescription": "Garantía de máxima satisfacción encaminada a prever caprichos del cliente y convertirlos en reseñas de cinco estrellas que tiren de tarifas.",
+      "wpExample": "Recibir al huésped con sus chocolates preferidos guardados en su perfil de PMS histórico logrando su agrado.",
+      "row": 11,
+      "col": 17,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Tr",
+        "Rt",
+        "Ld",
+        "Fb",
+        "Fd"
+      ]
+    },
+    {
+      "symbol": "Ct",
+      "name": "Closed to Arrival",
+      "category": "Restricciones",
+      "shortDescription": "Cierre absoluto a nuevas llegadas en fechas concretas.",
+      "longDescription": "Estrategia de optimización que impide la llegada de nuevos huéspedes en un día específico para forzar estancias más largas que cubran fechas adyacentes de menor demanda.",
+      "wpExample": "Establecer un cierre absoluto a entradas el sábado para obligar a reservar desde el viernes al domingo.",
+      "row": 1,
+      "col": 15,
+      "importance": 4,
+      "formula": "",
+      "relatedElements": [
+        "Oc",
+        "Al",
+        "Ls",
+        "Dp"
+      ]
+    },
+    {
+      "symbol": "Se",
+      "name": "SEO Hotelero",
+      "category": "Marketing",
+      "shortDescription": "Posicionamiento orgánico de la web oficial del hotel.",
+      "longDescription": "Optimización técnica y de contenidos en motores de búsqueda para que la web directa capture las búsquedas locales relevantes de usuarios antes que las agencias.",
+      "wpExample": "Optimizar los títulos y la velocidad móvil del motor oficial para liderar los resultados orgánicos locales del destino.",
+      "row": 1,
+      "col": 11,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Wd",
+        "Sm",
+        "Cn",
+        "L"
+      ]
+    },
+    {
+      "symbol": "Z1",
+      "name": "A Confirmar",
+      "category": "Elementos",
+      "shortDescription": "Posición reservada para sistemas de optimización futura.",
+      "longDescription": "Espacio de reserva estratégica comercial para implementar tecnologías emergentes según se consolide la maduración del hotel.",
+      "wpExample": "Sincronizar futuros sensores IoT con el sistema central del PMS una vez auditados los costes directos.",
+      "row": 5,
+      "col": 3,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Z2",
+      "name": "A Descubrir",
+      "category": "Elementos",
+      "shortDescription": "Área de investigación de nuevos canales de ingresos estacionales.",
+      "longDescription": "Espacio reservado de auditoría comercial para identificar y probar micro-segmentos alternativos de huéspedes.",
+      "wpExample": "Analizar el comportamiento de reservas de nómadas digitales antes de desplegar tarifas de larga estancia fijas.",
+      "row": 5,
+      "col": 4,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Z3",
+      "name": "A Desarrollar",
+      "category": "Elementos",
+      "shortDescription": "Planes tácticos y operacionales en fase de conceptualización.",
+      "longDescription": "Estrategias de posicionamiento en mercado que se activarán cuando se complete la digitalización básica del compset.",
+      "wpExample": "Fijar políticas de sostenibilidad energéticas integracionales para captar el sello verde internacional.",
+      "row": 5,
+      "col": 5,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    },
+    {
+      "symbol": "Z4",
+      "name": "A Confirmar",
+      "category": "Elementos",
+      "shortDescription": "Posición reservada para sistemas de optimización futura.",
+      "longDescription": "Espacio de reserva estratégica comercial para implementar tecnologías emergentes según se consolide la maduración del hotel.",
+      "wpExample": "Sincronizar futuros sensores IoT con el sistema central del PMS una vez auditados los costes directos.",
+      "row": 5,
+      "col": 6,
+      "importance": 3,
+      "formula": "",
+      "relatedElements": [
+        "Rm",
+        "Ar",
+        "Rp",
+        "Oc",
+        "Ch"
+      ]
+    }
+  ]
+}

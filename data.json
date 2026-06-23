@@ -1,0 +1,242 @@
+[
+  {
+    "symbol": "Rm",
+    "name": "Revenue Management",
+    "category": "Básicos de Revenue",
+    "shortDescription": "Técnica científica de optimización de ingresos para vender al cliente adecuado.",
+    "longDescription": "El Revenue Management o gestión de ingresos es el conjunto de técnicas científicas y analíticas aplicadas para predecir el comportamiento del consumidor y optimizar la disponibilidad y el precio del producto, con el fin de maximizar el crecimiento de los ingresos.",
+    "wpExample": "Un hotel de ciudad aplica algoritmos predictivos para predecir que durante un concierto local la demanda aumentará un 40%, ajustando sus tarifas base proactivamente.",
+    "row": 1,
+    "col": 1
+  },
+  {
+    "symbol": "Se",
+    "name": "Eco-Eficiencia",
+    "category": "Sostenibilidad",
+    "shortDescription": "Uso óptimo de recursos energéticos e hídricos para reducir costes y atraer clientes verdes.",
+    "longDescription": "La Eco-Eficiencia combina los aspectos ecológicos y económicos para lograr altos niveles de sostenibilidad en operaciones hoteleras. Menos desperdicio y menor huella de carbono se traducen directamente en menores costes operativos y mayor margen neto.",
+    "wpExample": "Instalación de sensores de presencia e iluminación inteligente que reducen un 22% la factura eléctrica del hotel de forma inmediata.",
+    "row": 1,
+    "col": 18
+  },
+  {
+    "symbol": "Pr",
+    "name": "Producto",
+    "category": "Básicos de Revenue",
+    "shortDescription": "La habitación, servicios y la experiencia única que ofreces al huésped.",
+    "longDescription": "Representa el catálogo físico e intangible del hotel. No se limita a vender una base de metros cuadrados (la cama), sino que incluye servicios adicionales, vistas, régimen de alojamiento y niveles de confort.",
+    "wpExample": "Rediseñar las especificaciones de una habitación convencional y renombrarla como 'Habitación Executive con Vistas y Acceso Premium Lounge'.",
+    "row": 2,
+    "col": 1
+  },
+  {
+    "symbol": "Fx",
+    "name": "Capacidad Fija",
+    "category": "Características",
+    "shortDescription": "La imposibilidad física de expandir el inventario de habitaciones a corto plazo.",
+    "longDescription": "A diferencia de las industrias de manufactura, un hotel posee un número físico inalterable de habitaciones fijado por su estructura arquitectónica. No se pueden fabricar más habitaciones de un día para otro cuando hay un pico masivo de demanda.",
+    "wpExample": "Un hotel boutique histórico de 30 habitaciones que deba rechazar a decenas de huéspedes durante el fin de semana del Orgullo debido a su inflexibilidad de inventario.",
+    "row": 2,
+    "col": 2
+  },
+  {
+    "symbol": "Cs",
+    "name": "Huella de Carbono",
+    "category": "Sostenibilidad",
+    "shortDescription": "Medición y compensación de emisiones para posicionamiento y cumplimiento normativo.",
+    "longDescription": "La cuantificación ya sistemática de las emisiones de gases de efecto invernadero directas e indirectas provocadas por el hotel de cara a ganar licitaciones corporativas.",
+    "wpExample": "Certificación oficial de 'Hotel Carbono Neutro' mediante la reforestación de bosques locales, ganando licitaciones de grandes multinacionales.",
+    "row": 2,
+    "col": 18
+  },
+  {
+    "symbol": "Cu",
+    "name": "Cliente",
+    "category": "Básicos de Revenue",
+    "shortDescription": "El receptor final y los patrones que dictan su disposición de pago.",
+    "longDescription": "La persona física o empresa que consume tu inventario. Entender al cliente implica descifrar su sensibilidad al precio, su antelación de compra (booking window), el motivo de su viaje y el valor total que aportará.",
+    "wpExample": "Un hotel de costa que descubre que sus clientes de origen británico reservan con 120 días de antelación y son muy sensibles al paquete vacacional.",
+    "row": 3,
+    "col": 1
+  },
+  {
+    "symbol": "Vd",
+    "name": "Demanda Variable",
+    "category": "Características",
+    "shortDescription": "La fluctuación constante de las intenciones de reserva de los huéspedes.",
+    "longDescription": "La demanda hotelera no es estática; varía drásticamente por estacionalidad, días de la semana, condiciones climáticas, eventos o factores macroeconómicos.",
+    "wpExample": "Un hotel de negocios experimenta ocupaciones del 95% de martes a jueves, pero se desploma al 20% los fines de semana, obligando a lanzar tarifas especiales de escapada.",
+    "row": 3,
+    "col": 2
+  },
+  {
+    "symbol": "Ar",
+    "name": "ADR (Precio Medio)",
+    "category": "Indicadores KPI",
+    "shortDescription": "Tarifa media diaria cobrada por cada una de las habitaciones ocupadas.",
+    "longDescription": "La Tarifa Media Diaria (Average Daily Rate) mide los ingresos medios por habitación ocupada en un periodo. Se calcula dividiendo los ingresos totales por habitación.",
+    "wpExample": "Si facturaste 10.000€ netos en habitaciones y ocupaste 80 cuartos de un total de 100, tu ADR es de 125€.",
+    "row": 3,
+    "col": 5
+  },
+  {
+    "symbol": "Fr",
+    "name": "Cancelación Gratuita",
+    "category": "Tarifas",
+    "shortDescription": "Flexibilidad de cancelación sin coste que da seguridad al cliente.",
+    "longDescription": "Estructura de precios flexible que permite al huésped anular su reserva hasta las 24-48 horas previas al checkout sin penalización. Ofrece la máxima confianza al usuario final.",
+    "wpExample": "Ofrecer la tarifa flexible con derecho a cancelación a cambio de un suplemento de 25€ por noche por encima de la tarifa no reembolsable.",
+    "row": 3,
+    "col": 7
+  },
+  {
+    "symbol": "Ch",
+    "name": "Channel Manager",
+    "category": "Herramientas",
+    "shortDescription": "Software para sincronizar inventario, tarifas y disponibilidad en múltiples OTAs.",
+    "longDescription": "Herramienta que centraliza e interconecta el inventario de habitaciones de un hotel con múltiples canales de distribución online (como Booking.com, Expedia, Airbnb, etc.).",
+    "wpExample": "Sincronización instantánea que reduce a cero las reservas duplicadas al vender la última habitación doble en Expedia y cerrarla de inmediato en Booking.",
+    "row": 3,
+    "col": 9
+  },
+  {
+    "symbol": "Seo",
+    "name": "SEO de Conversión",
+    "category": "Marketing",
+    "shortDescription": "Posicionamiento en motores de búsqueda optimizado para reservas directas.",
+    "longDescription": "Estrategias dirigidas a optimizar los contenidos y aspectos técnicos de la web del hotel para aparecer en los primeros puestos orgánicos de Google por búsquedas transaccionales.",
+    "wpExample": "Posicionar la web del hotel para el término especializado 'hotel con encanto cerca del Prado' logrando reservas 100% directas.",
+    "row": 3,
+    "col": 11
+  },
+  {
+    "symbol": "Cos",
+    "name": "Compset (Competidores)",
+    "category": "Competidores",
+    "shortDescription": "Set competitivo de 4-6 hoteles directos a los que vigilas de forma fija.",
+    "longDescription": "El set competitivo de un hotel (Competitive Set) es la lista de establecimientos locales que compiten directamente contigo por el mismo nicho de clientes.",
+    "wpExample": "Un hotel boutique de 4 estrellas céntrico selecciona otros 5 hoteles boutique de 4 estrellas situados en un radio de 1 km para comparar precios cada mañana.",
+    "row": 3,
+    "col": 12
+  },
+  {
+    "symbol": "Ot",
+    "name": "OTAs (Online Travel Agencies)",
+    "category": "Canales",
+    "shortDescription": "Agencias en línea de gran volumen que cobran comisiones, como Booking o Expedia.",
+    "longDescription": "Las agencias de viaje online son los mayores distribuidores globales de inventario hotelero. Ofrecen una visibilidad inigualable a nivel internacional, cobrando altas comisiones.",
+    "wpExample": "Elegir equilibradamente qué porcentaje de inventario colocar en Booking.com y aplicar tácticas para derivarlos después al canal directo.",
+    "row": 3,
+    "col": 15
+  },
+  {
+    "symbol": "In",
+    "name": "Independent Hotel",
+    "category": "Cadenas Hoteleras",
+    "shortDescription": "Gestión autónoma sin marca de cadena, lo que otorga la máxima libertad táctica.",
+    "longDescription": "Un establecimiento hotelero que opera de manera autónoma, sin asociación directa a corporaciones o marcas nacionales/internacionales. Esto les confiere una agilidad comercial absoluta.",
+    "wpExample": "Un hotel rural boutique que puede cambiar su política de tarifas en 5 minutos sin requerir la aprobación de un director de zona de cadena.",
+    "row": 3,
+    "col": 16
+  },
+  {
+    "symbol": "K0",
+    "name": "Kilómetro Cero",
+    "category": "Sostenibilidad",
+    "shortDescription": "Abastecimiento hiperlocal para reducir la huella de transporte y promover la economía local.",
+    "longDescription": "Práctica de adquirir alimentos, equipamiento y servicios de proveedores ubicados en un radio inferior a 100 kilómetros del hotel.",
+    "wpExample": "Ofrecer en el buffet del desayuno quesos artesanales, mermeladas y hortalizas compradas directamente a cooperativas agrícolas del municipio colindante.",
+    "row": 3,
+    "col": 18
+  },
+  {
+    "symbol": "Mo",
+    "name": "Momento",
+    "category": "Básicos de Revenue",
+    "shortDescription": "El factor temporal: cuándo reserva el huésped y para qué fecha concreta.",
+    "longDescription": "El tiempo posee un doble valor en Revenue Management: la persistencia estacional y la anticipación de compra (curva de reservas).",
+    "wpExample": "Un hotel de esquí que sabe que las reservas de Navidad entran en octubre, mientras que los fines de semana regulares dependen del pronóstico del tiempo de los últimos 3 días.",
+    "row": 4,
+    "col": 1
+  },
+  {
+    "symbol": "Pi",
+    "name": "Inventario Perecedero",
+    "category": "Características",
+    "shortDescription": "La caducidad total de la habitación: si no se vende hoy, se pierde para siempre.",
+    "longDescription": "Inventario perecedero: las habitaciones de hotel son bienes completamente perecederos; si una noche no se ocupa, ese ingreso se vuela por completo.",
+    "wpExample": "Lanzar una oferta flash superagresiva para liquidar las últimas 4 habitaciones disponibles a las 20:00 h del propio día, cubriendo al menos sus costes variables.",
+    "row": 4,
+    "col": 2
+  },
+  {
+    "symbol": "Ai",
+    "name": "Inteligencia Artificial",
+    "category": "Tecnología",
+    "shortDescription": "Modelos predictivos y procesamiento de datos para predecir precios diarios óptimos.",
+    "longDescription": "Algoritmos alimentados con Big Data y aprendizaje automático para predecir e identificar comportamientos y sugerir la tarifa ideal sin intervención humana constante.",
+    "wpExample": "Un motor RMS moderno recomendando de forma predictiva subir un 8% los precios ante un pico inesperado de consultas web de huéspedes alemanes.",
+    "row": 4,
+    "col": 3
+  },
+  {
+    "symbol": "Cy",
+    "name": "Ciberseguridad",
+    "category": "Tecnología",
+    "shortDescription": "Protección estricta de datos de tarjetas de crédito y normativas de privacidad PCI-DSS.",
+    "longDescription": "Esquemas de protección de la información financiera y privada de los clientes registrados. Reduce drásticamente fallas de seguridad y riesgos bancarios.",
+    "wpExample": "Implantar software que encapsule tokens bancarios encriptados compatibles con PCI de modo que los recepcionistas no vean los dígitos de las tarjetas directamente.",
+    "row": 4,
+    "col": 4
+  },
+  {
+    "symbol": "Oc",
+    "name": "Ocupación",
+    "category": "Indicadores KPI",
+    "shortDescription": "Porcentaje de habitaciones ocupadas sobre el total del inventario disponible.",
+    "longDescription": "La Ocupación es una de las métricas más básicas que indica la tasa de llenado física del hotel frente a su inventario vendible.",
+    "wpExample": "Si vendes 75 habitaciones un día de un hotel de 100 plazas, tu nivel de ocupación diario es del 75%.",
+    "row": 4,
+    "col": 5
+  },
+  {
+    "symbol": "Nr",
+    "name": "No Reembolsable",
+    "category": "Tarifas",
+    "shortDescription": "Tarifa más económica pero garantizada al 100%, sin reembolsos permitidos.",
+    "longDescription": "Modelo de tarifa económica que exige pago por anticipado liberando al hotel de riesgos de cancelaciones.",
+    "wpExample": "Asegurar un flujo de caja positivo un mes antes de un puente festivo garantizando que el 50% de las plazas de ese periodo no puedan cancelarse.",
+    "row": 4,
+    "col": 7
+  },
+  {
+    "symbol": "Y",
+    "name": "Tarifas Dinámicas",
+    "category": "Tarifas",
+    "shortDescription": "Modificación de tarifas en tiempo real según las curvas de demanda y comisiones.",
+    "longDescription": "Sistema de balance de precios: las tarifas varían de forma ágil apoyadas por la velocidad de ventas y la elasticidad precio.",
+    "wpExample": "Una habitación doble que comienza costando 90€ a principio de mes y sube a 190€ tras llenarse el 80% de las plazas disponibles.",
+    "row": 4,
+    "col": 8
+  },
+  {
+    "symbol": "Rs",
+    "name": "RMS (System)",
+    "category": "Herramientas",
+    "shortDescription": "Revenue Management System: automatización basada en modelos matemáticos.",
+    "longDescription": "El Revenue Management System es la suite o cerebro algorítmico centralizado que recopila e introduce automatización y agilidad táctica en precios.",
+    "wpExample": "El software RMS envía alertas y automáticamentes sube el precio de la noche de fin de año en base a que el ritmo de ventas es el doble del año pasado.",
+    "row": 4,
+    "col": 9
+  },
+  {
+    "symbol": "Be",
+    "name": "Motor de Reservas",
+    "category": "Herramientas",
+    "shortDescription": "Booking Engine instalado en tu web para procesar reservas directas sin OTA.",
+    "longDescription": "El Booking Engine representa el canal propio interactivo donde los huéspedes terminan sus reservas directas de forma segura en la web del hotel.",
+    "wpExample": "Huésped reserva directo desde su smartphone aportando un menor coste de canal y permitiendo al hotel entablar conversación inmediata por correo.",
+    "row": 4,
+    "col": 10
+  }
+]
