@@ -1,0 +1,2276 @@
+[
+  {
+    "internalId": "RM__BRM",
+    "symbol": "RM",
+    "name": "Revenue Management",
+    "category": "Fundamentos Revenue",
+    "importance": "5",
+    "definition": "Disciplina que busca maximizar los ingresos y la rentabilidad mediante la gestión estratégica de precios, inventario, demanda, canales y segmentación.",
+    "whyRevenue": "Es el núcleo estratégico de la disciplina. Permite coordinar la fijación de precios, la gestión de inventario y la distribución para maximizar la rentabilidad de las habitaciones.",
+    "application": "Diseñar la estrategia mensual de tarifas basada en analítica predictiva, perfiles de demanda e históricos del mercado.",
+    "caseIndependent": "Un hotel boutique rural de 20 habitaciones contrata un Revenue Consultant externo para estructurar sus tarifas por primera vez ante temporadas alta de verano.",
+    "caseChain": "Una cadena multinacional centraliza sus políticas de Revenue Management a nivel regional cruzando datos de ocupación agregados en tiempo real con su PMS.",
+    "related": [
+      "PR",
+      "CU",
+      "MO",
+      "P",
+      "C"
+    ]
+  },
+  {
+    "internalId": "PR__BRM",
+    "symbol": "PR",
+    "name": "Producto",
+    "category": "Fundamentos Revenue",
+    "importance": "5",
+    "definition": "Conjunto de servicios, atributos y experiencias que el hotel ofrece al cliente y que justifican su valor percibido.",
+    "whyRevenue": "La fijación de precios define la competitividad del hotel y el valor percibido por los huéspedes en cada punto de interacción en su ciclo de compra.",
+    "application": "Ajustar las tarifas de forma ágil respondiendo a las fluctuaciones diarias de la ocupación y la oferta de la competencia directa.",
+    "caseIndependent": "Un hostal en Granada incrementa su tarifa del fin de semana de forma proactiva cuando las visitas oficiales a la Alhambra agotan sus pases.",
+    "caseChain": "Una firma corporativa de primer nivel aplica algoritmos automatizados que revalúan y actualizan mil tarifas simultáneamente cada hora según la ventana residual de reserva.",
+    "related": [
+      "RM",
+      "CU",
+      "MO",
+      "P",
+      "C"
+    ]
+  },
+  {
+    "internalId": "CU__BRM",
+    "symbol": "CU",
+    "name": "Cliente",
+    "category": "Fundamentos Revenue",
+    "importance": "5",
+    "definition": "Persona, empresa o segmento que compra o consume los servicios del hotel, con necesidades y sensibilidad al precio diferentes.",
+    "whyRevenue": "Comprender los deseos y necesidades de los clientes específicos (Target Customer) permite ajustar la arquitectura de tarifas y el tono de marketing para maximizar la conversión.",
+    "application": "Crear perfiles detallados del comprador ideal segmentados por motivación del viaje, nivel de gastos y flexibilidad horaria.",
+    "caseIndependent": "Un hotel de diseño ecológico en Asturias orienta su contenido web y paquetes hacia escapadas de parejas interesadas en senderismo sostenible.",
+    "caseChain": "Un grupo hotelero internacional utiliza su base de datos CRM avanzada para lanzar recomendaciones de personalización a los miembros de su club de fidelidad.",
+    "related": [
+      "RM",
+      "PR",
+      "MO",
+      "P",
+      "C"
+    ]
+  },
+  {
+    "internalId": "YM__BRM",
+    "symbol": "YM",
+    "name": "Yield Management",
+    "category": "Fundamentos Revenue",
+    "importance": "5",
+    "definition": "Técnica enfocada en vender la capacidad adecuada, al cliente adecuado, en el momento adecuado y al mejor precio posible.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Técnica enfocada en vender la capacidad adecuada, al cliente adecuado, en el momento adecuado y al mejor precio posible.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "RM",
+      "PR",
+      "CU",
+      "MO",
+      "P"
+    ]
+  },
+  {
+    "internalId": "MO__BRM",
+    "symbol": "MO",
+    "name": "Momento",
+    "category": "Fundamentos Revenue",
+    "importance": "5",
+    "definition": "Variable temporal que condiciona la demanda, la urgencia de compra y la disposición a pagar del cliente.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Variable temporal que condiciona la demanda, la urgencia de compra y la disposición a pagar del cliente.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "RM",
+      "PR",
+      "CU",
+      "P",
+      "C"
+    ]
+  },
+  {
+    "internalId": "P__BRM",
+    "symbol": "P",
+    "name": "Precio",
+    "category": "Fundamentos Revenue",
+    "importance": "5",
+    "definition": "Valor monetario asignado a una habitación o servicio, ajustable según demanda, competencia, canal y estrategia comercial.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Valor monetario asignado a una habitación o servicio, ajustable según demanda, competencia, canal y estrategia comercial.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "RM",
+      "PR",
+      "CU",
+      "MO",
+      "C"
+    ]
+  },
+  {
+    "internalId": "C__BRM",
+    "symbol": "C",
+    "name": "Canal",
+    "category": "Fundamentos Revenue",
+    "importance": "5",
+    "definition": "Medio por el que el cliente llega a la reserva, como web directa, OTA, agencia, GDS o teléfono.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Medio por el que el cliente llega a la reserva, como web directa, OTA, agencia, GDS o teléfono.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "RM",
+      "PR",
+      "CU",
+      "MO",
+      "P"
+    ]
+  },
+  {
+    "internalId": "FX__CAR",
+    "symbol": "FX",
+    "name": "Capacidad Fija",
+    "category": "Características",
+    "importance": "4",
+    "definition": "Limitación estructural de habitaciones, mesas, asientos o recursos disponibles que no puede ampliarse fácilmente a corto plazo.",
+    "whyRevenue": "Aborda las limitaciones y naturaleza específicas del inventario hotelero (perecedero, inelástico, de altos costes fijos). Limitación estructural de habitaciones, mesas, asientos o recursos disponibles que no puede ampliarse fácilmente a corto plazo.",
+    "application": "Gestionar el inventario restante de manera defensiva, sabiendo que una noche de hotel no vendida representa un ingreso perdido para siempre. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel familiar en un pueblo de montaña ajusta su oferta sabiendo que la venta de hoy no se puede almacenar para el invierno.",
+    "caseChain": "Una cadena de hoteles de negocios utiliza algoritmos y overbooking calculado por IA para compensar cancelaciones espontáneas no deseadas.",
+    "related": [
+      "VD",
+      "PI",
+      "AS",
+      "SG",
+      "VP"
+    ]
+  },
+  {
+    "internalId": "VD__CAR",
+    "symbol": "VD",
+    "name": "Demanda Variable",
+    "category": "Características",
+    "importance": "4",
+    "definition": "Comportamiento fluctuante de la demanda según temporada, eventos, día de la semana, mercado emisor y comportamiento del cliente.",
+    "whyRevenue": "Aborda las limitaciones y naturaleza específicas del inventario hotelero (perecedero, inelástico, de altos costes fijos). Comportamiento fluctuante de la demanda según temporada, eventos, día de la semana, mercado emisor y comportamiento del cliente.",
+    "application": "Gestionar el inventario restante de manera defensiva, sabiendo que una noche de hotel no vendida representa un ingreso perdido para siempre. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel familiar en un pueblo de montaña ajusta su oferta sabiendo que la venta de hoy no se puede almacenar para el invierno.",
+    "caseChain": "Una cadena de hoteles de negocios utiliza algoritmos y overbooking calculado por IA para compensar cancelaciones espontáneas no deseadas.",
+    "related": [
+      "FX",
+      "PI",
+      "AS",
+      "SG",
+      "VP"
+    ]
+  },
+  {
+    "internalId": "PI__CAR",
+    "symbol": "PI",
+    "name": "Inventario Perecedero",
+    "category": "Características",
+    "importance": "4",
+    "definition": "Inventario que pierde valor si no se vende a tiempo, como una habitación vacía en una noche concreta.",
+    "whyRevenue": "Aborda las limitaciones y naturaleza específicas del inventario hotelero (perecedero, inelástico, de altos costes fijos). Inventario que pierde valor si no se vende a tiempo, como una habitación vacía en una noche concreta.",
+    "application": "Gestionar el inventario restante de manera defensiva, sabiendo que una noche de hotel no vendida representa un ingreso perdido para siempre. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel familiar en un pueblo de montaña ajusta su oferta sabiendo que la venta de hoy no se puede almacenar para el invierno.",
+    "caseChain": "Una cadena de hoteles de negocios utiliza algoritmos y overbooking calculado por IA para compensar cancelaciones espontáneas no deseadas.",
+    "related": [
+      "FX",
+      "VD",
+      "AS",
+      "SG",
+      "VP"
+    ]
+  },
+  {
+    "internalId": "FC__CAR",
+    "symbol": "FC",
+    "name": "Costes Fijos Altos",
+    "category": "Características",
+    "importance": "4",
+    "definition": "Estructura de costes que permanece aunque la ocupación cambie, como personal, alquileres, suministros base o mantenimiento.",
+    "whyRevenue": "Aborda las limitaciones y naturaleza específicas del inventario hotelero (perecedero, inelástico, de altos costes fijos). Estructura de costes que permanece aunque la ocupación cambie, como personal, alquileres, suministros base o mantenimiento.",
+    "application": "Gestionar el inventario restante de manera defensiva, sabiendo que una noche de hotel no vendida representa un ingreso perdido para siempre. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel familiar en un pueblo de montaña ajusta su oferta sabiendo que la venta de hoy no se puede almacenar para el invierno.",
+    "caseChain": "Una cadena de hoteles de negocios utiliza algoritmos y overbooking calculado por IA para compensar cancelaciones espontáneas no deseadas.",
+    "related": [
+      "FX",
+      "VD",
+      "PI",
+      "AS",
+      "SG"
+    ]
+  },
+  {
+    "internalId": "AS__CAR",
+    "symbol": "AS",
+    "name": "Venta Anticipada",
+    "category": "Características",
+    "importance": "4",
+    "definition": "Ventas realizadas antes de la fecha de estancia, útiles para prever ocupación y ajustar precios con antelación.",
+    "whyRevenue": "Aborda las limitaciones y naturaleza específicas del inventario hotelero (perecedero, inelástico, de altos costes fijos). Ventas realizadas antes de la fecha de estancia, útiles para prever ocupación y ajustar precios con antelación.",
+    "application": "Gestionar el inventario restante de manera defensiva, sabiendo que una noche de hotel no vendida representa un ingreso perdido para siempre. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel familiar en un pueblo de montaña ajusta su oferta sabiendo que la venta de hoy no se puede almacenar para el invierno.",
+    "caseChain": "Una cadena de hoteles de negocios utiliza algoritmos y overbooking calculado por IA para compensar cancelaciones espontáneas no deseadas.",
+    "related": [
+      "FX",
+      "VD",
+      "PI",
+      "SG",
+      "VP"
+    ]
+  },
+  {
+    "internalId": "SG__CAR",
+    "symbol": "SG",
+    "name": "Segmentación",
+    "category": "Características",
+    "importance": "4",
+    "definition": "División de clientes en grupos con necesidades, comportamientos y disposición a pagar diferentes.",
+    "whyRevenue": "Aborda las limitaciones y naturaleza específicas del inventario hotelero (perecedero, inelástico, de altos costes fijos). División de clientes en grupos con necesidades, comportamientos y disposición a pagar diferentes.",
+    "application": "Gestionar el inventario restante de manera defensiva, sabiendo que una noche de hotel no vendida representa un ingreso perdido para siempre. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel familiar en un pueblo de montaña ajusta su oferta sabiendo que la venta de hoy no se puede almacenar para el invierno.",
+    "caseChain": "Una cadena de hoteles de negocios utiliza algoritmos y overbooking calculado por IA para compensar cancelaciones espontáneas no deseadas.",
+    "related": [
+      "FX",
+      "VD",
+      "PI",
+      "AS",
+      "VP"
+    ]
+  },
+  {
+    "internalId": "VP__CAR",
+    "symbol": "VP",
+    "name": "Precios Dinámicos",
+    "category": "Características",
+    "importance": "4",
+    "definition": "Estrategia de ajuste de precios según demanda, ocupación, antelación, canal y condiciones de mercado.",
+    "whyRevenue": "Aborda las limitaciones y naturaleza específicas del inventario hotelero (perecedero, inelástico, de altos costes fijos). Estrategia de ajuste de precios según demanda, ocupación, antelación, canal y condiciones de mercado.",
+    "application": "Gestionar el inventario restante de manera defensiva, sabiendo que una noche de hotel no vendida representa un ingreso perdido para siempre. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel familiar en un pueblo de montaña ajusta su oferta sabiendo que la venta de hoy no se puede almacenar para el invierno.",
+    "caseChain": "Una cadena de hoteles de negocios utiliza algoritmos y overbooking calculado por IA para compensar cancelaciones espontáneas no deseadas.",
+    "related": [
+      "FX",
+      "VD",
+      "PI",
+      "AS",
+      "SG"
+    ]
+  },
+  {
+    "internalId": "AI__TEC",
+    "symbol": "AI",
+    "name": "Inteligencia Artificial",
+    "category": "Tecnología",
+    "importance": "5",
+    "definition": "Uso de modelos inteligentes para analizar datos, prever demanda, automatizar decisiones y apoyar estrategias de revenue.",
+    "whyRevenue": "Los sistemas tecnológicos son las venas operativas que permiten procesar datos de mercado y automatizar ventas las 24 horas del día. Uso de modelos inteligentes para analizar datos, prever demanda, automatizar decisiones y apoyar estrategias de revenue.",
+    "application": "Integrar el PMS, Channel Manager, Motor de Reservas y RMS en una sola arquitectura en tiempo real sin descuadres. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural instala un Channel Manager integrado en la nube para dejar de actualizar manualmente las tarifas en Booking.com y Expedia.",
+    "caseChain": "Un gran grupo hotelero implementa una arquitectura segura multi-servidor con pasarela CRS propietaria para sincronizar miles de inventarios en red.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "CY__TEC",
+    "symbol": "CY",
+    "name": "Ciberseguridad",
+    "category": "Tecnología",
+    "importance": "5",
+    "definition": "Protección de sistemas, datos de clientes, pagos y conexiones tecnológicas frente a riesgos digitales.",
+    "whyRevenue": "Los sistemas tecnológicos son las venas operativas que permiten procesar datos de mercado y automatizar ventas las 24 horas del día. Protección de sistemas, datos de clientes, pagos y conexiones tecnológicas frente a riesgos digitales.",
+    "application": "Integrar el PMS, Channel Manager, Motor de Reservas y RMS en una sola arquitectura en tiempo real sin descuadres. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural instala un Channel Manager integrado en la nube para dejar de actualizar manualmente las tarifas en Booking.com y Expedia.",
+    "caseChain": "Un gran grupo hotelero implementa una arquitectura segura multi-servidor con pasarela CRS propietaria para sincronizar miles de inventarios en red.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "A__TEC",
+    "symbol": "A",
+    "name": "Automatización",
+    "category": "Tecnología",
+    "importance": "5",
+    "definition": "Automatización de tareas repetitivas como actualización de precios, distribución, alertas, informes o reglas de inventario.",
+    "whyRevenue": "Los sistemas tecnológicos son las venas operativas que permiten procesar datos de mercado y automatizar ventas las 24 horas del día. Automatización de tareas repetitivas como actualización de precios, distribución, alertas, informes o reglas de inventario.",
+    "application": "Integrar el PMS, Channel Manager, Motor de Reservas y RMS en una sola arquitectura en tiempo real sin descuadres. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural instala un Channel Manager integrado en la nube para dejar de actualizar manualmente las tarifas en Booking.com y Expedia.",
+    "caseChain": "Un gran grupo hotelero implementa una arquitectura segura multi-servidor con pasarela CRS propietaria para sincronizar miles de inventarios en red.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "DI__TEC",
+    "symbol": "DI",
+    "name": "Digitalización",
+    "category": "Tecnología",
+    "importance": "5",
+    "definition": "Transformación de procesos manuales en procesos digitales conectados, medibles y escalables.",
+    "whyRevenue": "Los sistemas tecnológicos son las venas operativas que permiten procesar datos de mercado y automatizar ventas las 24 horas del día. Transformación de procesos manuales en procesos digitales conectados, medibles y escalables.",
+    "application": "Integrar el PMS, Channel Manager, Motor de Reservas y RMS en una sola arquitectura en tiempo real sin descuadres. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural instala un Channel Manager integrado en la nube para dejar de actualizar manualmente las tarifas en Booking.com y Expedia.",
+    "caseChain": "Un gran grupo hotelero implementa una arquitectura segura multi-servidor con pasarela CRS propietaria para sincronizar miles de inventarios en red.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "T__ELE",
+    "symbol": "T",
+    "name": "Tecnología",
+    "category": "Elementos",
+    "importance": "4",
+    "definition": "Infraestructura tecnológica que permite capturar datos, distribuir precios, automatizar procesos y analizar resultados.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Infraestructura tecnológica que permite capturar datos, distribuir precios, automatizar procesos y analizar resultados.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "PE__ELE",
+    "symbol": "PE",
+    "name": "Personas",
+    "category": "Elementos",
+    "importance": "4",
+    "definition": "Equipos y profesionales que interpretan datos, toman decisiones y ejecutan la estrategia de revenue.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Equipos y profesionales que interpretan datos, toman decisiones y ejecutan la estrategia de revenue.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "PS__ELE",
+    "symbol": "PS",
+    "name": "Procesos",
+    "category": "Elementos",
+    "importance": "4",
+    "definition": "Metodologías, rutinas y flujos de trabajo que convierten datos y decisiones en acciones consistentes.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Metodologías, rutinas y flujos de trabajo que convierten datos y decisiones en acciones consistentes.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "DA__ELE",
+    "symbol": "DA",
+    "name": "Datos",
+    "category": "Elementos",
+    "importance": "4",
+    "definition": "Información histórica, actual y futura que permite entender demanda, rendimiento, clientes, canales y competencia.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Información histórica, actual y futura que permite entender demanda, rendimiento, clientes, canales y competencia.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "OB__HOR",
+    "symbol": "OB",
+    "name": "Reservas Actuales (OTB)",
+    "category": "Horizontes",
+    "importance": "4",
+    "definition": "Reservas confirmadas actualmente para fechas futuras, usadas para analizar ritmo de venta y ocupación esperada.",
+    "whyRevenue": "La planificación a largo plazo e identificación de tendencias macroeconómicas previenen crisis y garantizan la viabilidad futura del negocio. Reservas confirmadas actualmente para fechas futuras, usadas para analizar ritmo de venta y ocupación esperada.",
+    "application": "Analizar curvas de recesión histórica o cambios en regulaciones de viajes locales antes de presupuestar el próximo año fiscal. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un resort histórico en Galicia analiza el auge del turismo ecológico para iniciar una transición ecológica y certificar sus consumos.",
+    "caseChain": "Un desarrollador de hoteles de lujo planifica inversiones en mercados emergentes basándose en los modelos de accesibilidad aérea global a 10 años.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "LY__HOR",
+    "symbol": "LY",
+    "name": "Cierre Año Anterior (LY)",
+    "category": "Horizontes",
+    "importance": "4",
+    "definition": "Resultado final del año anterior, utilizado como referencia histórica para comparar rendimiento y planificar objetivos.",
+    "whyRevenue": "La planificación a largo plazo e identificación de tendencias macroeconómicas previenen crisis y garantizan la viabilidad futura del negocio. Resultado final del año anterior, utilizado como referencia histórica para comparar rendimiento y planificar objetivos.",
+    "application": "Analizar curvas de recesión histórica o cambios en regulaciones de viajes locales antes de presupuestar el próximo año fiscal. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un resort histórico en Galicia analiza el auge del turismo ecológico para iniciar una transición ecológica y certificar sus consumos.",
+    "caseChain": "Un desarrollador de hoteles de lujo planifica inversiones en mercados emergentes basándose en los modelos de accesibilidad aérea global a 10 años.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "SD__HOR",
+    "symbol": "SD",
+    "name": "Situación 1 Año Antes",
+    "category": "Horizontes",
+    "importance": "4",
+    "definition": "Situación registrada exactamente en la misma fecha del año anterior, útil para comparar ritmo de reservas.",
+    "whyRevenue": "La planificación a largo plazo e identificación de tendencias macroeconómicas previenen crisis y garantizan la viabilidad futura del negocio. Situación registrada exactamente en la misma fecha del año anterior, útil para comparar ritmo de reservas.",
+    "application": "Analizar curvas de recesión histórica o cambios en regulaciones de viajes locales antes de presupuestar el próximo año fiscal. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un resort histórico en Galicia analiza el auge del turismo ecológico para iniciar una transición ecológica y certificar sus consumos.",
+    "caseChain": "Un desarrollador de hoteles de lujo planifica inversiones en mercados emergentes basándose en los modelos de accesibilidad aérea global a 10 años.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "F__HOR",
+    "symbol": "F",
+    "name": "Previsión (Forecast)",
+    "category": "Horizontes",
+    "importance": "4",
+    "definition": "Estimación futura de demanda, ocupación, ingresos o resultados basada en datos y tendencias.",
+    "whyRevenue": "La planificación a largo plazo e identificación de tendencias macroeconómicas previenen crisis y garantizan la viabilidad futura del negocio. Estimación futura de demanda, ocupación, ingresos o resultados basada en datos y tendencias.",
+    "application": "Analizar curvas de recesión histórica o cambios en regulaciones de viajes locales antes de presupuestar el próximo año fiscal. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un resort histórico en Galicia analiza el auge del turismo ecológico para iniciar una transición ecológica y certificar sus consumos.",
+    "caseChain": "Un desarrollador de hoteles de lujo planifica inversiones en mercados emergentes basándose en los modelos de accesibilidad aérea global a 10 años.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "B__HOR",
+    "symbol": "B",
+    "name": "Presupuesto (Budget)",
+    "category": "Horizontes",
+    "importance": "4",
+    "definition": "Objetivo económico planificado que sirve como referencia para medir desviaciones y desempeño.",
+    "whyRevenue": "La planificación a largo plazo e identificación de tendencias macroeconómicas previenen crisis y garantizan la viabilidad futura del negocio. Objetivo económico planificado que sirve como referencia para medir desviaciones y desempeño.",
+    "application": "Analizar curvas de recesión histórica o cambios en regulaciones de viajes locales antes de presupuestar el próximo año fiscal. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un resort histórico en Galicia analiza el auge del turismo ecológico para iniciar una transición ecológica y certificar sus consumos.",
+    "caseChain": "Un desarrollador de hoteles de lujo planifica inversiones en mercados emergentes basándose en los modelos de accesibilidad aérea global a 10 años.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "YD__HOR",
+    "symbol": "YD",
+    "name": "Acumulación Año (YTD)",
+    "category": "Horizontes",
+    "importance": "4",
+    "definition": "Resultado acumulado desde el inicio del año hasta la fecha actual.",
+    "whyRevenue": "La planificación a largo plazo e identificación de tendencias macroeconómicas previenen crisis y garantizan la viabilidad futura del negocio. Resultado acumulado desde el inicio del año hasta la fecha actual.",
+    "application": "Analizar curvas de recesión histórica o cambios en regulaciones de viajes locales antes de presupuestar el próximo año fiscal. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un resort histórico en Galicia analiza el auge del turismo ecológico para iniciar una transición ecológica y certificar sus consumos.",
+    "caseChain": "Un desarrollador de hoteles de lujo planifica inversiones en mercados emergentes basándose en los modelos de accesibilidad aérea global a 10 años.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "EE__SOS",
+    "symbol": "EE",
+    "name": "Eficiencia Energética",
+    "category": "Sostenibilidad",
+    "importance": "4",
+    "definition": "Optimización del consumo energético para reducir costes, emisiones y dependencia de recursos.",
+    "whyRevenue": "La sostenibilidad reduce significativamente los consumos operativos críticos (agua, luz, insumos) y capta un mercado premium de viajeros de alto valor. Optimización del consumo energético para reducir costes, emisiones y dependencia de recursos.",
+    "application": "Llevar la trazabilidad del consumo eléctrico e instalar luces de activación inteligente y sistemas ecológicos de ahorro de agua en baños. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural de alta montaña implementa calderas de biomasa orgánica y paneles solares facilitando visitas eco-guiadas de bajo impacto.",
+    "caseChain": "Una marca de resorts de lujo elimina por completo los envases de plástico de un solo uso y financia la conservación marina de sus arrecifes locales dándolo a conocer.",
+    "related": [
+      "W",
+      "WS",
+      "SR"
+    ]
+  },
+  {
+    "internalId": "W__SOS",
+    "symbol": "W",
+    "name": "Agua",
+    "category": "Sostenibilidad",
+    "importance": "4",
+    "definition": "Gestión responsable del consumo de agua en habitaciones, lavandería, piscinas, jardines y operaciones.",
+    "whyRevenue": "La sostenibilidad reduce significativamente los consumos operativos críticos (agua, luz, insumos) y capta un mercado premium de viajeros de alto valor. Gestión responsable del consumo de agua en habitaciones, lavandería, piscinas, jardines y operaciones.",
+    "application": "Llevar la trazabilidad del consumo eléctrico e instalar luces de activación inteligente y sistemas ecológicos de ahorro de agua en baños. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural de alta montaña implementa calderas de biomasa orgánica y paneles solares facilitando visitas eco-guiadas de bajo impacto.",
+    "caseChain": "Una marca de resorts de lujo elimina por completo los envases de plástico de un solo uso y financia la conservación marina de sus arrecifes locales dándolo a conocer.",
+    "related": [
+      "EE",
+      "WS",
+      "SR"
+    ]
+  },
+  {
+    "internalId": "WS__SOS",
+    "symbol": "WS",
+    "name": "Desperdicios",
+    "category": "Sostenibilidad",
+    "importance": "4",
+    "definition": "Reducción, clasificación y tratamiento de residuos generados por la operación hotelera.",
+    "whyRevenue": "La sostenibilidad reduce significativamente los consumos operativos críticos (agua, luz, insumos) y capta un mercado premium de viajeros de alto valor. Reducción, clasificación y tratamiento de residuos generados por la operación hotelera.",
+    "application": "Llevar la trazabilidad del consumo eléctrico e instalar luces de activación inteligente y sistemas ecológicos de ahorro de agua en baños. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural de alta montaña implementa calderas de biomasa orgánica y paneles solares facilitando visitas eco-guiadas de bajo impacto.",
+    "caseChain": "Una marca de resorts de lujo elimina por completo los envases de plástico de un solo uso y financia la conservación marina de sus arrecifes locales dándolo a conocer.",
+    "related": [
+      "EE",
+      "W",
+      "SR"
+    ]
+  },
+  {
+    "internalId": "LC__SOS",
+    "symbol": "LC",
+    "name": "Comunidad Local",
+    "category": "Sostenibilidad",
+    "importance": "4",
+    "definition": "Relación del hotel con proveedores, empleo, cultura y economía del entorno local.",
+    "whyRevenue": "La sostenibilidad reduce significativamente los consumos operativos críticos (agua, luz, insumos) y capta un mercado premium de viajeros de alto valor. Relación del hotel con proveedores, empleo, cultura y economía del entorno local.",
+    "application": "Llevar la trazabilidad del consumo eléctrico e instalar luces de activación inteligente y sistemas ecológicos de ahorro de agua en baños. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural de alta montaña implementa calderas de biomasa orgánica y paneles solares facilitando visitas eco-guiadas de bajo impacto.",
+    "caseChain": "Una marca de resorts de lujo elimina por completo los envases de plástico de un solo uso y financia la conservación marina de sus arrecifes locales dándolo a conocer.",
+    "related": [
+      "EE",
+      "W",
+      "WS",
+      "SR"
+    ]
+  },
+  {
+    "internalId": "SR__SOS",
+    "symbol": "SR",
+    "name": "Responsabilidad Social",
+    "category": "Sostenibilidad",
+    "importance": "4",
+    "definition": "Compromiso del hotel con prácticas éticas, sociales y responsables hacia empleados, clientes y comunidad.",
+    "whyRevenue": "La sostenibilidad reduce significativamente los consumos operativos críticos (agua, luz, insumos) y capta un mercado premium de viajeros de alto valor. Compromiso del hotel con prácticas éticas, sociales y responsables hacia empleados, clientes y comunidad.",
+    "application": "Llevar la trazabilidad del consumo eléctrico e instalar luces de activación inteligente y sistemas ecológicos de ahorro de agua en baños. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural de alta montaña implementa calderas de biomasa orgánica y paneles solares facilitando visitas eco-guiadas de bajo impacto.",
+    "caseChain": "Una marca de resorts de lujo elimina por completo los envases de plástico de un solo uso y financia la conservación marina de sus arrecifes locales dándolo a conocer.",
+    "related": [
+      "EE",
+      "W",
+      "WS"
+    ]
+  },
+  {
+    "internalId": "EQ__SOS",
+    "symbol": "EQ",
+    "name": "Igualdad",
+    "category": "Sostenibilidad",
+    "importance": "4",
+    "definition": "Aplicación de políticas de igualdad, inclusión y trato justo dentro de la organización.",
+    "whyRevenue": "La sostenibilidad reduce significativamente los consumos operativos críticos (agua, luz, insumos) y capta un mercado premium de viajeros de alto valor. Aplicación de políticas de igualdad, inclusión y trato justo dentro de la organización.",
+    "application": "Llevar la trazabilidad del consumo eléctrico e instalar luces de activación inteligente y sistemas ecológicos de ahorro de agua en baños. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural de alta montaña implementa calderas de biomasa orgánica y paneles solares facilitando visitas eco-guiadas de bajo impacto.",
+    "caseChain": "Una marca de resorts de lujo elimina por completo los envases de plástico de un solo uso y financia la conservación marina de sus arrecifes locales dándolo a conocer.",
+    "related": [
+      "EE",
+      "W",
+      "WS",
+      "SR"
+    ]
+  },
+  {
+    "internalId": "CF__SOS",
+    "symbol": "CF",
+    "name": "Certificaciones",
+    "category": "Sostenibilidad",
+    "importance": "4",
+    "definition": "Sellos o acreditaciones que validan estándares de calidad, sostenibilidad, seguridad o responsabilidad.",
+    "whyRevenue": "La sostenibilidad reduce significativamente los consumos operativos críticos (agua, luz, insumos) y capta un mercado premium de viajeros de alto valor. Sellos o acreditaciones que validan estándares de calidad, sostenibilidad, seguridad o responsabilidad.",
+    "application": "Llevar la trazabilidad del consumo eléctrico e instalar luces de activación inteligente y sistemas ecológicos de ahorro de agua en baños. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural de alta montaña implementa calderas de biomasa orgánica y paneles solares facilitando visitas eco-guiadas de bajo impacto.",
+    "caseChain": "Una marca de resorts de lujo elimina por completo los envases de plástico de un solo uso y financia la conservación marina de sus arrecifes locales dándolo a conocer.",
+    "related": [
+      "EE",
+      "W",
+      "WS",
+      "SR"
+    ]
+  },
+  {
+    "internalId": "AR__KPI",
+    "symbol": "AR",
+    "name": "Precio Medio Diario (ADR)",
+    "category": "Indicadores KPI",
+    "importance": "5",
+    "definition": "Indicador que mide el precio medio vendido por habitación ocupada durante un período determinado.",
+    "whyRevenue": "La Tarifa Media Diaria (ADR) mide los ingresos promedio generados por cada habitación ocupada, indicando el poder absoluto de fijación de precios sin diluir el inventario.",
+    "application": "Revisar diariamente los ingresos de marcas asociadas de alojamiento entre las noches vendidas para vigilar el cumplimiento de la tarifa óptima.",
+    "caseIndependent": "Una casa de huéspedes histórica prefiere restringir ofertas masivas a última hora, sosteniendo un ADR un 15% superior al destino.",
+    "caseChain": "Un rascacielos urbano de gran capacidad ajusta los precios mínimos automáticos en su motor corporativo para sostener el ADR corporativo durante congresos.",
+    "related": [
+      "RP",
+      "OC",
+      "Y",
+      "N",
+      "TP"
+    ]
+  },
+  {
+    "internalId": "OC__KPI",
+    "symbol": "OC",
+    "name": "Ocupación",
+    "category": "Indicadores KPI",
+    "importance": "5",
+    "definition": "Porcentaje de habitaciones ocupadas respecto al inventario disponible en un período concreto.",
+    "whyRevenue": "La tasa de ocupación (Occupancy %) mide el aprovechamiento físico del hotel y asegura un flujo constante de clientes hacia servicios de ingresos complementarios (restoranes, spa, etc.).",
+    "application": "Monitorear el ritmo de reservas (Booking Pace) para predecir si el hotel se llenará antes de lo previsto y comenzar a subir tarifas de forma escalonada.",
+    "caseIndependent": "Un hotel céntrico mediano conserva una ocupación estable apoyándose en acuerdos estables de alojamiento con tripulaciones técnicas de paso.",
+    "caseChain": "Un gran resort vacacional pre-vende un 25% de su inventario a operadores mayoristas con gran antelación para asegurar un colchón base de ocupación.",
+    "related": [
+      "AR",
+      "RP",
+      "AL",
+      "LS",
+      "CT"
+    ]
+  },
+  {
+    "internalId": "AL__KPI",
+    "symbol": "AL",
+    "name": "Estancia Media",
+    "category": "Indicadores KPI",
+    "importance": "5",
+    "definition": "Promedio de noches que permanece alojado un cliente o reserva en el hotel.",
+    "whyRevenue": "Los KPIs cuantitativos permiten auditar el éxito financiero real de la explotación hotelera más allá de las meras intuiciones subjetivas. Promedio de noches que permanece alojado un cliente o reserva en el hotel.",
+    "application": "Diseñar cuadros de mando (dashboards) semanales que comparen la evolución de la ocupación, tarifa media y costos por canales versus el mes anterior. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un albergue urbano controla su ADR y comisiones mensuales de OTAs para asegurar que su RevPAR neto rinda por encima de su umbral crítico.",
+    "caseChain": "Un consorcio multinacional realiza juntas de directores analizando desviaciones mensuales de GOPPAR y Net RevPAR en todas sus marcas afiliadas.",
+    "related": [
+      "OC",
+      "LS",
+      "CT",
+      "DP"
+    ]
+  },
+  {
+    "internalId": "GP__KPI",
+    "symbol": "GP",
+    "name": "Margen Bruto (GOPPAR)",
+    "category": "Indicadores KPI",
+    "importance": "5",
+    "definition": "Indicador que relaciona el beneficio operativo bruto con las habitaciones disponibles.",
+    "whyRevenue": "Mide el beneficio bruto de explotación por habitación disponible, garantizando que las tácticas aplicadas protejan el margen neto de beneficios y no solo inflen las ventas.",
+    "application": "Alinear los recursos operativos y las compras del hotel con el rango estimado de ocupación semanal para evitar el desperdicio de horas extras.",
+    "caseIndependent": "Un hotel de montaña contiene los costes cerrando temporalmente un ala secundaria de habitaciones de baja demanda a mitad de semana.",
+    "caseChain": "Un gran grupo internacional automatiza los pedidos y plantillas de cocina vinculándolos dinámicamente a las proyecciones de GOPPAR para el mes.",
+    "related": [
+      "RP",
+      "TP",
+      "N",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "RP__KPI",
+    "symbol": "RP",
+    "name": "Ingreso Habitación Disponible (RevPAR)",
+    "category": "Indicadores KPI",
+    "importance": "5",
+    "definition": "Indicador que mide los ingresos de alojamiento generados por habitación disponible.",
+    "whyRevenue": "Es el indicador fundamental del sector. Combina la ocupación física disponible con el precio medio cobrado, representando el retorno financiero de la capacidad general del hotel.",
+    "application": "Evaluar el éxito de la estrategia integral de ventas comparando el RevPAR del mes contra el presupuesto estimado y el resultado del año anterior.",
+    "caseIndependent": "Un hostal moderno de playa incrementa su RevPAR anual un 10% restringiendo las estancias de una sola noche en fines de semana de alta ocupación.",
+    "caseChain": "Un holding hotelero internacional vincula los bonos trimestrales de los directores generales de sus complejos de playa directamente al RevPAR Index.",
+    "related": [
+      "AR",
+      "OC",
+      "GP",
+      "N",
+      "TP"
+    ]
+  },
+  {
+    "internalId": "N__KPI",
+    "symbol": "N",
+    "name": "Neto RevPAR",
+    "category": "Indicadores KPI",
+    "importance": "5",
+    "definition": "RevPAR ajustado descontando costes de distribución, comisiones u otros costes comerciales.",
+    "whyRevenue": "Los KPIs cuantitativos permiten auditar el éxito financiero real de la explotación hotelera más allá de las meras intuiciones subjetivas. RevPAR ajustado descontando costes de distribución, comisiones u otros costes comerciales.",
+    "application": "Diseñar cuadros de mando (dashboards) semanales que comparen la evolución de la ocupación, tarifa media y costos por canales versus el mes anterior. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un albergue urbano controla su ADR y comisiones mensuales de OTAs para asegurar que su RevPAR neto rinda por encima de su umbral crítico.",
+    "caseChain": "Un consorcio multinacional realiza juntas de directores analizando desviaciones mensuales de GOPPAR y Net RevPAR en todas sus marcas afiliadas.",
+    "related": [
+      "RP",
+      "AR",
+      "CH",
+      "OT",
+      "BO"
+    ]
+  },
+  {
+    "internalId": "TP__KPI",
+    "symbol": "TP",
+    "name": "Total RevPAR",
+    "category": "Indicadores KPI",
+    "importance": "5",
+    "definition": "Indicador que incluye ingresos totales por habitación disponible, no solo alojamiento.",
+    "whyRevenue": "TrevPAR evalúa el gasto completo del huésped en el resort, impulsando la disciplina de Revenue Management total más allá de la simple venta de la cama física.",
+    "application": "Estudiar la rentabilidad combinada de habitaciones, restauración y masajes para empujar paquetes cerrados de alto valor.",
+    "caseIndependent": "Un pequeño hotel con viñedo en la Rioja aumenta su TrevPAR sugiriendo catas guiadas y visitas privadas a las bodegas durante el proceso de reserva directa.",
+    "caseChain": "Una cadena que opera complejos de todo incluido centraliza la analítica de TrevPAR para calibrar el stock y la fuerza laboral de alimentos y bebidas.",
+    "related": [
+      "RP",
+      "GP",
+      "FB",
+      "FD"
+    ]
+  },
+  {
+    "internalId": "FR__TAR",
+    "symbol": "FR",
+    "name": "Cancelación Gratuita",
+    "category": "Tarifas",
+    "importance": "4",
+    "definition": "Tarifa flexible que permite cancelar sin coste hasta una fecha o plazo determinado.",
+    "whyRevenue": "La arquitectura tarifaria adecuada permite capturar de forma óptima el excedente del consumidor de diferentes nichos de mercado (corporativo, ocio, grupos). Tarifa flexible que permite cancelar sin coste hasta una fecha o plazo determinado.",
+    "application": "Crear una matriz tarifaria variable con reglas bien delineadas de reservas anticipadas y estancias mínimas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique ofrece tarifas 'no reembolsables' con un 15% de descuento para consolidar liquidez de tesorería fuera de temporada.",
+    "caseChain": "Una multinacional lanza tarifas opacas combinadas con billetes de avión de forma automática a través de operadores mayoristas tradicionales.",
+    "related": [
+      "NR",
+      "Y",
+      "EB",
+      "PY"
+    ]
+  },
+  {
+    "internalId": "NR__TAR",
+    "symbol": "NR",
+    "name": "No Reembolsable",
+    "category": "Tarifas",
+    "importance": "4",
+    "definition": "Tarifa con condiciones restrictivas que normalmente no permite reembolso a cambio de mejor precio.",
+    "whyRevenue": "La arquitectura tarifaria adecuada permite capturar de forma óptima el excedente del consumidor de diferentes nichos de mercado (corporativo, ocio, grupos). Tarifa con condiciones restrictivas que normalmente no permite reembolso a cambio de mejor precio.",
+    "application": "Crear una matriz tarifaria variable con reglas bien delineadas de reservas anticipadas y estancias mínimas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique ofrece tarifas 'no reembolsables' con un 15% de descuento para consolidar liquidez de tesorería fuera de temporada.",
+    "caseChain": "Una multinacional lanza tarifas opacas combinadas con billetes de avión de forma automática a través de operadores mayoristas tradicionales.",
+    "related": [
+      "FR",
+      "AR",
+      "CH",
+      "OT"
+    ]
+  },
+  {
+    "internalId": "LS__TAR",
+    "symbol": "LS",
+    "name": "Estancias Largas",
+    "category": "Tarifas",
+    "importance": "4",
+    "definition": "Tarifa o condición especial diseñada para reservas con varias noches o estancias prolongadas.",
+    "whyRevenue": "La arquitectura tarifaria adecuada permite capturar de forma óptima el excedente del consumidor de diferentes nichos de mercado (corporativo, ocio, grupos). Tarifa o condición especial diseñada para reservas con varias noches o estancias prolongadas.",
+    "application": "Crear una matriz tarifaria variable con reglas bien delineadas de reservas anticipadas y estancias mínimas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique ofrece tarifas 'no reembolsables' con un 15% de descuento para consolidar liquidez de tesorería fuera de temporada.",
+    "caseChain": "Una multinacional lanza tarifas opacas combinadas con billetes de avión de forma automática a través de operadores mayoristas tradicionales.",
+    "related": [
+      "AL",
+      "OC",
+      "CT",
+      "DP"
+    ]
+  },
+  {
+    "internalId": "EB__TAR",
+    "symbol": "EB",
+    "name": "Reservas Anticipadas",
+    "category": "Tarifas",
+    "importance": "4",
+    "definition": "Tarifa incentivada para reservas realizadas con antelación, útil para captar demanda temprana.",
+    "whyRevenue": "La arquitectura tarifaria adecuada permite capturar de forma óptima el excedente del consumidor de diferentes nichos de mercado (corporativo, ocio, grupos). Tarifa incentivada para reservas realizadas con antelación, útil para captar demanda temprana.",
+    "application": "Crear una matriz tarifaria variable con reglas bien delineadas de reservas anticipadas y estancias mínimas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique ofrece tarifas 'no reembolsables' con un 15% de descuento para consolidar liquidez de tesorería fuera de temporada.",
+    "caseChain": "Una multinacional lanza tarifas opacas combinadas con billetes de avión de forma automática a través de operadores mayoristas tradicionales.",
+    "related": [
+      "PY",
+      "FR",
+      "NR",
+      "BO"
+    ]
+  },
+  {
+    "internalId": "CR__TAR",
+    "symbol": "CR",
+    "name": "Tarifas Corporativas",
+    "category": "Tarifas",
+    "importance": "4",
+    "definition": "Tarifa negociada para empresas, cuentas corporativas o viajeros de negocios recurrentes.",
+    "whyRevenue": "La arquitectura tarifaria adecuada permite capturar de forma óptima el excedente del consumidor de diferentes nichos de mercado (corporativo, ocio, grupos). Tarifa negociada para empresas, cuentas corporativas o viajeros de negocios recurrentes.",
+    "application": "Crear una matriz tarifaria variable con reglas bien delineadas de reservas anticipadas y estancias mínimas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique ofrece tarifas 'no reembolsables' con un 15% de descuento para consolidar liquidez de tesorería fuera de temporada.",
+    "caseChain": "Una multinacional lanza tarifas opacas combinadas con billetes de avión de forma automática a través de operadores mayoristas tradicionales.",
+    "related": [
+      "NT",
+      "PM",
+      "BU"
+    ]
+  },
+  {
+    "internalId": "PY__TAR",
+    "symbol": "PY",
+    "name": "Paridad de Precios",
+    "category": "Tarifas",
+    "importance": "4",
+    "definition": "Consistencia de precios entre canales para evitar conflictos de distribución y percepción de valor.",
+    "whyRevenue": "La arquitectura tarifaria adecuada permite capturar de forma óptima el excedente del consumidor de diferentes nichos de mercado (corporativo, ocio, grupos). Consistencia de precios entre canales para evitar conflictos de distribución y percepción de valor.",
+    "application": "Crear una matriz tarifaria variable con reglas bien delineadas de reservas anticipadas y estancias mínimas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique ofrece tarifas 'no reembolsables' con un 15% de descuento para consolidar liquidez de tesorería fuera de temporada.",
+    "caseChain": "Una multinacional lanza tarifas opacas combinadas con billetes de avión de forma automática a través de operadores mayoristas tradicionales.",
+    "related": [
+      "FR",
+      "EB",
+      "BO"
+    ]
+  },
+  {
+    "internalId": "Y__TAR",
+    "symbol": "Y",
+    "name": "Tarifas Dinámicas",
+    "category": "Tarifas",
+    "importance": "5",
+    "definition": "Tarifa ajustable que cambia según demanda, ocupación, antelación, canal y estrategia.",
+    "whyRevenue": "La arquitectura tarifaria adecuada permite capturar de forma óptima el excedente del consumidor de diferentes nichos de mercado (corporativo, ocio, grupos). Tarifa ajustable que cambia según demanda, ocupación, antelación, canal y estrategia.",
+    "application": "Crear una matriz tarifaria variable con reglas bien delineadas de reservas anticipadas y estancias mínimas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique ofrece tarifas 'no reembolsables' con un 15% de descuento para consolidar liquidez de tesorería fuera de temporada.",
+    "caseChain": "Una multinacional lanza tarifas opacas combinadas con billetes de avión de forma automática a través de operadores mayoristas tradicionales.",
+    "related": [
+      "FR",
+      "AR",
+      "OC",
+      "LS"
+    ]
+  },
+  {
+    "internalId": "NT__TAR",
+    "symbol": "NT",
+    "name": "Tarifas Netas",
+    "category": "Tarifas",
+    "importance": "4",
+    "definition": "Precio neto cedido a intermediarios o colaboradores, normalmente sin comisión incluida.",
+    "whyRevenue": "La arquitectura tarifaria adecuada permite capturar de forma óptima el excedente del consumidor de diferentes nichos de mercado (corporativo, ocio, grupos). Precio neto MIEDO a intermediarios o colaboradores, normalmente sin comisión incluida.",
+    "application": "Crear una matriz tarifaria variable con reglas bien delineadas de reservas anticipadas y estancias mínimas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique ofrece tarifas 'no reembolsables' con un 15% de descuento para consolidar liquidez de tesorería fuera de temporada.",
+    "caseChain": "Una multinacional lanza tarifas opacas combinadas con billetes de avión de forma automática a través de operadores mayoristas tradicionales.",
+    "related": [
+      "CR",
+      "OT",
+      "TO"
+    ]
+  },
+  {
+    "internalId": "WD__MKT",
+    "symbol": "WD",
+    "name": "Diseño Web",
+    "category": "Marketing",
+    "importance": "4",
+    "definition": "Diseño y optimización de la web del hotel para comunicar valor, mejorar conversión y potenciar venta directa.",
+    "whyRevenue": "El marketing es el canalizador de la demanda. Atrae tráfico de valor hacia la web oficial, mejorando el canal directo y reduciendo los costosos cargos de distribución externos. Diseño y optimización de la web del hotel para comunicar valor, mejorar conversión y potenciar venta directa.",
+    "application": "Ejecutar campañas de SEO local y anuncios de metabúsqueda optimizados para capturar clientes en la fase inicial de búsqueda. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural boutique lanza anuncios centrados en 'escapadas de fin de semana' en redes sociales de provincias contiguas durante puentes.",
+    "caseChain": "Una marca urbana escala campañas globales de retargoteo dinámico con códigos de promoción dirigidos a usuarios que abandonaron la reserva.",
+    "related": [
+      "SE",
+      "BO",
+      "SM",
+      "L"
+    ]
+  },
+  {
+    "internalId": "SM__MKT",
+    "symbol": "SM",
+    "name": "Redes Sociales",
+    "category": "Marketing",
+    "importance": "4",
+    "definition": "Uso de plataformas sociales para visibilidad, inspiración, relación con clientes y construcción de marca.",
+    "whyRevenue": "El marketing es el canalizador de la demanda. Atrae tráfico de valor hacia la web oficial, mejorando el canal directo y reduciendo los costosos cargos de distribución externos. Uso de plataformas sociales para visibilidad, inspiración, relación con clientes y construcción de marca.",
+    "application": "Ejecutar campañas de SEO local y anuncios de metabúsqueda optimizados para capturar clientes en la fase inicial de búsqueda. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural boutique lanza anuncios centrados en 'escapadas de fin de semana' en redes sociales de provincias contiguas durante puentes.",
+    "caseChain": "Una marca urbana escala campañas globales de retargoteo dinámico con códigos de promoción dirigidos a usuarios que abandonaron la reserva.",
+    "related": [
+      "SE",
+      "WD",
+      "CN",
+      "AD"
+    ]
+  },
+  {
+    "internalId": "CN__MKT",
+    "symbol": "CN",
+    "name": "Comunicación",
+    "category": "Marketing",
+    "importance": "4",
+    "definition": "Mensajes, tono y narrativa utilizados para transmitir propuesta de valor y diferenciar el hotel.",
+    "whyRevenue": "El marketing es el canalizador de la demanda. Atrae tráfico de valor hacia la web oficial, mejorando el canal directo y reduciendo los costosos cargos de distribución externos. Mensajes, tono y narrativa utilizados para transmitir propuesta de valor y diferenciar el hotel.",
+    "application": "Ejecutar campañas de SEO local y anuncios de metabúsqueda optimizados para capturar clientes en la fase inicial de búsqueda. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural boutique lanza anuncios centrados en 'escapadas de fin de semana' en redes sociales de provincias contiguas durante puentes.",
+    "caseChain": "Una marca urbana escala campañas globales de retargoteo dinámico con códigos de promoción dirigidos a usuarios que abandonaron la reserva.",
+    "related": [
+      "SE",
+      "WD",
+      "SM",
+      "EM"
+    ]
+  },
+  {
+    "internalId": "AD__MKT",
+    "symbol": "AD",
+    "name": "Publicidad",
+    "category": "Marketing",
+    "importance": "4",
+    "definition": "Acciones de pago para captar demanda, aumentar visibilidad y dirigir tráfico a canales estratégicos.",
+    "whyRevenue": "El marketing es el canalizador de la demanda. Atrae tráfico de valor hacia la web oficial, mejorando el canal directo y reduciendo los costosos cargos de distribución externos. Acciones de pago para captar demanda, aumentar visibilidad y dirigir tráfico a canales estratégicos.",
+    "application": "Ejecutar campañas de SEO local y anuncios de metabúsqueda optimizados para capturar clientes en la fase inicial de búsqueda. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural boutique lanza anuncios centrados en 'escapadas de fin de semana' en redes sociales de provincias contiguas durante puentes.",
+    "caseChain": "Una marca urbana escala campañas globales de retargoteo dinámico con códigos de promoción dirigidos a usuarios que abandonaron la reserva.",
+    "related": [
+      "SM",
+      "BO",
+      "L",
+      "MT"
+    ]
+  },
+  {
+    "internalId": "CM__MKT",
+    "symbol": "CM",
+    "name": "Gestor Relaciones Clientes (CRM)",
+    "category": "Marketing",
+    "importance": "4",
+    "definition": "Sistema y estrategia para gestionar relaciones con clientes, segmentar comunicaciones y fidelizar.",
+    "whyRevenue": "El marketing es el canalizador de la demanda. Atrae tráfico de valor hacia la web oficial, mejorando el canal directo y reduciendo los costosos cargos de distribución externos. Sistema y estrategia para gestionar relaciones con clientes, segmentar comunicaciones y fidelizar.",
+    "application": "Ejecutar campañas de SEO local y anuncios de metabúsqueda optimizados para capturar clientes en la fase inicial de búsqueda. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural boutique lanza anuncios centrados en 'escapadas de fin de semana' en redes sociales de provincias contiguas durante puentes.",
+    "caseChain": "Una marca urbana escala campañas globales de retargoteo dinámico con códigos de promoción dirigidos a usuarios que abandonaron la reserva.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "MT__MKT",
+    "symbol": "MT",
+    "name": "Metabuscadores",
+    "category": "Marketing",
+    "importance": "4",
+    "definition": "Presencia en comparadores de precios que muestran disponibilidad y tarifas por canal.",
+    "whyRevenue": "El marketing es el canalizador de la demanda. Atrae tráfico de valor hacia la web oficial, mejorando el canal directo y reduciendo los costosos cargos de distribución externos. Presencia en comparadores de precios que muestran disponibilidad y tarifas por canal.",
+    "application": "Ejecutar campañas de SEO local y anuncios de metabúsqueda optimizados para capturar clientes en la fase inicial de búsqueda. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural boutique lanza anuncios centrados en 'escapadas de fin de semana' en redes sociales de provincias contiguas durante puentes.",
+    "caseChain": "Una marca urbana escala campañas globales de retargoteo dinámico con códigos de promoción dirigidos a usuarios que abandonaron la reserva.",
+    "related": [
+      "AD",
+      "DM",
+      "RI"
+    ]
+  },
+  {
+    "internalId": "EM__MKT",
+    "symbol": "EM",
+    "name": "Email Marketing",
+    "category": "Marketing",
+    "importance": "4",
+    "definition": "Comunicación directa por correo electrónico para captar, fidelizar y reactivar clientes.",
+    "whyRevenue": "El marketing es el canalizador de la demanda. Atrae tráfico de valor hacia la web oficial, mejorando el canal directo y reduciendo los costosos cargos de distribución externos. Comunicación directa por correo electrónico para captar, fidelizar y reactivar clientes.",
+    "application": "Ejecutar campañas de SEO local y anuncios de metabúsqueda optimizados para capturar clientes en la fase inicial de búsqueda. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural boutique lanza anuncios centrados en 'escapadas de fin de semana' en redes sociales de provincias contiguas durante puentes.",
+    "caseChain": "Una marca urbana escala campañas globales de retargoteo dinámico con códigos de promoción dirigidos a usuarios que abandonaron la reserva.",
+    "related": [
+      "BO",
+      "CN",
+      "L"
+    ]
+  },
+  {
+    "internalId": "L__MKT",
+    "symbol": "L",
+    "name": "Misma Fecha Año Anterior",
+    "category": "Marketing",
+    "importance": "4",
+    "definition": "Comparación con el mismo día del año anterior para analizar ritmo y comportamiento comercial.",
+    "whyRevenue": "El marketing es el canalizador de la demanda. Atrae tráfico de valor hacia la web oficial, mejorando el canal directo y reduciendo los costosos cargos de distribución externos. Comparación con el mismo día del año anterior para analizar ritmo y comportamiento comercial.",
+    "application": "Ejecutar campañas de SEO local y anuncios de metabúsqueda optimizados para capturar clientes en la fase inicial de búsqueda. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural boutique lanza anuncios centrados en 'escapadas de fin de semana' en redes sociales de provincias contiguas durante puentes.",
+    "caseChain": "Una marca urbana escala campañas globales de retargoteo dinámico con códigos de promoción dirigidos a usuarios que abandonaron la reserva.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "DM__MKT",
+    "symbol": "DM",
+    "name": "Marketing Digital",
+    "category": "Marketing",
+    "importance": "4",
+    "definition": "Conjunto de estrategias digitales orientadas a atraer tráfico, convertir reservas y fortalecer la marca.",
+    "whyRevenue": "El marketing es el canalizador de la demanda. Atrae tráfico de valor hacia la web oficial, mejorando el canal directo y reduciendo los costosos cargos de distribución externos. Conjunto de estrategias digitales orientadas a atraer tráfico, convertir reservas y fortalecer la marca.",
+    "application": "Ejecutar campañas de SEO local y anuncios de metabúsqueda optimizados para capturar clientes en la fase inicial de búsqueda. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel rural boutique lanza anuncios centrados en 'escapadas de fin de semana' en redes sociales de provincias contiguas durante puentes.",
+    "caseChain": "Una marca urbana escala campañas globales de retargoteo dinámico con códigos de promoción dirigidos a usuarios que abandonaron la reserva.",
+    "related": [
+      "MT",
+      "RI",
+      "MP"
+    ]
+  },
+  {
+    "internalId": "MS__CMP",
+    "symbol": "MS",
+    "name": "Cuota de Mercado (MPI)",
+    "category": "Competidores",
+    "importance": "4",
+    "definition": "Indicador de participación o penetración del hotel frente a su mercado o conjunto competitivo.",
+    "whyRevenue": "El Benchmarking constante ayuda a entender el posicionamiento y valor relativo del hotel frente a su Compset (conjunto competitivo). Indicador de participación o penetración del hotel frente a su mercado o conjunto competitivo.",
+    "application": "Revaluar periódicamente la cesta de rivales directos en base a renovaciones de habitaciones, reputación online u oferta de restauración. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hostal moderno monitorea el precio de los 3 hostales más similares de la calle los viernes para no quedar fuera del mercado de viajeros mochileros.",
+    "caseChain": "Una firma corporativa de primer nivel contrata herramientas automáticas de BI para vigilar diariamente el índice de penetración del compset de todas sus delegaciones.",
+    "related": [
+      "RI",
+      "MP",
+      "RG",
+      "CS"
+    ]
+  },
+  {
+    "internalId": "CS__CMP",
+    "symbol": "CS",
+    "name": "Competidores",
+    "category": "Competidores",
+    "importance": "4",
+    "definition": "Hoteles o alojamientos comparables que compiten por el mismo cliente, zona, segmento o propuesta de valor.",
+    "whyRevenue": "El Benchmarking constante ayuda a entender el posicionamiento y valor relativo del hotel frente a su Compset (conjunto competitivo). Hoteles o alojamientos comparables que compiten por el mismo cliente, zona, segmento o propuesta de valor.",
+    "application": "Revaluar periódicamente la cesta de rivales directos en base a renovaciones de habitaciones, reputación online u oferta de restauración. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hostal moderno monitorea el precio de los 3 hostales más similares de la calle los viernes para no quedar fuera del mercado de viajeros mochileros.",
+    "caseChain": "Una firma corporativa de primer nivel contrata herramientas automáticas de BI para vigilar diariamente el índice de penetración del compset de todas sus delegaciones.",
+    "related": [
+      "RI",
+      "MP",
+      "RG",
+      "MS"
+    ]
+  },
+  {
+    "internalId": "MP__CMP",
+    "symbol": "MP",
+    "name": "Índice de Penetración (MPI)",
+    "category": "Competidores",
+    "importance": "4",
+    "definition": "Índice que compara la ocupación del hotel con la ocupación del conjunto competitivo.",
+    "whyRevenue": "El Benchmarking constante ayuda a entender el posicionamiento y valor relativo del hotel frente a su Compset (conjunto competitivo). Índice que compara la ocupación del hotel con la ocupación del conjunto competitivo.",
+    "application": "Revaluar periódicamente la cesta de rivales directos en base a renovaciones de habitaciones, reputación online u oferta de restauración. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hostal moderno monitorea el precio de los 3 hostales más similares de la calle los viernes para no quedar fuera del mercado de viajeros mochileros.",
+    "caseChain": "Una firma corporativa de primer nivel contrata herramientas automáticas de BI para vigilar diariamente el índice de penetración del compset de todas sus delegaciones.",
+    "related": [
+      "RI",
+      "RG",
+      "MS",
+      "CS"
+    ]
+  },
+  {
+    "internalId": "RI__CMP",
+    "symbol": "RI",
+    "name": "Índice de Ingresos",
+    "category": "Competidores",
+    "importance": "4",
+    "definition": "Índice que compara el RevPAR del hotel con el RevPAR del conjunto competitivo.",
+    "whyRevenue": "El Benchmarking constante ayuda a entender el posicionamiento y valor relativo del hotel frente a su Compset (conjunto competitivo). Índice que compara el RevPAR del hotel con el RevPAR del conjunto competitivo.",
+    "application": "Revaluar periódicamente la cesta de rivales directos en base a renovaciones de habitaciones, reputación online u oferta de restauración. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hostal moderno monitorea el precio de los 3 hostales más similares de la calle los viernes para no quedar fuera del mercado de viajeros mochileros.",
+    "caseChain": "Una firma corporativa de primer nivel contrata herramientas automáticas de BI para vigilar diariamente el índice de penetración del compset de todas sus delegaciones.",
+    "related": [
+      "CT",
+      "DP",
+      "LS"
+    ]
+  },
+  {
+    "internalId": "CH__HER",
+    "symbol": "CH",
+    "name": "Channel Manager",
+    "category": "Herramientas",
+    "importance": "5",
+    "definition": "Herramienta que sincroniza precios, disponibilidad e inventario entre el PMS, motor de reservas y canales externos.",
+    "whyRevenue": "Las aplicaciones de software liberan al equipo del hotel de tareas repetitivas, permitiéndoles enfocar los esfuerzos en la fijación de estrategias. Herramienta que sincroniza precios, disponibilidad e inventario entre el PMS, motor de reservas y canales externos.",
+    "application": "Vincular el RMS con el PMS para automatizar el trasvase de reservas e incorporar las recomendaciones dinámicas de precio propuestas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un pequeño hotel en el Pirineo adopta un RMS liviano en régimen SaaS para actualizar tarifas automáticamente según el nivel de demanda local en pistas.",
+    "caseChain": "Un grupo global consolida un equipo central de analistas automatizando informes integrados procedentes de más de 300 PMS locales.",
+    "related": [
+      "PM",
+      "RS",
+      "OT",
+      "BO",
+      "GD"
+    ]
+  },
+  {
+    "internalId": "RS__HER",
+    "symbol": "RS",
+    "name": "Sistema Gestión Ingresos (RMS)",
+    "category": "Herramientas",
+    "importance": "5",
+    "definition": "Sistema que analiza datos y recomienda o automatiza decisiones de precios, restricciones y forecast.",
+    "whyRevenue": "Las aplicaciones de software liberan al equipo del hotel de tareas repetitivas, permitiéndoles enfocar los esfuerzos en la fijación de estrategias. Sistema que analiza datos y recomienda o automatiza decisiones de precios, restricciones y forecast.",
+    "application": "Vincular el RMS con el PMS para automatizar el trasvase de reservas e incorporar las recomendaciones dinámicas de precio propuestas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un pequeño hotel en el Pirineo adopta un RMS liviano en régimen SaaS para actualizar tarifas automáticamente según el nivel de demanda local en pistas.",
+    "caseChain": "Un grupo global consolida un equipo central de analistas automatizando informes integrados procedentes de más de 300 PMS locales.",
+    "related": [
+      "CH",
+      "PM",
+      "BI",
+      "AR",
+      "Y"
+    ]
+  },
+  {
+    "internalId": "SH__HER",
+    "symbol": "SH",
+    "name": "Comparador (Shopper)",
+    "category": "Herramientas",
+    "importance": "4",
+    "definition": "Herramienta que monitoriza precios de competidores y canales para apoyar decisiones comerciales.",
+    "whyRevenue": "Las aplicaciones de software liberan al equipo del hotel de tareas repetitivas, permitiéndoles enfocar los esfuerzos en la fijación de estrategias. Herramienta que monitoriza precios de competidores y canales para apoyar decisiones comerciales.",
+    "application": "Vincular el RMS con el PMS para automatizar el trasvase de reservas e incorporar las recomendaciones dinámicas de precio propuestas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un pequeño hotel en el Pirineo adopta un RMS liviano en régimen SaaS para actualizar tarifas automáticamente según el nivel de demanda local en pistas.",
+    "caseChain": "Un grupo global consolida un equipo central de analistas automatizando informes integrados procedentes de más de 300 PMS locales.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "PM__HER",
+    "symbol": "PM",
+    "name": "Sistema Gestión Hoteles (PMS)",
+    "category": "Herramientas",
+    "importance": "5",
+    "definition": "Sistema central de gestión hotelera para reservas, clientes, disponibilidad, facturación y operación diaria.",
+    "whyRevenue": "Las aplicaciones de software liberan al equipo del hotel de tareas repetitivas, permitiéndoles enfocar los esfuerzos en la fijación de estrategias. Sistema central de gestión hotelera para reservas, clientes, disponibilidad, facturación y operación diaria.",
+    "application": "Vincular el RMS con el PMS para automatizar el trasvase de reservas e incorporar las recomendaciones dinámicas de precio propuestas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un pequeño hotel en el Pirineo adopta un RMS liviano en régimen SaaS para actualizar tarifas automáticamente según el nivel de demanda local en pistas.",
+    "caseChain": "Un grupo global consolida un equipo central de analistas automatizando informes integrados procedentes de más de 300 PMS locales.",
+    "related": [
+      "CH",
+      "RS",
+      "BI",
+      "DA"
+    ]
+  },
+  {
+    "internalId": "TI__HER",
+    "symbol": "TI",
+    "name": "Inteligencia de Viajes",
+    "category": "Herramientas",
+    "importance": "4",
+    "definition": "Datos de búsqueda, demanda y comportamiento viajero que ayudan a anticipar oportunidades de mercado.",
+    "whyRevenue": "Las aplicaciones de software liberan al equipo del hotel de tareas repetitivas, permitiéndoles enfocar los esfuerzos en la fijación de estrategias. Datos de búsqueda, demanda y comportamiento viajero que ayudan a anticipar oportunidades de mercado.",
+    "application": "Vincular el RMS con el PMS para automatizar el trasvase de reservas e incorporar las recomendaciones dinámicas de precio propuestas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un pequeño hotel en el Pirineo adopta un RMS liviano en régimen SaaS para actualizar tarifas automáticamente según el nivel de demanda local en pistas.",
+    "caseChain": "Un grupo global consolida un equipo central de analistas automatizando informes integrados procedentes de más de 300 PMS locales.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "BI__HER",
+    "symbol": "BI",
+    "name": "Business Intelligence",
+    "category": "Herramientas",
+    "importance": "4",
+    "definition": "Herramientas de análisis y visualización que convierten datos en información útil para la toma de decisiones.",
+    "whyRevenue": "Las aplicaciones de software liberan al equipo del hotel de tareas repetitivas, permitiéndoles enfocar los esfuerzos en la fijación de estrategias. Herramientas de análisis y visualización que convierten datos en información útil para la toma de decisiones.",
+    "application": "Vincular el RMS con el PMS para automatizar el trasvase de reservas e incorporar las recomendaciones dinámicas de precio propuestas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un pequeño hotel en el Pirineo adopta un RMS liviano en régimen SaaS para actualizar tarifas automáticamente según el nivel de demanda local en pistas.",
+    "caseChain": "Un grupo global consolida un equipo central de analistas automatizando informes integrados procedentes de más de 300 PMS locales.",
+    "related": [
+      "PM",
+      "RS",
+      "DA",
+      "OR"
+    ]
+  },
+  {
+    "internalId": "OR__HER",
+    "symbol": "OR",
+    "name": "Reputación Online",
+    "category": "Herramientas",
+    "importance": "4",
+    "definition": "Seguimiento y gestión de reseñas, valoraciones y percepción pública del hotel.",
+    "whyRevenue": "Las aplicaciones de software liberan al equipo del hotel de tareas repetitivas, permitiéndoles enfocar los esfuerzos en la fijación de estrategias. Seguimiento y gestión de reseñas, valoraciones y percepción pública del hotel.",
+    "application": "Vincular el RMS con el PMS para automatizar el trasvase de reservas e incorporar las recomendaciones dinámicas de precio propuestas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un pequeño hotel en el Pirineo adopta un RMS liviano en régimen SaaS para actualizar tarifas automáticamente según el nivel de demanda local en pistas.",
+    "caseChain": "Un grupo global consolida un equipo central de analistas automatizando informes integrados procedentes de más de 300 PMS locales.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "BE__HER",
+    "symbol": "BE",
+    "name": "Motor de Reservas",
+    "category": "Herramientas",
+    "importance": "4",
+    "definition": "Motor que permite reservar directamente en la web del hotel, conectando disponibilidad, precios y condiciones.",
+    "whyRevenue": "Las aplicaciones de software liberan al equipo del hotel de tareas repetitivas, permitiéndoles enfocar los esfuerzos en la fijación de estrategias. Motor que permite reservar directamente en la web del hotel, conectando disponibilidad, precios y condiciones.",
+    "application": "Vincular el RMS con el PMS para automatizar el trasvase de reservas e incorporar las recomendaciones dinámicas de precio propuestas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un pequeño hotel en el Pirineo adopta un RMS liviano en régimen SaaS para actualizar tarifas automáticamente según el nivel de demanda local en pistas.",
+    "caseChain": "Un grupo global consolida un equipo central de analistas automatizando informes integrados procedentes de más de 300 PMS locales.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "BH__HER",
+    "symbol": "BH",
+    "name": "Comparación (Benchmark)",
+    "category": "Herramientas",
+    "importance": "4",
+    "definition": "Comparación sistemática de resultados, precios o prácticas frente al mercado o competidores.",
+    "whyRevenue": "Las aplicaciones de software liberan al equipo del hotel de tareas repetitivas, permitiéndoles enfocar los esfuerzos en la fijación de estrategias. Comparación sistemática de resultados, precios o prácticas frente al mercado o competidores.",
+    "application": "Vincular el RMS con el PMS para automatizar el trasvase de reservas e incorporar las recomendaciones dinámicas de precio propuestas. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un pequeño hotel en el Pirineo adopta un RMS liviano en régimen SaaS para actualizar tarifas automáticamente según el nivel de demanda local en pistas.",
+    "caseChain": "Un grupo global consolida un equipo central de analistas automatizando informes integrados procedentes de más de 300 PMS locales.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "RC__PER",
+    "symbol": "RC",
+    "name": "Selección",
+    "category": "Personas",
+    "importance": "4",
+    "definition": "Proceso de atraer y seleccionar perfiles adecuados para el equipo hotelero y la estrategia comercial.",
+    "whyRevenue": "El equipo humano decide la experiencia final del huésped. Un personal capacitado y motivado es la mejor herramienta de fidelización e ingresos indirectos. Proceso de atraer y seleccionar perfiles adecuados para el equipo hotelero y la estrategia comercial.",
+    "application": "Capacitar sistemáticamente a la recepción en técnicas de Up-selling duraderas en el momento del recibimiento del viajero. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un establecimiento boutique premia mensualmente con comisiones por venta opcional a los recepcionistas que ofrezcan mejoras de suite exitosas.",
+    "caseChain": "Una cadena urbana multinacional articula un campus interactivo corporativo de desarrollo profesional en Revenue Management con planes de ascenso claros.",
+    "related": [
+      "EQ",
+      "CF",
+      "LC"
+    ]
+  },
+  {
+    "internalId": "TR__PER",
+    "symbol": "TR",
+    "name": "Formación",
+    "category": "Personas",
+    "importance": "4",
+    "definition": "Capacitación continua del equipo para mejorar competencias, servicio, ventas y toma de decisiones.",
+    "whyRevenue": "El equipo humano decide la experiencia final del huésped. Un personal capacitado y motivado es la mejor herramienta de fidelización e ingresos indirectos. Capacitación continua del equipo para mejorar competencias, servicio, ventas y toma de decisiones.",
+    "application": "Capacitar sistemáticamente a la recepción en técnicas de Up-selling duraderas en el momento del recibimiento del viajero. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un establecimiento boutique premia mensualmente con comisiones por venta opcional a los recepcionistas que ofrezcan mejoras de suite exitosas.",
+    "caseChain": "Una cadena urbana multinacional articula un campus interactivo corporativo de desarrollo profesional en Revenue Management con planes de ascenso claros.",
+    "related": [
+      "EQ",
+      "CF",
+      "LC",
+      "RC"
+    ]
+  },
+  {
+    "internalId": "RT__PER",
+    "symbol": "RT",
+    "name": "Retención",
+    "category": "Personas",
+    "importance": "4",
+    "definition": "Acciones para conservar talento, reducir rotación y mantener conocimiento dentro de la organización.",
+    "whyRevenue": "El equipo humano decide la experiencia final del huésped. Un personal capacitado y motivado es la mejor herramienta de fidelización e ingresos indirectos. Acciones para conservar talento, reducir rotación y mantener conocimiento dentro de la organización.",
+    "application": "Capacitar sistemáticamente a la recepción en técnicas de Up-selling duraderas en el momento del recibimiento del viajero. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un establecimiento boutique premia mensualmente con comisiones por venta opcional a los recepcionistas que ofrezcan mejoras de suite exitosas.",
+    "caseChain": "Una cadena urbana multinacional articula un campus interactivo corporativo de desarrollo profesional en Revenue Management con planes de ascenso claros.",
+    "related": [
+      "EQ",
+      "CF",
+      "LC",
+      "RC"
+    ]
+  },
+  {
+    "internalId": "LD__PER",
+    "symbol": "LD",
+    "name": "Liderazgo",
+    "category": "Personas",
+    "importance": "4",
+    "definition": "Capacidad de guiar equipos, alinear objetivos y fomentar cultura de rendimiento y mejora continua.",
+    "whyRevenue": "El equipo humano decide la experiencia final del huésped. Un personal capacitado y motivado es la mejor herramienta de fidelización e ingresos indirectos. Capacidad de guiar equipos, alinear objetivos y fomentar cultura de rendimiento y mejora continua.",
+    "application": "Capacitar sistemáticamente a la recepción en técnicas de Up-selling duraderas en el momento del recibimiento del viajero. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un establecimiento boutique premia mensualmente con comisiones por venta opcional a los recepcionistas que ofrezcan mejoras de suite exitosas.",
+    "caseChain": "Una cadena urbana multinacional articula un campus interactivo corporativo de desarrollo profesional en Revenue Management con planes de ascenso claros.",
+    "related": [
+      "EQ",
+      "CF",
+      "LC",
+      "RC"
+    ]
+  },
+  {
+    "internalId": "LO__RES",
+    "symbol": "LO",
+    "name": "Estancia Mínima",
+    "category": "Restricciones",
+    "importance": "4",
+    "definition": "Condición que exige un número mínimo de noches para aceptar una reserva en determinadas fechas.",
+    "whyRevenue": "Las restricciones aplicadas protegen el inventario de noches clave contra reservas cortas inoportunas que dejen vacías las noches de los lados. Condición que exige un número mínimo de noches para aceptar una reserva en determinadas fechas.",
+    "application": "Aplicar la restricción de Estancia Mínima de 3 noches para el fin de semana de Año Nuevo para asegurar reservas de larga estadía. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un bed-and-breakfast aplica una restricción de entrada obligatoria el viernes en puentes festivos para no quedarse con habitaciones sueltas el domingo.",
+    "caseChain": "Un gran resort de esquí automatiza restricciones especiales de Closed to Arrival en su RMS global durante la semana pico de campeonatos de invierno.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "DP__RES",
+    "symbol": "DP",
+    "name": "Depósito",
+    "category": "Restricciones",
+    "importance": "4",
+    "definition": "Pago parcial o garantía económica solicitada para confirmar una reserva.",
+    "whyRevenue": "Las restricciones aplicadas protegen el inventario de noches clave contra reservas cortas inoportunas que dejen vacías las noches de los lados. Pago parcial o garantía económica solicitada para confirmar una reserva.",
+    "application": "Aplicar la restricción de Estancia Mínima de 3 noches para el fin de semana de Año Nuevo para asegurar reservas de larga estadía. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un bed-and-breakfast aplica una restricción de entrada obligatoria el viernes en puentes festivos para no quedarse con habitaciones sueltas el domingo.",
+    "caseChain": "Un gran resort de esquí automatiza restricciones especiales de Closed to Arrival en su RMS global durante la semana pico de campeonatos de invierno.",
+    "related": [
+      "CT",
+      "LS",
+      "AL"
+    ]
+  },
+  {
+    "internalId": "AT__RES",
+    "symbol": "AT",
+    "name": "Cupos (Allotments)",
+    "category": "Restricciones",
+    "importance": "4",
+    "definition": "Cupo de habitaciones asignado a un canal, operador o colaborador bajo condiciones específicas.",
+    "whyRevenue": "Las restricciones aplicadas protegen el inventario de noches clave contra reservas cortas inoportunas que dejen vacías las noches de los lados. Cupo de habitaciones asignado a un canal, operador o colaborador bajo condiciones específicas.",
+    "application": "Aplicar la restricción de Estancia Mínima de 3 noches para el fin de semana de Año Nuevo para asegurar reservas de larga estadía. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un bed-and-breakfast aplica una restricción de entrada obligatoria el viernes en puentes festivos para no quedarse con habitaciones sueltas el domingo.",
+    "caseChain": "Un gran resort de esquí automatiza restricciones especiales de Closed to Arrival en su RMS global durante la semana pico de campeonatos de invierno.",
+    "related": [
+      "CT",
+      "DP",
+      "LS"
+    ]
+  },
+  {
+    "internalId": "AV__RES",
+    "symbol": "AV",
+    "name": "Disponibilidad",
+    "category": "Restricciones",
+    "importance": "4",
+    "definition": "Inventario disponible para la venta en una fecha, categoría, canal o condición concreta.",
+    "whyRevenue": "Las restricciones aplicadas protegen el inventario de noches clave contra reservas cortas inoportunas que dejen vacías las noches de los lados. Inventario disponible para la venta en una fecha, categoría, canal o condición concreta.",
+    "application": "Aplicar la restricción de Estancia Mínima de 3 noches para el fin de semana de Año Nuevo para asegurar reservas de larga estadía. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un bed-and-breakfast aplica una restricción de entrada obligatoria el viernes en puentes festivos para no quedarse con habitaciones sueltas el domingo.",
+    "caseChain": "Un gran resort de esquí automatiza restricciones especiales de Closed to Arrival en su RMS global durante la semana pico de campeonatos de invierno.",
+    "related": [
+      "CT",
+      "DP",
+      "LS"
+    ]
+  },
+  {
+    "internalId": "SS__RES",
+    "symbol": "SS",
+    "name": "Parada de Ventas",
+    "category": "Restricciones",
+    "importance": "4",
+    "definition": "Cierre temporal de ventas para una fecha, tarifa, habitación o canal específico.",
+    "whyRevenue": "Las restricciones aplicadas protegen el inventario de noches clave contra reservas cortas inoportunas que dejen vacías las noches de los lados. Cierre temporal de ventas para una fecha, tarifa, habitación o canal específico.",
+    "application": "Aplicar la restricción de Estancia Mínima de 3 noches para el fin de semana de Año Nuevo para asegurar reservas de larga estadía. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un bed-and-breakfast aplica una restricción de entrada obligatoria el viernes en puentes festivos para no quedarse con habitaciones sueltas el domingo.",
+    "caseChain": "Un gran resort de esquí automatiza restricciones especiales de Closed to Arrival en su RMS global durante la semana pico de campeonatos de invierno.",
+    "related": [
+      "CT",
+      "DP",
+      "LS"
+    ]
+  },
+  {
+    "internalId": "CP__RES",
+    "symbol": "CP",
+    "name": "Políticas de Cancelaciones",
+    "category": "Restricciones",
+    "importance": "4",
+    "definition": "Reglas que definen cómo, cuándo y con qué coste puede cancelarse una reserva.",
+    "whyRevenue": "Las restricciones aplicadas protegen el inventario de noches clave contra reservas cortas inoportunas que dejen vacías las noches de los lados. Reglas que definen cómo, cuándo y con qué coste puede cancelarse una reserva.",
+    "application": "Aplicar la restricción de Estancia Mínima de 3 noches para el fin de semana de Año Nuevo para asegurar reservas de larga estadía. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un bed-and-breakfast aplica una restricción de entrada obligatoria el viernes en puentes festivos para no quedarse con habitaciones sueltas el domingo.",
+    "caseChain": "Un gran resort de esquí automatiza restricciones especiales de Closed to Arrival en su RMS global durante la semana pico de campeonatos de invierno.",
+    "related": [
+      "CT",
+      "DP",
+      "LS"
+    ]
+  },
+  {
+    "internalId": "PC__RES",
+    "symbol": "PC",
+    "name": "Condiciones de Pago",
+    "category": "Restricciones",
+    "importance": "4",
+    "definition": "Condiciones que determinan forma, momento y garantías de pago de una reserva.",
+    "whyRevenue": "Las restricciones aplicadas protegen el inventario de noches clave contra reservas cortas inoportunas que dejen vacías las noches de los lados. Condiciones que determinan forma, momento y garantías de pago de una reserva.",
+    "application": "Aplicar la restricción de Estancia Mínima de 3 noches para el fin de semana de Año Nuevo para asegurar reservas de larga estadía. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un bed-and-breakfast aplica una restricción de entrada obligatoria el viernes en puentes festivos para no quedarse con habitaciones sueltas el domingo.",
+    "caseChain": "Un gran resort de esquí automatiza restricciones especiales de Closed to Arrival en su RMS global durante la semana pico de campeonatos de invierno.",
+    "related": [
+      "CT",
+      "DP",
+      "LS"
+    ]
+  },
+  {
+    "internalId": "RL__RES",
+    "symbol": "RL",
+    "name": "Plazo de Liberación (Release)",
+    "category": "Restricciones",
+    "importance": "4",
+    "definition": "Plazo de antelación previo a la llegada en el que las reservas no garantizadas expiran.",
+    "whyRevenue": "Las restricciones aplicadas protegen el inventario de noches clave contra reservas cortas inoportunas que dejen vacías las noches de los lados. Plazo de antelación previo a la llegada en el que las reservas no garantizadas expiran.",
+    "application": "Aplicar la restricción de Estancia Mínima de 3 noches para el fin de semana de Año Nuevo para asegurar reservas de larga estadía. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un bed-and-breakfast aplica una restricción de entrada obligatoria el viernes en puentes festivos para no quedarse con habitaciones sueltas el domingo.",
+    "caseChain": "Un gran resort de esquí automatiza restricciones especiales de Closed to Arrival en su RMS global durante la semana pico de campeonatos de invierno.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "FB__OPE",
+    "symbol": "FB",
+    "name": "Comidas y Bebidas",
+    "category": "Operaciones",
+    "importance": "4",
+    "definition": "Área de comidas, bebidas, desayunos, bares, restaurantes y servicios asociados al consumo interno.",
+    "whyRevenue": "Una gran ejecución operativa en recepción, mantenimiento y limpieza garantiza la satisfacción del cliente y sostiene la reputación online del hotel. Área de comidas, bebidas, desayunos, bares, restaurantes y servicios asociados al consumo interno.",
+    "application": "Dotar a pisos e inspección técnica de un sistema de aviso en tiempo real sobre el estado de habitaciones listas para el check-in temprano. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural coordina mediante app directa la gobernanta y el recepcionista para avisar instantáneamente de habitaciones limpias.",
+    "caseChain": "Un resort corporativo monitorea los tiempos límite de resolución de quejas en habitaciones para corregir los cuellos de botella mediante auditorías trimestrales.",
+    "related": [
+      "TR",
+      "RT",
+      "LD",
+      "FD",
+      "HK"
+    ]
+  },
+  {
+    "internalId": "FD__OPE",
+    "symbol": "FD",
+    "name": "Recepción",
+    "category": "Operaciones",
+    "importance": "4",
+    "definition": "Área de atención al cliente, check-in, check-out, información, gestión de reservas y coordinación operativa.",
+    "whyRevenue": "Una gran ejecución operativa en recepción, mantenimiento y limpieza garantiza la satisfacción del cliente y sostiene la reputación online del hotel. Área de atención al cliente, check-in, check-out, información, gestión de reservas y coordinación operativa.",
+    "application": "Dotar a pisos e inspección técnica de un sistema de aviso en tiempo real sobre el estado de habitaciones listas para el check-in temprano. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural coordina mediante app directa la gobernanta y el recepcionista para avisar instantáneamente de habitaciones limpias.",
+    "caseChain": "Un resort corporativo monitorea los tiempos límite de resolución de quejas en habitaciones para corregir los cuellos de botella mediante auditorías trimestrales.",
+    "related": [
+      "TR",
+      "RT",
+      "LD",
+      "FB",
+      "HK"
+    ]
+  },
+  {
+    "internalId": "HK__OPE",
+    "symbol": "HK",
+    "name": "Limpieza y Mantenimiento",
+    "category": "Operaciones",
+    "importance": "4",
+    "definition": "Funciones de limpieza, preparación de habitaciones, mantenimiento preventivo y conservación del hotel.",
+    "whyRevenue": "Una gran ejecución operativa en recepción, mantenimiento y limpieza garantiza la satisfacción del cliente y sostiene la reputación online del hotel. Funciones de limpieza, preparación de habitaciones, mantenimiento preventivo y conservación del hotel.",
+    "application": "Dotar a pisos e inspección técnica de un sistema de aviso en tiempo real sobre el estado de habitaciones listas para el check-in temprano. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural coordina mediante app directa la gobernanta y el recepcionista para avisar instantáneamente de habitaciones limpias.",
+    "caseChain": "Un resort corporativo monitorea los tiempos límite de resolución de quejas en habitaciones para corregir los cuellos de botella mediante auditorías trimestrales.",
+    "related": [
+      "TR",
+      "RT",
+      "LD",
+      "FB",
+      "FD"
+    ]
+  },
+  {
+    "internalId": "CE__OPE",
+    "symbol": "CE",
+    "name": "Experiencia del Cliente",
+    "category": "Operaciones",
+    "importance": "4",
+    "definition": "Gestión integral de la experiencia del huésped antes, durante y después de la estancia.",
+    "whyRevenue": "Una gran ejecución operativa en recepción, mantenimiento y limpieza garantiza la satisfacción del cliente y sostiene la reputación online del hotel. Gestión integral de la experiencia del huésped antes, durante y después de la estancia.",
+    "application": "Dotar a pisos e inspección técnica de un sistema de aviso en tiempo real sobre el estado de habitaciones listas para el check-in temprano. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural coordina mediante app directa la gobernanta y el recepcionista para avisar instantáneamente de habitaciones limpias.",
+    "caseChain": "Un resort corporativo monitorea los tiempos límite de resolución de quejas en habitaciones para corregir los cuellos de botella mediante auditorías trimestrales.",
+    "related": [
+      "TR",
+      "RT",
+      "LD",
+      "FB",
+      "FD"
+    ]
+  },
+  {
+    "internalId": "GD__CAN",
+    "symbol": "GD",
+    "name": "Sistema Distribución Global (GDS)",
+    "category": "Canales",
+    "importance": "4",
+    "definition": "Red global utilizada por agencias y empresas para acceder a disponibilidad, tarifas y reservas hoteleras.",
+    "whyRevenue": "Saber distribuir el inventario en OTAs, GDS, canales directos o mayoristas equilibra el volumen de ventas y los costes de adquisición de clientes. Red global utilizada por agencias y empresas para acceder a disponibilidad, tarifas y reservas hoteleras.",
+    "application": "Controlar el mix de distribución del hotel para incentivar el peso del canal de reserva directa, reduciendo las comisiones de agencias intermediarias. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel independiente diversifica su inventario subiéndolo a portales específicos de escapadas rurales y reservando promociones especiales para su web.",
+    "caseChain": "Una marca líder firma comisiones preferentes exclusivas con las principales portales turísticos mediante convenios globales de volumen anual.",
+    "related": [
+      "CH",
+      "TO",
+      "AB"
+    ]
+  },
+  {
+    "internalId": "BO__CAN",
+    "symbol": "BO",
+    "name": "Booking",
+    "category": "Canales",
+    "importance": "5",
+    "definition": "Canal de distribución online asociado a Booking, con alta visibilidad y modelo basado en comisión.",
+    "whyRevenue": "Saber distribuir el inventario en OTAs, GDS, canales directos o mayoristas equilibra el volumen de ventas y los costes de adquisición de clientes. Canal de distribución online asociado a Booking, con alta visibilidad y modelo basado en comisión.",
+    "application": "Controlar el mix de distribución del hotel para incentivar el peso del canal de reserva directa, reduciendo las comisiones de agencias intermediarias. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel independiente diversifica su inventario subiéndolo a portales específicos de escapadas rurales y reservando promociones especiales para su web.",
+    "caseChain": "Una marca líder firma comisiones preferentes exclusivas con las principales portales turísticos mediante convenios globales de volumen anual.",
+    "related": [
+      "WD",
+      "CH",
+      "SE",
+      "EM"
+    ]
+  },
+  {
+    "internalId": "OT__CAN",
+    "symbol": "OT",
+    "name": "Agencia Viajes Online (OTA)",
+    "category": "Canales",
+    "importance": "4",
+    "definition": "Intermediario online que comercializa alojamiento a cambio de visibilidad y comisión.",
+    "whyRevenue": "Saber distribuir el inventario en OTAs, GDS, canales directos o mayoristas equilibra el volumen de ventas y los costes de adquisición de clientes. Intermediario online que comercializa alojamiento a cambio de visibilidad y comisión.",
+    "application": "Controlar el mix de distribución del hotel para incentivar el peso del canal de reserva directa, reduciendo las comisiones de agencias intermediarias. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel independiente diversifica su inventario subiéndolo a portales específicos de escapadas rurales y reservando promociones especiales para su web.",
+    "caseChain": "Una marca líder firma comisiones preferentes exclusivas con las principales portales turísticos mediante convenios globales de volumen anual.",
+    "related": [
+      "CH",
+      "XP",
+      "BO",
+      "TO"
+    ]
+  },
+  {
+    "internalId": "D__CAN",
+    "symbol": "D",
+    "name": "Canal Directo",
+    "category": "Canales",
+    "importance": "4",
+    "definition": "Canal propio del hotel, como web, teléfono, email o recepción, normalmente con menor coste de distribución.",
+    "whyRevenue": "Saber distribuir el inventario en OTAs, GDS, canales directos o mayoristas equilibra el volumen de ventas y los costes de adquisición de clientes. Canal propio del hotel, como web, teléfono, email o recepción, normalmente con menor coste de distribución.",
+    "application": "Controlar el mix de distribución del hotel para incentivar el peso del canal de reserva directa, reduciendo las comisiones de agencias intermediarias. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel independiente diversifica su inventario subiéndolo a portales específicos de escapadas rurales y reservando promociones especiales para su web.",
+    "caseChain": "Una marca líder firma comisiones preferentes exclusivas con las principales portales turísticos mediante convenios globales de volumen anual.",
+    "related": [
+      "BO",
+      "CH",
+      "OT"
+    ]
+  },
+  {
+    "internalId": "XP__CAN",
+    "symbol": "XP",
+    "name": "Expedia",
+    "category": "Canales",
+    "importance": "4",
+    "definition": "Canal de distribución perteneciente al ecosistema Expedia, relevante en mercados internacionales.",
+    "whyRevenue": "Saber distribuir el inventario en OTAs, GDS, canales directos o mayoristas equilibra el volumen de ventas y los costes de adquisición de clientes. Canal de distribución perteneciente al ecosistema Expedia, relevante en mercados internacionales.",
+    "application": "Controlar el mix de distribución del hotel para incentivar el peso del canal de reserva directa, reduciendo las comisiones de agencias intermediarias. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel independiente diversifica su inventario subiéndolo a portales específicos de escapadas rurales y reservando promociones especiales para su web.",
+    "caseChain": "Una marca líder firma comisiones preferentes exclusivas con las principales portales turísticos mediante convenios globales de volumen anual.",
+    "related": [
+      "OT",
+      "CH",
+      "TO"
+    ]
+  },
+  {
+    "internalId": "TO__CAN",
+    "symbol": "TO",
+    "name": "Turoperadores",
+    "category": "Canales",
+    "importance": "4",
+    "definition": "Intermediarios que agrupan alojamiento con otros servicios turísticos, como vuelos, traslados o paquetes.",
+    "whyRevenue": "Saber distribuir el inventario en OTAs, GDS, canales directos o mayoristas equilibra el volumen de ventas y los costes de adquisición de clientes. Intermediarios que agrupan alojamiento con otros servicios turísticos, como vuelos, traslados o paquetes.",
+    "application": "Controlar el mix de distribución del hotel para incentivar el peso del canal de reserva directa, reduciendo las comisiones de agencias intermediarias. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel independiente diversifica su inventario subiéndolo a portales específicos de escapadas rurales y reservando promociones especiales para su web.",
+    "caseChain": "Una marca líder firma comisiones preferentes exclusivas con las principales portales turísticos mediante convenios globales de volumen anual.",
+    "related": [
+      "GD",
+      "OT",
+      "XP"
+    ]
+  },
+  {
+    "internalId": "AB__CAN",
+    "symbol": "AB",
+    "name": "Airbnb",
+    "category": "Canales",
+    "importance": "4",
+    "definition": "Plataforma orientada principalmente a alojamiento alternativo, apartamentos y experiencias de estancia.",
+    "whyRevenue": "Saber distribuir el inventario en OTAs, GDS, canales directos o mayoristas equilibra el volumen de ventas y los costes de adquisición de clientes. Plataforma orientada principalmente a alojamiento alternativo, apartamentos y experiencias de estancia.",
+    "application": "Controlar el mix de distribución del hotel para incentivar el peso del canal de reserva directa, reduciendo las comisiones de agencias intermediarias. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel independiente diversifica su inventario subiéndolo a portales específicos de escapadas rurales y reservando promociones especiales para su web.",
+    "caseChain": "Una marca líder firma comisiones preferentes exclusivas con las principales portales turísticos mediante convenios globales de volumen anual.",
+    "related": [
+      "OT",
+      "BO",
+      "GD"
+    ]
+  },
+  {
+    "internalId": "M__CAD",
+    "symbol": "M",
+    "name": "Marriott",
+    "category": "Cadenas Hoteleras",
+    "importance": "4",
+    "definition": "Grupo hotelero internacional utilizado como referencia de marca, distribución, fidelización y escala.",
+    "whyRevenue": "Las cadenas marcan las tendencias clave del mercado mundial mediante sus vastos clubes de lealtad, herramientas propietarias y economías de escala. Grupo hotelero internacional utilizado como referencia de marca, distribución, fidelización y escala.",
+    "application": "Analizar e imitar las tácticas de fijación de precios dinámicos y fidelización que las grandes hoteleras operan con éxito constante. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique familiar adopta técnicas simplificadas de fidelización ofreciendo descuentos directos a huéspedes que reserven en recepción.",
+    "caseChain": "Un holding hotelero unifica los datos de compras y consumos de restauración para renegociar contratos de provisión global en condiciones ideales.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "HI__CAD",
+    "symbol": "HI",
+    "name": "Hilton",
+    "category": "Cadenas Hoteleras",
+    "importance": "4",
+    "definition": "Cadena hotelera global con fuerte presencia internacional y programa de fidelización reconocido.",
+    "whyRevenue": "Las cadenas marcan las tendencias clave del mercado mundial mediante sus vastos clubes de lealtad, herramientas propietarias y economías de escala. Cadena hotelera global con fuerte presencia internacional y programa de fidelización reconocido.",
+    "application": "Analizar e imitar las tácticas de fijación de precios dinámicos y fidelización que las grandes hoteleras operan con éxito constante. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique familiar adopta técnicas simplificadas de fidelización ofreciendo descuentos directos a huéspedes que reserven en recepción.",
+    "caseChain": "Un holding hotelero unifica los datos de compras y consumos de restauración para renegociar contratos de provisión global en condiciones ideales.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "HY__CAD",
+    "symbol": "HY",
+    "name": "Hyatt",
+    "category": "Cadenas Hoteleras",
+    "importance": "4",
+    "definition": "Grupo hotelero internacional asociado a marcas premium, lifestyle y lujo.",
+    "whyRevenue": "Las cadenas marcan las tendencias clave del mercado mundial mediante sus vastos clubes de lealtad, herramientas propietarias y economías de escala. Grupo hotelero internacional asociado a marcas premium, lifestyle y lujo.",
+    "application": "Analizar e imitar las tácticas de fijación de precios dinámicos y fidelización que las grandes hoteleras operan con éxito constante. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique familiar adopta técnicas simplificadas de fidelización ofreciendo descuentos directos a huéspedes que reserven en recepción.",
+    "caseChain": "Un holding hotelero unifica los datos de compras y consumos de restauración para renegociar contratos de provisión global en condiciones ideales.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "IH__CAD",
+    "symbol": "IH",
+    "name": "IHG",
+    "category": "Cadenas Hoteleras",
+    "importance": "4",
+    "definition": "Grupo hotelero internacional con marcas reconocidas en segmentos corporativos, vacacionales y urbanos.",
+    "whyRevenue": "Las cadenas marcan las tendencias clave del mercado mundial mediante sus vastos clubes de lealtad, herramientas propietarias y economías de escala. Grupo hotelero internacional con marcas reconocidas en segmentos corporativos, vacacionales y urbanos.",
+    "application": "Analizar e imitar las tácticas de fijación de precios dinámicos y fidelización que las grandes hoteleras operan con éxito constante. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique familiar adopta técnicas simplificadas de fidelización ofreciendo descuentos directos a huéspedes que reserven en recepción.",
+    "caseChain": "Un holding hotelero unifica los datos de compras y consumos de restauración para renegociar contratos de provisión global en condiciones ideales.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "WY__CAD",
+    "symbol": "WY",
+    "name": "Wyndham",
+    "category": "Cadenas Hoteleras",
+    "importance": "4",
+    "definition": "Grupo hotelero internacional con fuerte presencia en segmentos economy, midscale y franquicias.",
+    "whyRevenue": "Las cadenas marcan las tendencias clave del mercado mundial mediante sus vastos clubes de lealtad, herramientas propietarias y economías de escala. Grupo hotelero internacional con fuerte presencia en segmentos economy, midscale y franquicias.",
+    "application": "Analizar e imitar las tácticas de fijación de precios dinámicos y fidelización que las grandes hoteleras operan con éxito constante. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique familiar adopta técnicas simplificadas de fidelización ofreciendo descuentos directos a huéspedes que reserven en recepción.",
+    "caseChain": "Un holding hotelero unifica los datos de compras y consumos de restauración para renegociar contratos de provisión global en condiciones ideales.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "CI__CAD",
+    "symbol": "CI",
+    "name": "Choice",
+    "category": "Cadenas Hoteleras",
+    "importance": "4",
+    "definition": "Grupo hotelero con marcas enfocadas en diferentes niveles de servicio y modelos de franquicia.",
+    "whyRevenue": "Las cadenas marcan las tendencias clave del mercado mundial mediante sus vastos clubes de lealtad, herramientas propietarias y economías de escala. Grupo hotelero con marcas enfocadas en diferentes niveles de servicio y modelos de franquicia.",
+    "application": "Analizar e imitar las tácticas de fijación de precios dinámicos y fidelización que las grandes hoteleras operan con éxito constante. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique familiar adopta técnicas simplificadas de fidelización ofreciendo descuentos directos a huéspedes que reserven en recepción.",
+    "caseChain": "Un holding hotelero unifica los datos de compras y consumos de restauración para renegociar contratos de provisión global en condiciones ideales.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "AC__CAD",
+    "symbol": "AC",
+    "name": "Accor",
+    "category": "Cadenas Hoteleras",
+    "importance": "4",
+    "definition": "Grupo hotelero global con marcas desde económicas hasta lujo y fuerte presencia internacional.",
+    "whyRevenue": "Las cadenas marcan las tendencias clave del mercado mundial mediante sus vastos clubes de lealtad, herramientas propietarias y economías de escala. Grupo hotelero global con marcas desde económicas hasta lujo y fuerte presencia internacional.",
+    "application": "Analizar e imitar las tácticas de fijación de precios dinámicos y fidelización que las grandes hoteleras operan con éxito constante. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique familiar adopta técnicas simplificadas de fidelización ofreciendo descuentos directos a huéspedes que reserven en recepción.",
+    "caseChain": "Un holding hotelero unifica los datos de compras y consumos de restauración para renegociar contratos de provisión global en condiciones ideales.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "LU__SEG",
+    "symbol": "LU",
+    "name": "Luxury",
+    "category": "Segmentos",
+    "importance": "4",
+    "definition": "Huéspedes que buscan experiencias exclusivas, altos niveles de servicio y mayor disposición al pago.",
+    "whyRevenue": "No todos los clientes viajan por el mismo motivo ni tienen igual sensibilidad de desembolso. Diferenciar la demanda maximiza los ingresos. Huéspedes que buscan experiencias exclusivas, altos niveles de servicio y mayor disposición al pago.",
+    "application": "Construir tarifas diferenciadas para el segmento vacacional de fin de semana versus las reservas corporativas fijas de lunes a jueves. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel costero diseña una sección web exclusiva para familias numerosas y otra enfocada en retiros de descanso silenciosos para adultos.",
+    "caseChain": "Un gran hotel de ferias segmenta estrictamente las reservas de comisiones cerradas para congresistas, limitándolas a periodos de baja temporada general.",
+    "related": [
+      "BU",
+      "CO",
+      "MI",
+      "LE"
+    ]
+  },
+  {
+    "internalId": "MI__SEG",
+    "symbol": "MI",
+    "name": "MICE",
+    "category": "Segmentos",
+    "importance": "4",
+    "definition": "Segmento de reuniones, incentivos, congresos y eventos con necesidades específicas de de espacios y servicios.",
+    "whyRevenue": "No todos los clientes viajan por el mismo motivo ni tienen igual sensibilidad de desembolso. Diferenciar la demanda maximiza los ingresos. Segmento de reuniones, incentivos, congresos y eventos con necesidades específicas de de espacios y servicios.",
+    "application": "Construir tarifas diferenciadas para el segmento vacacional de fin de semana versus las reservas corporativas fijas de lunes a jueves. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel costero diseña una sección web exclusiva para familias numerosas y otra enfocada en retiros de descanso silenciosos para adultos.",
+    "caseChain": "Un gran hotel de ferias segmenta estrictamente las reservas de comisiones cerradas para congresistas, limitándolas a periodos de baja temporada general.",
+    "related": [
+      "LU",
+      "BU",
+      "CO",
+      "LE"
+    ]
+  },
+  {
+    "internalId": "FA__SEG",
+    "symbol": "FA",
+    "name": "Familia",
+    "category": "Segmentos",
+    "importance": "4",
+    "definition": "Huéspedes que viajan en familia, que valoran la comodidad, la seguridad, la atención a niños y la flexibilidad.",
+    "whyRevenue": "No todos los clientes viajan por el mismo motivo ni tienen igual sensibilidad de desembolso. Diferenciar la demanda maximiza los ingresos. Huéspedes que viajan en familia, que valoran la comodidad, la seguridad, la atención a niños y la flexibilidad.",
+    "application": "Construir tarifas diferenciadas para el segmento vacacional de fin de semana versus las reservas corporativas fijas de lunes a jueves. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel costero diseña una sección web exclusiva para familias numerosas y otra enfocada en retiros de descanso silenciosos para adultos.",
+    "caseChain": "Un gran hotel de ferias segmenta estrictamente las reservas de comisiones cerradas para congresistas, limitándolas a periodos de baja temporada general.",
+    "related": [
+      "LU",
+      "BU",
+      "CO",
+      "MI",
+      "LE"
+    ]
+  },
+  {
+    "internalId": "BU__SEG",
+    "symbol": "BU",
+    "name": "Negocios",
+    "category": "Segmentos",
+    "importance": "4",
+    "definition": "Segmento de personas o viajeros individuales en viaje de negocios o trabajo individual.",
+    "whyRevenue": "No todos los clientes viajan por el mismo motivo ni tienen igual sensibilidad de desembolso. Diferenciar la demanda maximiza los ingresos. Segmento de personas o viajeros individuales en viaje de negocios o trabajo individual.",
+    "application": "Construir tarifas diferenciadas para el segmento vacacional de fin de semana versus las reservas corporativas fijas de lunes a jueves. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel costero diseña una sección web exclusiva para familias numerosas y otra enfocada en retiros de descanso silenciosos para adultos.",
+    "caseChain": "Un gran hotel de ferias segmenta estrictamente las reservas de comisiones cerradas para congresistas, limitándolas a periodos de baja temporada general.",
+    "related": [
+      "LU",
+      "CO",
+      "MI",
+      "LE"
+    ]
+  },
+  {
+    "internalId": "LE__SEG",
+    "symbol": "LE",
+    "name": "Ocio",
+    "category": "Segmentos",
+    "importance": "4",
+    "definition": "Huéspedes que viajan por recreación, descanso o turismo, sensibles al precio y la oferta del destino.",
+    "whyRevenue": "No todos los clientes viajan por el mismo motivo ni tienen igual sensibilidad de desembolso. Diferenciar la demanda maximiza los ingresos. Huéspedes que viajan por recreación, descanso o turismo, sensibles al precio y la oferta del destino.",
+    "application": "Construir tarifas diferenciadas para el segmento vacacional de fin de semana versus las reservas corporativas fijas de lunes a jueves. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel costero diseña una sección web exclusiva para familias numerosas y otra enfocada en retiros de descanso silenciosos para adultos.",
+    "caseChain": "Un gran hotel de ferias segmenta estrictamente las reservas de comisiones cerradas para congresistas, limitándolas a periodos de baja temporada general.",
+    "related": [
+      "LU",
+      "BU",
+      "CO",
+      "MI"
+    ]
+  },
+  {
+    "internalId": "CO__SEG",
+    "symbol": "CO",
+    "name": "Parejas",
+    "category": "Segmentos",
+    "importance": "4",
+    "definition": "Segmento vacacional de ocio enfocado en viajes en pareja, escapadas románticas o celebraciones de aniversarios.",
+    "whyRevenue": "No todos los clientes viajan por el mismo motivo ni tienen igual sensibilidad de desembolso. Diferenciar la demanda maximiza los ingresos. Segmento vacacional de ocio enfocado en viajes en pareja, escapadas románticas o celebraciones de aniversarios.",
+    "application": "Construir tarifas diferenciadas para el segmento vacacional de fin de semana versus las reservas corporativas fijas de lunes a jueves. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel costero diseña una sección web exclusiva para familias numerosas y otra enfocada en retiros de descanso silenciosos para adultos.",
+    "caseChain": "Un gran hotel de ferias segmenta estrictamente las reservas de comisiones cerradas para congresistas, limitándolas a periodos de baja temporada general.",
+    "related": [
+      "LU",
+      "BU",
+      "MI",
+      "LE"
+    ]
+  },
+  {
+    "internalId": "LX__POS",
+    "symbol": "LX",
+    "name": "Lujo",
+    "category": "Posicionamiento",
+    "importance": "4",
+    "definition": "Estrategia enfocada en tarifas elevadas justificadas por la máxima calidad, exclusividad y estatus superior.",
+    "whyRevenue": "El posicionamiento de marca define en qué segmento de precio y prestigio se aloja el hotel dentro del imaginario competitivo de los viajeros del destino. Estrategia enfocada en tarifas elevadas justificadas por la máxima calidad, exclusividad y estatus superior.",
+    "application": "Ajustar la tarifa promedio y el diseño web con la calidad física real, opiniones públicas e identidad para evitar quejas de clientes insatisfechos. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural añade amenities orgánicas locales y un conserje dedicado para justificar una tarifa de alojamiento superior a la media de la zona.",
+    "caseChain": "Un consorcio multinacional reposiciona una marca antigua inyectando decoración minimalista de tendencia para subir un peldaño en la escala de prestigio.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "UP__POS",
+    "symbol": "UP",
+    "name": "Premium (Upscale)",
+    "category": "Posicionamiento",
+    "importance": "4",
+    "definition": "Segmento premium de tarifas altas pero accesible, que ofrece servicios superiores y diseño cuidado.",
+    "whyRevenue": "El posicionamiento de marca define en qué segmento de precio y prestigio se aloja el hotel dentro del imaginario competitivo de los viajeros del destino. Segmento premium de tarifas altas pero accesible, que ofrece servicios superiores y diseño cuidado.",
+    "application": "Ajustar la tarifa promedio y el diseño web con la calidad física real, opiniones públicas e identidad para evitar quejas de clientes insatisfechos. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural añade amenities orgánicas locales y un conserje dedicado para justificar una tarifa de alojamiento superior a la media de la zona.",
+    "caseChain": "Un consorcio multinacional reposiciona una marca antigua inyectando decoración minimalista de tendencia para subir un peldaño en la escala de prestigio.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "MC__POS",
+    "symbol": "MC",
+    "name": "Escala Media (Midscale)",
+    "category": "Posicionamiento",
+    "importance": "4",
+    "definition": "Posicionamiento en el segmento medio con una relación equilibrada entre calidad, precio y facilidades estándar.",
+    "whyRevenue": "El posicionamiento de marca define en qué segmento de precio y prestigio se aloja el hotel dentro del imaginario competitivo de los viajeros del destino. Posicionamiento en el segmento medio con una relación equilibrada entre calidad, precio y facilidades estándar.",
+    "application": "Ajustar la tarifa promedio y el diseño web con la calidad física real, opiniones públicas e identidad para evitar quejas de clientes insatisfechos. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural añade amenities orgánicas locales y un conserje dedicado para justificar una tarifa de alojamiento superior a la media de la zona.",
+    "caseChain": "Un consorcio multinacional reposiciona una marca antigua inyectando decoración minimalista de tendencia para subir un peldaño en la escala de prestigio.",
+    "related": [
+      "RI",
+      "MP",
+      "RG",
+      "CS"
+    ]
+  },
+  {
+    "internalId": "EC__POS",
+    "symbol": "EC",
+    "name": "Económico",
+    "category": "Posicionamiento",
+    "importance": "4",
+    "definition": "Enfoque en tarifas bajas limitando servicios innecesarios para captar clientes muy sensibles al precio.",
+    "whyRevenue": "El posicionamiento de marca define en qué segmento de precio y prestigio se aloja el hotel dentro del imaginario competitivo de los viajeros del destino. Enfoque en tarifas bajas limitando servicios innecesarios para captar clientes muy sensibles al precio.",
+    "application": "Ajustar la tarifa promedio y el diseño web con la calidad física real, opiniones públicas e identidad para evitar quejas de clientes insatisfechos. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural añade amenities orgánicas locales y un conserje dedicado para justificar una tarifa de alojamiento superior a la media de la zona.",
+    "caseChain": "Un consorcio multinacional reposiciona una marca antigua inyectando decoración minimalista de tendencia para subir un peldaño en la escala de prestigio.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "EX__POS",
+    "symbol": "EX",
+    "name": "Estancia Prolongada (Extended Stay)",
+    "category": "Posicionamiento",
+    "importance": "4",
+    "definition": "Enfoque en estancias largas equipando las habitaciones con cocina integrada y servicios adaptados semipermanentes.",
+    "whyRevenue": "El posicionamiento de marca define en qué segmento de precio y prestigio se aloja el hotel dentro del imaginario competitivo de los viajeros del destino. Enfoque en estancias largas equipando las habitaciones con cocina integrada y servicios adaptados semipermanentes.",
+    "application": "Ajustar la tarifa promedio y el diseño web con la calidad física real, opiniones públicas e identidad para evitar quejas de clientes insatisfechos. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural añade amenities orgánicas locales y un conserje dedicado para justificar una tarifa de alojamiento superior a la media de la zona.",
+    "caseChain": "Un consorcio multinacional reposiciona una marca antigua inyectando decoración minimalista de tendencia para subir un peldaño en la escala de prestigio.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "LF__POS",
+    "symbol": "LF",
+    "name": "Lifestyle",
+    "category": "Posicionamiento",
+    "importance": "4",
+    "definition": "Posicionamiento basado en diseño contemporáneo, ambiente social activo y experiencias locales singulares.",
+    "whyRevenue": "El posicionamiento de marca define en qué segmento de precio y prestigio se aloja el hotel dentro del imaginario competitivo de los viajeros del destino. Posicionamiento basado en diseño contemporáneo, ambiente social activo y experiencias locales singulares.",
+    "application": "Ajustar la tarifa promedio y el diseño web con la calidad física real, opiniones públicas e identidad para evitar quejas de clientes insatisfechos. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural añade amenities orgánicas locales y un conserje dedicado para justificar una tarifa de alojamiento superior a la media de la zona.",
+    "caseChain": "Un consorcio multinacional reposiciona una marca antigua inyectando decoración minimalista de tendencia para subir un peldaño en la escala de prestigio.",
+    "related": [
+      "RM",
+      "AR",
+      "RP",
+      "OC",
+      "CH"
+    ]
+  },
+  {
+    "internalId": "CC__AI",
+    "symbol": "CC",
+    "name": "Copiloto IA",
+    "category": "Inteligencia Artificial",
+    "importance": "4",
+    "definition": "Asistente generativo inteligente para resumir informes, redactar correos de respuesta y automatizar tareas diarias de revenue management.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Asistente generativo inteligente para resumir informes, redactar correos de respuesta y automatizar tareas diarias de revenue management.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "AF",
+      "AP",
+      "AA",
+      "IN",
+      "GA"
+    ]
+  },
+  {
+    "internalId": "AF__AI",
+    "symbol": "AF",
+    "name": "Previsión IA",
+    "category": "Inteligencia Artificial",
+    "importance": "4",
+    "definition": "Modelos predictivos avanzados que analizan patrones históricos de reservas, eventos locales y tendencias climáticas para optimizar la previsión.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Modelos predictivos avanzados que analizan patrones históricos de reservas, eventos locales y tendencias climáticas para optimizar la previsión.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "CC",
+      "AP",
+      "AA",
+      "IN",
+      "GA"
+    ]
+  },
+  {
+    "internalId": "AP__AI",
+    "symbol": "AP",
+    "name": "Personalización IA",
+    "category": "Inteligencia Artificial",
+    "importance": "4",
+    "definition": "Motores de personalización orientados a adaptar tarifas, extras y paquetes dinámicamente según el perfil e historial del huésped.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Motores de personalización orientados a adaptar tarifas, extras y paquetes dinámicamente según el perfil e historial del huésped.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "CC",
+      "AF",
+      "AA",
+      "IN",
+      "GA"
+    ]
+  },
+  {
+    "internalId": "AA__AI",
+    "symbol": "AA",
+    "name": "Automatización IA",
+    "category": "Inteligencia Artificial",
+    "importance": "4",
+    "definition": "Automatización inteligente de flujos de trabajo repetitivos y reglas tarifarias complejas en tiempo real sin intervención humana.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Automatización inteligente de flujos de trabajo repetitivos y reglas tarifarias complejas en tiempo real sin intervención humana.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "CC",
+      "AF",
+      "AP",
+      "IN",
+      "GA"
+    ]
+  },
+  {
+    "internalId": "IN__AI",
+    "symbol": "IN",
+    "name": "Inteligencia Predictiva",
+    "category": "Inteligencia Artificial",
+    "importance": "4",
+    "definition": "Información accionable generada por inteligencia artificial a partir del análisis de datos, tendencias y comportamientos para apoyar la toma de decisiones hoteleras.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Información accionable generada por inteligencia artificial a partir del análisis de datos, tendencias y comportamientos para apoyar la toma de decisiones hoteleras.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "CC",
+      "AF",
+      "AP",
+      "AA",
+      "GA"
+    ]
+  },
+  {
+    "internalId": "GA__AI",
+    "symbol": "GA",
+    "name": "Asistente de Huéspedes IA",
+    "category": "Inteligencia Artificial",
+    "importance": "4",
+    "definition": "Agentes conversacionales inteligentes entrenados en el inventario del hotel para solventar dudas, gestionar solicitudes y procesar reservas directas.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Agentes conversacionales inteligentes entrenados en el inventario del hotel para solventar dudas, gestionar solicitudes y procesar reservas directas.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "CC",
+      "AF",
+      "AP",
+      "AA",
+      "IN"
+    ]
+  },
+  {
+    "internalId": "ID__AI",
+    "symbol": "ID",
+    "name": "Decisiones Inteligentes",
+    "category": "Inteligencia Artificial",
+    "importance": "4",
+    "definition": "Sistemas prescriptivos basados en aprendizaje profundo para sugerir y ejecutar variaciones de precios con un nivel de confianza calculado.",
+    "whyRevenue": "Establece bases indispensables para calibrar la rentabilidad hotelera general. Sistemas prescriptivos basados en aprendizaje profundo para sugerir y ejecutar variaciones de precios con un nivel de confianza calculado.",
+    "application": "Utilizar los parámetros del rubro para optimizar el ingreso y la ocupación. Sintoniza las tácticas comerciales semanales con los objetivos de venta anuales.",
+    "caseIndependent": "Un hotel boutique rural rediseña su propuesta en el canal de metabúsqueda.",
+    "caseChain": "Una cadena multinacional unifica las tácticas del departamento integrado con soporte CRS.",
+    "related": [
+      "CC",
+      "AF",
+      "AP",
+      "AA",
+      "IN"
+    ]
+  },
+  {
+    "internalId": "Z1__DF",
+    "symbol": "Z1",
+    "name": "Espacio Reservado",
+    "category": "Descubrimientos Futuros",
+    "importance": "1",
+    "definition": "Espacio reservado para futuras evoluciones del framework Revenue Elements 360™.",
+    "whyRevenue": "Permite mantener la escalabilidad y evolución futura del modelo sin alterar la estructura general del framework.",
+    "application": "No aplica actualmente.",
+    "caseIndependent": "No disponible.",
+    "caseChain": "No disponible.",
+    "related": []
+  },
+  {
+    "internalId": "Z2__DF",
+    "symbol": "Z2",
+    "name": "Espacio Reservado",
+    "category": "Descubrimientos Futuros",
+    "importance": "1",
+    "definition": "Espacio reservado para futuras evoluciones del framework Revenue Elements 360™.",
+    "whyRevenue": "Permite mantener la escalabilidad y evolución futura del modelo sin alterar la estructura general del framework.",
+    "application": "No aplica actualmente.",
+    "caseIndependent": "No disponible.",
+    "caseChain": "No disponible.",
+    "related": []
+  },
+  {
+    "internalId": "Z3__DF",
+    "symbol": "Z3",
+    "name": "Espacio Reservado",
+    "category": "Descubrimientos Futuros",
+    "importance": "1",
+    "definition": "Espacio reservado para futuras evoluciones del framework Revenue Elements 360™.",
+    "whyRevenue": "Permite mantener la escalabilidad y evolución futura del modelo sin alterar la estructura general del framework.",
+    "application": "No aplica actualmente.",
+    "caseIndependent": "No disponible.",
+    "caseChain": "No disponible.",
+    "related": []
+  },
+  {
+    "internalId": "Z4__DF",
+    "symbol": "Z4",
+    "name": "Espacio Reservado",
+    "category": "Descubrimientos Futuros",
+    "importance": "1",
+    "definition": "Espacio reservado para futuras evoluciones del framework Revenue Elements 360™.",
+    "whyRevenue": "Permite mantener la escalabilidad y evolución futura del modelo sin alterar la estructura general del framework.",
+    "application": "No aplica actualmente.",
+    "caseIndependent": "No disponible.",
+    "caseChain": "No disponible.",
+    "related": []
+  }
+]

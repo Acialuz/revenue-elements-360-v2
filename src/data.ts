@@ -18,6 +18,7 @@ export interface ElementData {
   chainHotelExample?: string;
   displayName_es?: string;
   displayName_en?: string;
+  internalId?: string;
 }
 
 export interface CategoryInfo {
@@ -408,7 +409,8 @@ export const MASTER_COORDINATES: Record<string, { row: number; col: number }> = 
   // Column 16 (LF, MS, EX, BO, XP, AB)
   "LF": { "row": 2, "col": 16 },
   "LF__Posicionamiento": { "row": 2, "col": 16 },
-  "MS__Posicionamiento": { "row": 3, "col": 16 },
+  "MC__Posicionamiento": { "row": 3, "col": 16 },
+  "MC": { "row": 3, "col": 16 },
   "EX": { "row": 4, "col": 16 },
   "EX__Posicionamiento": { "row": 4, "col": 16 },
   "BO": { "row": 5, "col": 16 },
@@ -482,6 +484,8 @@ export const MASTER_COORDINATES: Record<string, { row: number; col: number }> = 
   "CE": { "row": 10, "col": 14 },
 
   // Row 11: Artificial Intelligence Complementary Block
+  "CC__Inteligencia Artificial": { "row": 11, "col": 1 },
+  "CC": { "row": 11, "col": 1 },
   "AC__Inteligencia Artificial": { "row": 11, "col": 1 },
   "AF__Inteligencia Artificial": { "row": 11, "col": 2 },
   "AP__Inteligencia Artificial": { "row": 11, "col": 3 },
@@ -586,19 +590,23 @@ export const SPECIAL_DISPLAY_NAMES: Record<string, { es: string; en: string }> =
   "LX__Posicionamiento": { es: "Lujo\nLuxury", en: "Luxury\nPos." },
   "LF__Posicionamiento": { es: "Lifestyle", en: "Lifestyle\nPos." },
   "UP__Posicionamiento": { es: "Premium\nUpscale", en: "Upscale\nPos." },
+  "MC__Posicionamiento": { es: "Escala\nMedia", en: "Midscale" },
   "MS__Posicionamiento": { es: "Escala\nMedia", en: "Midscale" },
   "EC__Posicionamiento": { es: "Económico\nEconomy", en: "Economy\nPos." },
   "EX__Posicionamiento": { es: "Estancia\nProlongada", en: "Extended\nStay" },
-  "Z1": { es: "A Confirmar", en: "To Be\nConfirmed" },
-  "Z2": { es: "A Confirmar", en: "To Be\nConfirmed" },
-  "Z3": { es: "A Confirmar", en: "To Be\nConfirmed" },
-  "Z4": { es: "A Confirmar", en: "To Be\nConfirmed" },
+  "Z1": { es: "A Confirmar", en: "Reserved\nSpace" },
+  "Z2": { es: "A Confirmar", en: "Reserved\nSpace" },
+  "Z3": { es: "A Confirmar", en: "Reserved\nSpace" },
+  "Z4": { es: "A Confirmar", en: "Reserved\nSpace" },
   "SG": { es: "Segmentación", en: "Segmentation" },
   "BU": { es: "Negocios\n(Business)", en: "Business" },
   "CO": { es: "Parejas\n(Couples)", en: "Couples" },
   
   // AI Elements Display Names
-  "AC": { es: "Copiloto\nI.A.", en: "AI\nCopilot" },
+  "CC": { es: "Copiloto\nI.A.", en: "AI\nCopilot" },
+  "CC__Inteligencia Artificial": { es: "Copiloto\nI.A.", en: "AI\nCopilot" },
+  "AC": { es: "Accor", en: "Accor" },
+  "AC__Cadenas Hoteleras": { es: "Accor", en: "Accor" },
   "AF": { es: "Previsión\nI.A.", en: "AI\nForecasting" },
   "AP": { es: "Personaliza-\nción I.A.", en: "AI\nPersonaliz." },
   "AA": { es: "Automatiza-\nción I.A.", en: "AI\nAutom." },
@@ -621,7 +629,11 @@ export const REVENUE_ELEMENTS: ElementData[] = masterDataset.map((item) => {
   } else if (upperSymbol === "MS" && item.category_es === "Competidores") {
     symbolKey = "MS__Competidores";
   } else if (upperSymbol === "MS" && item.category_es === "Posicionamiento") {
-    symbolKey = "MS__Posicionamiento";
+    symbolKey = "MC__Posicionamiento";
+  } else if (upperSymbol === "MC" && item.category_es === "Posicionamiento") {
+    symbolKey = "MC__Posicionamiento";
+  } else if (upperSymbol === "CC" && item.category_es === "Inteligencia Artificial") {
+    symbolKey = "CC__Inteligencia Artificial";
   } else if (upperSymbol === "RL" && item.category_es === "Restricciones") {
     symbolKey = "RL__Restricciones";
   } else if (upperSymbol === "CS" && item.category_es === "Competidores") {
@@ -641,10 +653,38 @@ export const REVENUE_ELEMENTS: ElementData[] = masterDataset.map((item) => {
   const coords = MASTER_COORDINATES[symbolKey] || MASTER_COORDINATES[upperSymbol] || { row: 0, col: 0 };
   
   // Resolve overrides
-  const overrideKey = (upperSymbol === "AI" || upperSymbol === "SG" || upperSymbol === "MS" || upperSymbol === "RL" || upperSymbol === "CS" || upperSymbol === "LX" || upperSymbol === "LF" || upperSymbol === "UP" || upperSymbol === "EC" || upperSymbol === "EX")
+  const overrideKey = (upperSymbol === "AI" || upperSymbol === "SG" || upperSymbol === "MS" || upperSymbol === "MC" || upperSymbol === "CC" || upperSymbol === "AC" || upperSymbol === "RL" || upperSymbol === "CS" || upperSymbol === "LX" || upperSymbol === "LF" || upperSymbol === "UP" || upperSymbol === "EC" || upperSymbol === "EX")
     ? `${upperSymbol}__${item.category_es}`
     : upperSymbol;
   const disp = SPECIAL_DISPLAY_NAMES[overrideKey] || SPECIAL_DISPLAY_NAMES[upperSymbol];
+
+  // Map category abbreviations for internalId
+  const getAbbr = (cat: string): string => {
+    switch (cat) {
+      case "Básicos de Revenue":
+      case "Fundamentos Revenue":
+        return "BRM";
+      case "Características": return "CAR";
+      case "Tecnología": return "TEC";
+      case "Sostenibilidad": return "SOS";
+      case "Indicadores KPI": return "KPI";
+      case "Tarifas": return "TAR";
+      case "Marketing": return "MKT";
+      case "Competidores": return "CMP";
+      case "Herramientas": return "HER";
+      case "Personas": return "PER";
+      case "Restricciones": return "RES";
+      case "Operaciones": return "OPE";
+      case "Canales": return "CAN";
+      case "Cadenas Hoteleras": return "CAD";
+      case "Segmentos": return "SEG";
+      case "Posicionamiento": return "POS";
+      case "Elementos": return "ELE";
+      case "Inteligencia Artificial": return "AI";
+      case "Horizontes": return "HOR";
+      default: return "DF";
+    }
+  };
 
   return {
     symbol: upperSymbol,
@@ -657,6 +697,7 @@ export const REVENUE_ELEMENTS: ElementData[] = masterDataset.map((item) => {
     col: coords.col,
     importance: getElementImportance(upperSymbol, item.category_es),
     displayName_es: disp ? disp.es : item.name_es,
-    displayName_en: disp ? disp.en : item.name_en
+    displayName_en: disp ? disp.en : item.name_en,
+    internalId: `${upperSymbol}__${getAbbr(item.category_es)}`
   };
 });

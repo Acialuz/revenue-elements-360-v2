@@ -1,6 +1,6 @@
 {
   "name": "Tabla de Elementos de Revenue Management",
-  "description": "Tabla periódica interactiva y educativa con los elementos clave del Revenue Management para hoteles, directores y estudiantes.",
+  "description": "Revenue Elements 360™: Tabla periódica interactiva y educativa con los elementos clave del Revenue Management para hoteles, directores y estudiantes.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

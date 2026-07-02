@@ -34,7 +34,7 @@ const DICTIONARY = {
     aplicacion: "Aplicación Práctica",
     casos: "Casos de Implementación de Campo",
     hotel_independiente: "Hotel Independiente / Boutique",
-    cadena_hotelera: "Cadena Hotelera Multinacional",
+    cadena_hotelera: "Cadena Hotelera Internacional",
     importancia_est: "Importancia Estratégica",
     derechos: "Todos los derechos reservados © 2026.",
     by_brand: "by 360 Hotel Management",
@@ -66,7 +66,8 @@ const DICTIONARY = {
     clic_instruccion: "Haz clic sobre cualquier elemento de la infografía interactiva para consultar su caso de negocio y descripción detallada.",
     total_encontrados: "elementos encontrados",
     error_no_resultados: "No se encontraron elementos con el filtro o búsqueda actual.",
-    auditoria_calidad_titulo: "Panel de Auditoría de Sanidad y Calidad de Integración"
+    auditoria_calidad_titulo: "Panel de Auditoría de Sanidad y Calidad de Integración",
+    recommendation: "💻 Recomendación: Para disfrutar de la experiencia completa de Revenue Elements 360™, utiliza un ordenador. La versión móvil está optimizada para consultas rápidas y exploración sobre la marcha."
   },
   EN: {
     welcome: "Welcome Cover",
@@ -80,11 +81,11 @@ const DICTIONARY = {
     definicion: "Theoretical Definition",
     metrica: "Metric & Equation",
     relacionados: "Related Elements",
-    por_que_importa: "Why it Matters in Revenue?",
+    por_que_importa: "Why it Matters in Revenue",
     aplicacion: "Practical Application",
     casos: "Field Implementation Cases",
     hotel_independiente: "Independent / Boutique Hotel",
-    cadena_hotelera: "Multinational Hotel Chain",
+    cadena_hotelera: "International Hotel Chain",
     importancia_est: "Strategic Importance",
     derechos: "All rights reserved © 2026.",
     by_brand: "by 360 Hotel Management",
@@ -116,7 +117,8 @@ const DICTIONARY = {
     clic_instruccion: "Click on any element in the interactive periodic table grid to consult its business case and detailed description.",
     total_encontrados: "elements found",
     error_no_resultados: "No elements found matching the current search query or category filter.",
-    auditoria_calidad_titulo: "Validation Panel: Dataset Quality & Health Status"
+    auditoria_calidad_titulo: "Validation Panel: Dataset Quality & Health Status",
+    recommendation: "💻 Recommendation: For the full Revenue Elements 360™ experience, please use a desktop computer. The mobile version is optimized for quick reference and on-the-go exploration."
   }
 };
 
@@ -165,7 +167,7 @@ const LOWER_DECK_LAYOUT: { symbol: string; row: number; col: number }[] = [
   { symbol: "EE", row: 2, col: 1 },
   { symbol: "W", row: 2, col: 2 },
   { symbol: "WS", row: 2, col: 3 },
-  { symbol: "AC", row: 2, col: 4 },
+  { symbol: "CC", row: 2, col: 4 },
   { symbol: "AF", row: 2, col: 5 },
   { symbol: "AP", row: 2, col: 6 },
   { symbol: "AA", row: 2, col: 7 },
@@ -224,7 +226,7 @@ const RELATIVE_LOWER_COORDINATES: Record<string, { row: number; col: number }> =
   "CE": { row: 2, col: 2 },
 
   // Inteligencia Artificial (1 row, 7 cols or 2 rows)
-  "AC": { row: 1, col: 1 },
+  "CC": { row: 1, col: 1 },
   "AF": { row: 1, col: 2 },
   "AP": { row: 1, col: 3 },
   "AA": { row: 1, col: 4 },
@@ -299,7 +301,7 @@ const LOWER_BLOCKS: LowerBlockInfo[] = [
     category: "Inteligencia Artificial",
     titleEs: "Inteligencia Artificial",
     titleEn: "Artificial Intelligence",
-    symbols: ["AC", "AF", "AP", "AA", "IN", "GA", "ID"],
+    symbols: ["CC", "AF", "AP", "AA", "IN", "GA", "ID"],
     rows: 1,
     cols: 7,
     span: 7,
@@ -320,7 +322,7 @@ export default function App() {
     }
   });
 
-  const [showIntro, setShowIntro] = useState<boolean>(false);
+  const [showIntro, setShowIntro] = useState<boolean>(true);
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedElement, setSelectedElement] = useState<ElementData | null>(null);
@@ -343,10 +345,37 @@ export default function App() {
       const stableKey = `${upperSymbol}__${item.category_es}`;
       const coords = MASTER_COORDINATES[stableKey] || MASTER_COORDINATES[upperSymbol] || { row: 0, col: 0 };
       
-      const overrideKey = (upperSymbol === "AI" || upperSymbol === "SG" || upperSymbol === "MS" || upperSymbol === "RL" || upperSymbol === "CS" || upperSymbol === "LX" || upperSymbol === "LF" || upperSymbol === "UP" || upperSymbol === "EC" || upperSymbol === "EX")
+      const overrideKey = (upperSymbol === "AI" || upperSymbol === "SG" || upperSymbol === "MS" || upperSymbol === "MC" || upperSymbol === "CC" || upperSymbol === "AC" || upperSymbol === "RL" || upperSymbol === "CS" || upperSymbol === "LX" || upperSymbol === "LF" || upperSymbol === "UP" || upperSymbol === "EC" || upperSymbol === "EX")
         ? `${upperSymbol}__${item.category_es}`
         : upperSymbol;
       const disp = SPECIAL_DISPLAY_NAMES[overrideKey] || SPECIAL_DISPLAY_NAMES[upperSymbol];
+
+      const getAbbr = (cat: string): string => {
+        switch (cat) {
+          case "Básicos de Revenue":
+          case "Fundamentos Revenue":
+            return "BRM";
+          case "Características": return "CAR";
+          case "Tecnología": return "TEC";
+          case "Sostenibilidad": return "SOS";
+          case "Indicadores KPI": return "KPI";
+          case "Tarifas": return "TAR";
+          case "Marketing": return "MKT";
+          case "Competidores": return "CMP";
+          case "Herramientas": return "HER";
+          case "Personas": return "PER";
+          case "Restricciones": return "RES";
+          case "Operaciones": return "OPE";
+          case "Canales": return "CAN";
+          case "Cadenas Hoteleras": return "CAD";
+          case "Segmentos": return "SEG";
+          case "Posicionamiento": return "POS";
+          case "Elementos": return "ELE";
+          case "Inteligencia Artificial": return "AI";
+          case "Horizontes": return "HOR";
+          default: return "DF";
+        }
+      };
 
       const el: ElementData = {
         symbol: upperSymbol,
@@ -362,7 +391,8 @@ export default function App() {
         whyItMatters: "", // solved at enrich stage
         practicalApplication: "", // solved at enrich stage
         displayName_es: disp ? disp.es : item.name_es,
-        displayName_en: disp ? disp.en : item.name_en
+        displayName_en: disp ? disp.en : item.name_en,
+        internalId: `${upperSymbol}__${getAbbr(item.category_es)}`
       };
 
       // Enrich element with formulas, field-by-field relationships, boutique vs chain hotel examples
@@ -510,8 +540,18 @@ export default function App() {
       const matchesCategory = selectedCategory ? el.category === selectedCategory : true;
       if (q === "") return matchesCategory;
 
-      // Locate master file reference to query Spanish and English columns simultaneously
-      const raw = masterDataset.find(item => item.symbol.toUpperCase() === el.symbol.toUpperCase());
+      // Locate master file reference to query Spanish and English columns simultaneously with prioritized matching
+      const raw = masterDataset.find(item => {
+        if (el.internalId) {
+          const itemAbbr = getCategoryAbbreviation(item.category_es);
+          const itemId = `${item.symbol.toUpperCase()}__${itemAbbr}`;
+          if (itemId === el.internalId) return true;
+        }
+        if (item.symbol.toUpperCase() === el.symbol.toUpperCase() && item.category_es === el.category) {
+          return true;
+        }
+        return item.symbol.toUpperCase() === el.symbol.toUpperCase();
+      });
       const matchesSearch = raw ? (
         raw.symbol.toLowerCase().includes(q) ||
         raw.name_es.toLowerCase().includes(q) ||
@@ -782,7 +822,12 @@ export default function App() {
               </div>
             </div>
 
-            <div className="mt-12 flex items-center justify-center relative z-20">
+            {/* Elegant, discrete Recommendation Panel */}
+            <div className="mt-8 max-w-2xl px-6 py-3.5 bg-amber-50/50 border border-amber-200/60 rounded-xl text-[11px] sm:text-xs text-amber-950 leading-relaxed text-center shadow-xs">
+              {DICTIONARY[language].recommendation}
+            </div>
+
+            <div className="mt-10 flex items-center justify-center relative z-20">
               <button
                 onClick={() => setShowIntro(false)}
                 className="px-8 py-4 bg-[#0455B7] hover:bg-[#034493] text-white font-extrabold text-sm sm:text-base rounded-xl shadow-md active:scale-95 transition-all flex items-center gap-2 cursor-pointer border border-[#0455b7]"
@@ -793,9 +838,18 @@ export default function App() {
             </div>
           </main>
 
-          <footer className="relative z-10 max-w-7xl mx-auto w-full px-6 py-6 text-center text-[11px] text-zinc-500 border-t border-zinc-200">
-            <p>
-              Revenue Elements 360™ by <span className="text-[#0455B7] font-semibold">360 Hotel Management</span>. {DICTIONARY[language].derechos}
+          <footer className="relative z-10 max-w-xl mx-auto w-full px-6 py-8 text-center border-t border-zinc-200/80 mt-12 space-y-2.5">
+            <h3 className="text-sm sm:text-base font-black tracking-wider text-zinc-800 uppercase">
+              Revenue Elements 360™
+            </h3>
+            <p className="text-xs sm:text-sm font-medium text-zinc-500">
+              A framework by <span className="text-[#0455B7] font-extrabold">360 Hotel Management</span>
+            </p>
+            <p className="text-[11px] sm:text-xs text-zinc-400 font-normal tracking-wide italic">
+              Created by <span className="font-semibold text-zinc-500 not-italic">Félix Zulaica & Eduardo Zulaica</span>
+            </p>
+            <p className="text-[9px] sm:text-[10px] text-zinc-300 font-light tracking-widest uppercase pt-1">
+              &copy; 2026. All rights reserved.
             </p>
           </footer>
         </div>
@@ -1106,7 +1160,7 @@ export default function App() {
           <div className="flex flex-col gap-y-4 w-full items-center select-none">
             {/* ROW 1: PERSONAS | IA | OPERACIONES */}
             <div className="flex flex-row justify-center w-full" style={{ columnGap: "var(--cell-gap-x)", rowGap: "var(--cell-gap-y)" }}>
-              {["RC", "TR", "RT", "LD", "AC", "AF", "AP", "AA", "IN", "GA", "ID", "FB", "FD", "HK", "CE"].map((sym) => {
+              {["RC", "TR", "RT", "LD", "CC", "AF", "AP", "AA", "IN", "GA", "ID", "FB", "FD", "HK", "CE"].map((sym) => {
                 const element = getComplementaryElement(sym);
                 if (!element) return null;
                 return renderComplementaryCard(element);
